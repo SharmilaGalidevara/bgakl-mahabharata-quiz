@@ -15,3 +15,16 @@ function getLeaderboard() {
     return JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
 
 }
+
+// 🆕 extra helper (future dashboard)
+function getBestScore() {
+
+    const data = getLeaderboard();
+
+    if (data.length === 0) return null;
+
+    return data.reduce((best, curr) =>
+        curr.score > best.score ? curr : best
+    );
+
+}
