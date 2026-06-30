@@ -1,14 +1,6 @@
-const name =
-localStorage.getItem("playerName");
+const name = localStorage.getItem("playerName");
+const score = localStorage.getItem("score");
+const time = localStorage.getItem("timeTaken");
 
-const score =
-localStorage.getItem("score");
-
-const time =
-localStorage.getItem("timeTaken");
-
-document.getElementById("resultName").innerText =
-name;
-
-document.querySelector(".score").innerText =
-`${score} / 40`;
+document.getElementById("resultName").innerText = name;
+document.querySelector(".score").innerText = `${score} / 40`;
