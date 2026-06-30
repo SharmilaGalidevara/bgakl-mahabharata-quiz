@@ -1,57 +1,57 @@
 [
   {
     "id": 1,
-    "questionEnglish": "Who wrote the Mahabharata?",
+    "questionEnglish": "Who is the author of Mahabharata?",
     "questionTamil": "மகாபாரதத்தை எழுதியவர் யார்?",
     "options": [
-      {
-        "english": "Veda Vyasa",
-        "tamil": "வேத வியாசர்",
-        "correct": true
-      },
-      {
-        "english": "Narada",
-        "tamil": "நாரதர்",
-        "correct": false
-      },
-      {
-        "english": "Valmiki",
-        "tamil": "வால்மீகி",
-        "correct": false
-      },
-      {
-        "english": "Lord Ganesha",
-        "tamil": "விநாயகர்",
-        "correct": false
-      }
+      { "english": "Veda Vyasa", "tamil": "வேத வியாசர்", "correct": true },
+      { "english": "Valmiki", "tamil": "வால்மீகி", "correct": false },
+      { "english": "Narada", "tamil": "நாரதர்", "correct": false },
+      { "english": "Krishna", "tamil": "கிருஷ்ணர்", "correct": false }
     ]
   },
-
   {
     "id": 2,
-    "questionEnglish": "Who is the mother of the Pandavas?",
+    "questionEnglish": "Who is the mother of Pandavas?",
     "questionTamil": "பாண்டவர்களின் தாய் யார்?",
     "options": [
-      {
-        "english": "Kunti",
-        "tamil": "குந்தி",
-        "correct": true
-      },
-      {
-        "english": "Gandhari",
-        "tamil": "காந்தாரி",
-        "correct": false
-      },
-      {
-        "english": "Draupadi",
-        "tamil": "திரௌபதி",
-        "correct": false
-      },
-      {
-        "english": "Satyavati",
-        "tamil": "சத்யவதி",
-        "correct": false
-      }
+      { "english": "Kunti", "tamil": "குந்தி", "correct": true },
+      { "english": "Gandhari", "tamil": "காந்தாரி", "correct": false },
+      { "english": "Draupadi", "tamil": "திரௌபதி", "correct": false },
+      { "english": "Subhadra", "tamil": "சுபத்ரா", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "questionEnglish": "Who was the teacher of Pandavas and Kauravas?",
+    "questionTamil": "பாண்டவர்கள் மற்றும் கௌரவர்கள் குரு யார்?",
+    "options": [
+      { "english": "Dronacharya", "tamil": "த்ரோணாசார்யர்", "correct": true },
+      { "english": "Kripacharya", "tamil": "கிருபாசார்யர்", "correct": false },
+      { "english": "Bhishma", "tamil": "பீஷ்மர்", "correct": false },
+      { "english": "Parashurama", "tamil": "பரசுராமர்", "correct": false }
+    ]
+  },
+  {
+    "id": 4,
+    "questionEnglish": "Who is the eldest Pandava?",
+    "questionTamil": "மூத்த பாண்டவர் யார்?",
+    "options": [
+      { "english": "Yudhishthira", "tamil": "யுதிஷ்டிரர்", "correct": true },
+      { "english": "Bhima", "tamil": "பீமன்", "correct": false },
+      { "english": "Arjuna", "tamil": "அர்ஜுனன்", "correct": false },
+      { "english": "Nakula", "tamil": "நகுலன்", "correct": false }
+    ]
+  },
+  {
+    "id": 5,
+    "questionEnglish": "Who was Arjuna’s charioteer in Kurukshetra war?",
+    "questionTamil": "குருக்ஷேத்ர போரில் அர்ஜுனனின் தேரோட்டி யார்?",
+    "options": [
+      { "english": "Krishna", "tamil": "கிருஷ்ணர்", "correct": true },
+      { "english": "Bhishma", "tamil": "பீஷ்மர்", "correct": false },
+      { "english": "Karna", "tamil": "கர்ணன்", "correct": false },
+      { "english": "Drona", "tamil": "த்ரோணர்", "correct": false }
     ]
   }
 ]
