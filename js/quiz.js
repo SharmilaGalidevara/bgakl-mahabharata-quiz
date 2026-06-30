@@ -199,3 +199,61 @@ function updateProgress() {
         percentage + "%";
 
 }
+
+// =========================
+
+function startTimer() {
+
+    timerInterval = setInterval(() => {
+
+        timer--;
+
+        document.getElementById("timer").innerText =
+            formatTime(timer);
+
+        if (timer <= 0) {
+
+            clearInterval(timerInterval);
+
+            submitQuiz();
+
+        }
+
+    }, 1000);
+
+}
+
+// =========================
+
+document.getElementById("submitBtn").onclick = () => {
+
+    submitQuiz();
+
+};
+
+function submitQuiz() {
+
+    clearInterval(timerInterval);
+
+    let score = 0;
+
+    quizQuestions.forEach((question, index) => {
+
+        const correct =
+            question.options.findIndex(option => option.correct);
+
+        if (selectedAnswers[index] === correct) {
+
+            score++;
+
+        }
+
+    });
+
+    localStorage.setItem("score", score);
+
+    localStorage.setItem("timeTaken", QUIZ_TIME - timer);
+
+    window.location.href = "result.html";
+
+}
