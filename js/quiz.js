@@ -1,115 +1,105 @@
-// Player Name
-const playerName =
-localStorage.getItem("playerName");
-
-document.getElementById("playerName").innerText =
-playerName;
-
-// Current Question
+let allQuestions = [];
+let quizQuestions = [];
 let currentQuestion = 0;
-
-// Store Answers
 let selectedAnswers = [];
 
-// Load First Question
-loadQuestion();
+const TOTAL_QUESTIONS = 40;
+const QUIZ_TIME = 3600;
+
+let timer = QUIZ_TIME;
+let timerInterval;
 
 // =========================
 
-function loadQuestion(){
+window.onload = async () => {
 
-const q =
-questions[currentQuestion];
+    document.getElementById("playerName").innerText =
+        localStorage.getItem("playerName");
 
-document.getElementById("questionNumber").innerText =
-currentQuestion+1;
+    await loadQuestions();
 
-document.getElementById("questionEnglish").innerText =
-q.questionEnglish;
-
-document.getElementById("questionTamil").innerText =
-q.questionTamil;
-
-const container =
-document.getElementById("optionsContainer");
-
-container.innerHTML="";
-
-q.options.forEach((option,index)=>{
-
-const div=document.createElement("div");
-
-div.className="option";
-
-div.innerHTML=`
-
-<strong>
-
-${String.fromCharCode(65+index)}
-
-</strong>
-
-${option.english}
-
-<br><br>
-
-${option.tamil}
-
-`;
-
-div.onclick=()=>{
-
-selectAnswer(index);
+    startTimer();
 
 };
 
-container.appendChild(div);
+// =========================
 
-});
+async function loadQuestions() {
+
+    const response = await fetch("data/questions.json");
+
+    allQuestions = await response.json();
+
+    quizQuestions =
+        getRandomQuestions(allQuestions, Math.min(TOTAL_QUESTIONS, allQuestions.length));
+
+    selectedAnswers =
+        new Array(quizQuestions.length).fill(null);
+
+    createPalette();
+
+    loadQuestion();
 
 }
 
 // =========================
 
-function selectAnswer(index){
+function loadQuestion() {
 
-selectedAnswers[currentQuestion]=index;
+    const q = quizQuestions[currentQuestion];
 
-const options=
-document.querySelectorAll(".option");
+    document.getElementById("questionCounter").innerText =
+        `Question ${currentQuestion + 1} / ${quizQuestions.length}`;
 
-options.forEach(option=>
+    document.getElementById("questionEnglish").innerText =
+        q.questionEnglish;
 
-option.classList.remove("selected")
+    document.getElementById("questionTamil").innerText =
+        q.questionTamil;
 
-);
+    const container =
+        document.getElementById("optionsContainer");
 
-options[index].classList.add("selected");
+    container.innerHTML = "";
+
+    q.options.forEach((option, index) => {
+
+        const div = document.createElement("div");
+
+        div.className = "option";
+
+        if (selectedAnswers[currentQuestion] === index) {
+
+            div.classList.add("selected");
+
+        }
+
+        div.innerHTML = `
+
+        <strong>${String.fromCharCode(65 + index)}</strong>
+
+        ${option.english}
+
+        <br><br>
+
+        ${option.tamil}
+
+        `;
+
+        div.onclick = () => {
+
+            selectedAnswers[currentQuestion] = index;
+
+            updatePalette();
+
+            loadQuestion();
+
+        };
+
+        container.appendChild(div);
+
+    });
+
+    updateProgress();
 
 }
-
-// =========================
-
-document.getElementById("nextBtn").onclick=()=>{
-
-if(currentQuestion<questions.length-1){
-
-currentQuestion++;
-
-loadQuestion();
-
-}
-
-};
-
-document.getElementById("previousBtn").onclick=()=>{
-
-if(currentQuestion>0){
-
-currentQuestion--;
-
-loadQuestion();
-
-}
-
-};
