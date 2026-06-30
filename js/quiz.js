@@ -103,3 +103,99 @@ function loadQuestion() {
     updateProgress();
 
 }
+
+// =========================
+
+document.getElementById("nextBtn").onclick = () => {
+
+    if (currentQuestion < quizQuestions.length - 1) {
+
+        currentQuestion++;
+
+        loadQuestion();
+
+    }
+
+};
+
+document.getElementById("previousBtn").onclick = () => {
+
+    if (currentQuestion > 0) {
+
+        currentQuestion--;
+
+        loadQuestion();
+
+    }
+
+};
+
+// =========================
+
+function createPalette() {
+
+    const palette =
+        document.getElementById("questionPalette");
+
+    palette.innerHTML = "";
+
+    quizQuestions.forEach((q, index) => {
+
+        const box =
+            document.createElement("button");
+
+        box.innerText = index + 1;
+
+        box.className = "paletteBtn";
+
+        box.onclick = () => {
+
+            currentQuestion = index;
+
+            loadQuestion();
+
+        };
+
+        palette.appendChild(box);
+
+    });
+
+    updatePalette();
+
+}
+
+// =========================
+
+function updatePalette() {
+
+    const buttons =
+        document.querySelectorAll(".paletteBtn");
+
+    buttons.forEach((button, index) => {
+
+        button.classList.remove("answered");
+
+        if (selectedAnswers[index] != null) {
+
+            button.classList.add("answered");
+
+        }
+
+    });
+
+}
+
+// =========================
+
+function updateProgress() {
+
+    const answered =
+        selectedAnswers.filter(x => x != null).length;
+
+    const percentage =
+        answered / quizQuestions.length * 100;
+
+    document.getElementById("progressFill").style.width =
+        percentage + "%";
+
+}
