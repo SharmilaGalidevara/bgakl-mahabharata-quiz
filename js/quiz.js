@@ -184,6 +184,8 @@ document.getElementById("submitBtn").onclick = submitQuiz;
 
 function submitQuiz() {
 
+    localStorage.removeItem("activeQuiz");
+
     clearInterval(timerInterval);
 
     let score = 0;
