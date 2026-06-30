@@ -233,3 +233,14 @@ color:black;
 font-weight:bold;
 
 }
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+#timer {
+    font-weight: bold;
+    font-size: 20px;
+}
