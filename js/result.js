@@ -9,3 +9,11 @@ document.querySelector(".score").innerHTML = `
     <br><br>
     ⏱ Time: ${time}s
 `;
+
+if (parseInt(score) === 40) {
+    confetti({
+        particleCount: 200,
+        spread: 100,
+        origin: { y: 0.6 }
+    });
+}
