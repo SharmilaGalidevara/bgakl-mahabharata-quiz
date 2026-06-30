@@ -1,322 +1,172 @@
-/* ===========================
-   BGAKL MAHABHARATA QUIZ
-   =========================== */
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-
-    font-family:'Poppins',sans-serif;
-
-    min-height:100vh;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    overflow:hidden;
-
-    background:
-    linear-gradient(
-        135deg,
-        #041C32,
-        #04293A,
-        #064663,
-        #0B4F6C
-    );
-
+:root {
+    color-scheme: light;
+    --bg: #f6f7fb;
+    --surface: #ffffff;
+    --surface-strong: #fff8e8;
+    --border: #e7ebf2;
+    --text: #0f172a;
+    --muted: #556278;
+    --accent: #f4b400;
+    --accent-dark: #d79000;
 }
 
-
-/* Dark overlay */
-
-.background-overlay{
-
-    position:absolute;
-
-    inset:0;
-
-    background:
-
-    radial-gradient(circle at top left,
-    rgba(255,215,0,.12),
-    transparent 35%),
-
-    radial-gradient(circle at bottom right,
-    rgba(0,255,255,.08),
-    transparent 30%);
-
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #fbfcff 0%, #fff8e8 100%);
+    color: var(--text);
+    padding: 20px;
 }
 
-
-/* Main */
-
-.container{
-
-    width:100%;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    padding:30px;
-
-    z-index:5;
-
+.background-overlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top left, rgba(244, 180, 0, 0.15), transparent 30%);
+    pointer-events: none;
 }
 
-
-/* Card */
-
-.quiz-card{
-
-    width:650px;
-
-    padding:50px;
-
-    border-radius:30px;
-
-    backdrop-filter:blur(20px);
-
-    background:rgba(255,255,255,.10);
-
-    border:1px solid rgba(255,255,255,.2);
-
-    box-shadow:
-
-    0 25px 60px rgba(0,0,0,.45);
-
-    text-align:center;
-
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: 1;
 }
 
-
-/* Logo */
-
-.logo{
-
-    font-size:70px;
-
-    margin-bottom:15px;
-
+.quiz-card {
+    width: 100%;
+    max-width: 700px;
+    padding: 36px;
+    border-radius: 24px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+    text-align: center;
 }
 
-
-/* Heading */
-
-h1{
-
-    color:white;
-
-    font-size:40px;
-
-    font-weight:700;
-
-    letter-spacing:2px;
-
+.logo {
+    font-size: 56px;
+    margin-bottom: 10px;
 }
 
-h1 span{
-
-    display:block;
-
-    margin-top:10px;
-
-    font-size:23px;
-
-    color:#FFD54F;
-
-    font-weight:500;
-
+h1 {
+    color: var(--text);
+    font-size: 34px;
+    font-weight: 700;
 }
 
-
-/* Subtitle */
-
-.subtitle{
-
-    margin-top:18px;
-
-    color:#E8F6FF;
-
-    font-size:17px;
-
+h1 span {
+    display: block;
+    margin-top: 8px;
+    font-size: 20px;
+    color: var(--accent-dark);
+    font-weight: 600;
 }
 
-
-/* Input */
-
-.input-group{
-
-    margin-top:35px;
-
-    text-align:left;
-
+.subtitle {
+    margin-top: 12px;
+    color: var(--muted);
+    font-size: 16px;
 }
 
-.input-group label{
-
-    color:white;
-
-    font-weight:600;
-
-    display:block;
-
-    margin-bottom:10px;
-
+.input-group {
+    margin-top: 24px;
+    text-align: left;
 }
 
-.input-group input{
-
-    width:100%;
-
-    padding:16px;
-
-    border:none;
-
-    outline:none;
-
-    border-radius:14px;
-
-    font-size:16px;
-
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--text);
+    font-weight: 600;
 }
 
-
-/* Info */
-
-.info-box{
-
-    display:grid;
-
-    grid-template-columns:repeat(3,1fr);
-
-    gap:15px;
-
-    margin-top:35px;
-
+.input-group input {
+    width: 100%;
+    padding: 13px 14px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
 }
 
-.info-item{
-
-    background:rgba(255,255,255,.08);
-
-    padding:18px;
-
-    border-radius:16px;
-
+.info-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 24px;
 }
 
-.info-item span{
-
-    display:block;
-
-    color:#E0E0E0;
-
-    margin-bottom:8px;
-
-    font-size:14px;
-
+.info-item {
+    background: var(--surface-strong);
+    padding: 14px;
+    border-radius: 14px;
+    border: 1px solid #f2e1b6;
 }
 
-.info-item strong{
-
-    color:#FFD54F;
-
-    font-size:18px;
-
+.info-item span {
+    display: block;
+    color: var(--muted);
+    font-size: 13px;
+    margin-bottom: 6px;
 }
 
-
-/* Language */
-
-.language-box{
-
-    margin-top:30px;
-
-    background:rgba(255,255,255,.08);
-
-    padding:20px;
-
-    border-radius:16px;
-
+.info-item strong {
+    color: var(--accent-dark);
+    font-size: 16px;
 }
 
-.language-box h3{
-
-    color:white;
-
-    margin-bottom:10px;
-
+.language-box {
+    margin-top: 20px;
+    background: var(--surface-strong);
+    padding: 16px;
+    border-radius: 14px;
+    border: 1px solid #f2e1b6;
 }
 
-.language-box p{
-
-    color:#FFD54F;
-
-    font-size:18px;
-
+.language-box h3 {
+    color: var(--text);
+    margin-bottom: 6px;
 }
 
-
-/* Button */
-
-button{
-
-    margin-top:35px;
-
-    width:100%;
-
-    padding:18px;
-
-    border:none;
-
-    border-radius:18px;
-
-    cursor:pointer;
-
-    font-size:19px;
-
-    font-weight:700;
-
-    transition:.35s;
-
-    background:#FFD54F;
-
-    color:#041C32;
-
+.language-box p {
+    color: var(--accent-dark);
+    font-size: 16px;
 }
 
-
-button:hover{
-
-    transform:translateY(-3px);
-
-    box-shadow:
-
-    0 15px 30px rgba(255,213,79,.45);
-
+button {
+    margin-top: 24px;
+    width: 100%;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: var(--accent);
+    color: #111827;
 }
 
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(244, 180, 0, 0.28);
+}
 
-/* Footer */
-
-.footer{
-
-    margin-top:28px;
-
-    color:#F5F5F5;
-
-    font-size:14px;
-
+.footer {
+    margin-top: 18px;
+    color: var(--muted);
+    font-size: 14px;
 }
 
 

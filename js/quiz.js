@@ -3,27 +3,21 @@ let allQuestions = [];
 let quizQuestions = [];
 let currentQuestion = 0;
 let selectedAnswers = [];
+let hasSubmitted = false;
+let timer = 3600;
+let timerInterval = null;
 
 const TOTAL_QUESTIONS = 40;
 const QUIZ_TIME = 3600;
 
-let timer = QUIZ_TIME;
-let timerInterval;
-
-// =========================
-
-window.onload = async () => {
-
-    document.getElementById("playerName").innerText =
-        localStorage.getItem("playerName");
-
-    await loadQuestions();
-
-    startTimer();
-
-};
-
-// =========================
+function shuffleArray(array) {
+    const copy = [...array];
+    for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+}
 
 function shuffleOptions(question) {
     return {
@@ -32,217 +26,258 @@ function shuffleOptions(question) {
     };
 }
 
+function formatTime(totalSeconds) {
+    const safeSeconds = Math.max(0, totalSeconds);
+    const minutes = String(Math.floor(safeSeconds / 60)).padStart(2, "0");
+    const seconds = String(safeSeconds % 60).padStart(2, "0");
+    return `${minutes}:${seconds}`;
+}
+
+async function initQuiz() {
+    const nameLabel = document.getElementById("playerName");
+    if (nameLabel) {
+        nameLabel.innerText = localStorage.getItem("playerName") || "Player";
+    }
+
+    const nextBtn = document.getElementById("nextBtn");
+    const previousBtn = document.getElementById("previousBtn");
+    const submitBtn = document.getElementById("submitBtn");
+
+    if (nextBtn) {
+        nextBtn.addEventListener("click", () => {
+            if (currentQuestion < quizQuestions.length - 1) {
+                currentQuestion += 1;
+                loadQuestion();
+            }
+        });
+    }
+
+    if (previousBtn) {
+        previousBtn.addEventListener("click", () => {
+            if (currentQuestion > 0) {
+                currentQuestion -= 1;
+                loadQuestion();
+            }
+        });
+    }
+
+    if (submitBtn) {
+        submitBtn.addEventListener("click", submitQuiz);
+    }
+
+    await loadQuestions();
+    startTimer();
+}
+
 async function loadQuestions() {
-
-    const response = await fetch("data/questions.json");
-    allQuestions = await response.json();
-
-    const shuffled = shuffleArray(allQuestions);
+    if (!allQuestions.length) {
+        const response = await fetch("data/questions.json");
+        allQuestions = await response.json();
+    }
 
     const savedQuiz = localStorage.getItem("activeQuiz");
+    const savedProgress = localStorage.getItem("activeQuizProgress");
 
     if (savedQuiz) {
         quizQuestions = JSON.parse(savedQuiz);
+        selectedAnswers = savedProgress ? JSON.parse(savedProgress) : new Array(quizQuestions.length).fill(null);
     } else {
-        quizQuestions = shuffled
+        quizQuestions = shuffleArray(allQuestions)
             .slice(0, TOTAL_QUESTIONS)
             .map(shuffleOptions);
         localStorage.setItem("activeQuiz", JSON.stringify(quizQuestions));
+        selectedAnswers = new Array(quizQuestions.length).fill(null);
     }
-
-    selectedAnswers = new Array(quizQuestions.length).fill(null);
 
     createPalette();
     loadQuestion();
 }
 
-// =========================
-
 function loadQuestion() {
-
     const q = quizQuestions[currentQuestion];
+    if (!q) return;
 
-    document.getElementById("questionCounter").innerText =
-        `Question ${currentQuestion + 1} / ${quizQuestions.length}`;
-
-    document.getElementById("questionEnglish").innerText = q.questionEnglish;
-    document.getElementById("questionTamil").innerText = q.questionTamil;
-
+    const questionCounter = document.getElementById("questionCounter");
+    const questionEnglish = document.getElementById("questionEnglish");
+    const questionTamil = document.getElementById("questionTamil");
     const container = document.getElementById("optionsContainer");
-    container.innerHTML = "";
 
-    q.options.forEach((option, index) => {
+    if (questionCounter) {
+        questionCounter.innerText = `Question ${currentQuestion + 1} / ${quizQuestions.length}`;
+    }
+    if (questionEnglish) {
+        questionEnglish.innerText = q.questionEnglish;
+    }
+    if (questionTamil) {
+        questionTamil.innerText = q.questionTamil;
+    }
 
-        const div = document.createElement("div");
-        div.className = "option";
+    if (container) {
+        container.innerHTML = "";
 
-        if (selectedAnswers[currentQuestion] === index) {
-            div.classList.add("selected");
-        }
+        q.options.forEach((option, index) => {
+            const div = document.createElement("div");
+            div.className = "option";
+            div.title = "Choose this option";
 
-        div.innerHTML = `
-            <strong>${String.fromCharCode(65 + index)}</strong>
-            ${option.english}
-            <br><br>
-            ${option.tamil}
-        `;
+            if (selectedAnswers[currentQuestion] === index) {
+                div.classList.add("selected");
+            }
 
-        div.onclick = () => {
-            selectedAnswers[currentQuestion] = index;
-            updatePalette();
-            loadQuestion();
-        };
+            div.innerHTML = `
+                <strong>${String.fromCharCode(65 + index)}</strong>
+                ${option.english}
+                <br><br>
+                ${option.tamil}
+            `;
 
-        container.appendChild(div);
-    });
+            div.addEventListener("click", () => {
+                selectedAnswers[currentQuestion] = index;
+                localStorage.setItem("activeQuizProgress", JSON.stringify(selectedAnswers));
+                updatePalette();
+                loadQuestion();
+            });
 
+            container.appendChild(div);
+        });
+    }
+
+    updatePalette();
     updateProgress();
 }
 
-// =========================
-
-document.getElementById("nextBtn").onclick = () => {
-    if (currentQuestion < quizQuestions.length - 1) {
-        currentQuestion++;
-        loadQuestion();
-    }
-};
-
-document.getElementById("previousBtn").onclick = () => {
-    if (currentQuestion > 0) {
-        currentQuestion--;
-        loadQuestion();
-    }
-};
-
-// =========================
-
 function createPalette() {
-
     const palette = document.getElementById("questionPalette");
+    const togglePalette = document.getElementById("togglePalette");
+    const closePalette = document.getElementById("closePalette");
+    const palettePanel = document.getElementById("palettePanel");
+    if (!palette) return;
+
     palette.innerHTML = "";
 
     quizQuestions.forEach((_, index) => {
-
         const box = document.createElement("button");
-        box.innerText = index + 1;
         box.className = "paletteBtn";
+        box.innerText = index + 1;
 
-        box.onclick = () => {
+        if (index === currentQuestion) {
+            box.classList.add("active");
+        }
+        if (selectedAnswers[index] !== null) {
+            box.classList.add("answered");
+        }
+
+        box.addEventListener("click", () => {
             currentQuestion = index;
             loadQuestion();
-        };
+        });
 
         palette.appendChild(box);
     });
 
-    updatePalette();
+    if (togglePalette && closePalette && palettePanel) {
+        togglePalette.addEventListener("click", () => {
+            palettePanel.classList.toggle("is-hidden");
+        });
+        closePalette.addEventListener("click", () => {
+            palettePanel.classList.add("is-hidden");
+        });
+    }
 }
 
-// =========================
-
 function updatePalette() {
-
     const buttons = document.querySelectorAll(".paletteBtn");
-
     buttons.forEach((button, index) => {
-
-        button.classList.remove("answered");
-
+        button.classList.remove("active", "answered");
+        if (index === currentQuestion) {
+            button.classList.add("active");
+        }
         if (selectedAnswers[index] !== null) {
             button.classList.add("answered");
         }
-
     });
 }
 
-// =========================
-
 function updateProgress() {
+    const answered = selectedAnswers.filter((value) => value !== null).length;
+    const percentage = (answered / quizQuestions.length) * 100;
 
-    const answered =
-        selectedAnswers.filter(x => x !== null).length;
+    const progressFill = document.getElementById("progressFill");
+    const answeredCount = document.getElementById("answeredCount");
+    const accuracy = document.getElementById("accuracy");
 
-    const percentage =
-        (answered / quizQuestions.length) * 100;
-
-    document.getElementById("progressFill").style.width =
-        percentage + "%";
-
-    document.getElementById("answeredCount").innerText =
-        answered;
-
-    const accuracy =
-        answered === 0 ? 100 : Math.round((correctCount / answered) * 100);
-
-    document.getElementById("accuracy").innerText =
-        accuracy + "%";
+    if (progressFill) {
+        progressFill.style.width = `${percentage}%`;
+    }
+    if (answeredCount) {
+        answeredCount.innerText = answered;
+    }
+    if (accuracy) {
+        accuracy.innerText = answered === 0 ? "Ready" : `${Math.round(percentage)}%`;
+    }
 }
 
-// =========================
-
 function startTimer() {
+    clearInterval(timerInterval);
+    timer = QUIZ_TIME;
+    const timerEl = document.getElementById("timer");
+
+    if (timerEl) {
+        timerEl.style.color = "#0f172a";
+        timerEl.style.animation = "none";
+    }
 
     timerInterval = setInterval(() => {
+        timer -= 1;
 
-        timer--;
-
-        document.getElementById("timer").innerText =
-            formatTime(timer);
-
-        // 🔴 WARNING MODE
-        if (timer <= 300) {
-            document.getElementById("timer").style.color = "red";
-        }
-
-        // 🔥 LAST 60 SECONDS BLINK
-        if (timer <= 60) {
-            document.getElementById("timer").style.animation =
-                "blink 1s infinite";
+        if (timerEl) {
+            timerEl.innerText = formatTime(timer);
+            if (timer <= 300) {
+                timerEl.style.color = "#dc2626";
+            }
+            if (timer <= 60) {
+                timerEl.style.animation = "blink 1s infinite";
+            }
         }
 
         if (timer <= 0) {
             submitQuiz();
         }
-
     }, 1000);
 }
 
-// =========================
-
-document.getElementById("submitBtn").onclick = submitQuiz;
-
 function submitQuiz() {
-
+    if (hasSubmitted) return;
+    hasSubmitted = true;
     clearInterval(timerInterval);
 
     let score = 0;
     correctCount = 0;
 
     quizQuestions.forEach((q, index) => {
-
-        const correctIndex =
-            q.options.findIndex(o => o.correct);
-
+        const correctIndex = q.options.findIndex((option) => option.correct);
         if (selectedAnswers[index] === correctIndex) {
-            score++;
-            correctCount++;
+            score += 1;
+            correctCount += 1;
         }
-
     });
 
+    const timeTaken = Math.min(QUIZ_TIME, QUIZ_TIME - timer);
     const resultData = {
-        name: localStorage.getItem("playerName"),
-        score: score,
-        timeTaken: QUIZ_TIME - timer,
+        name: localStorage.getItem("playerName") || "Player",
+        score,
+        timeTaken,
         accuracy: Math.round((correctCount / quizQuestions.length) * 100),
         date: new Date().toISOString()
     };
 
     saveResult(resultData);
-
+    localStorage.setItem("latestResult", JSON.stringify(resultData));
     localStorage.setItem("score", score);
-    localStorage.setItem("timeTaken", QUIZ_TIME - timer);
+    localStorage.setItem("timeTaken", timeTaken);
+    localStorage.removeItem("activeQuizProgress");
 
     window.location.href = "result.html";
 }
+
+window.addEventListener("DOMContentLoaded", initQuiz);

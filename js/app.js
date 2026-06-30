@@ -3,60 +3,36 @@
 // Home Page
 // ================================
 
-// Get HTML elements
 const startBtn = document.getElementById("startBtn");
 const playerNameInput = document.getElementById("playerName");
 
-// Check if elements exist before adding listeners
 if (startBtn && playerNameInput) {
-
-    // Focus the name field when page loads
-    window.onload = () => {
+    window.addEventListener("load", () => {
         playerNameInput.focus();
-    };
-
-    // Start button click
-    startBtn.addEventListener("click", startQuiz);
-
-    // Allow pressing Enter
-    playerNameInput.addEventListener("keypress", function (event) {
-
-        if (event.key === "Enter") {
-
-            startQuiz();
-
-        }
-
     });
 
+    startBtn.addEventListener("click", startQuiz);
+
+    playerNameInput.addEventListener("keypress", (event) => {
+        if (event.key === "Enter") {
+            startQuiz();
+        }
+    });
 }
 
-
-// ================================
-// Start Quiz Function
-// ================================
-
 function startQuiz() {
-
     const playerName = playerNameInput.value.trim();
 
-    if (playerName === "") {
-
+    if (!playerName) {
         alert("Please enter your name before starting the quiz.");
-
         playerNameInput.focus();
-
         return;
-
     }
 
-    // Save player name
     localStorage.setItem("playerName", playerName);
-
-    // Clear previous quiz session so a new quiz gets fresh questions
     localStorage.removeItem("activeQuiz");
+    localStorage.removeItem("activeQuizProgress");
+    localStorage.removeItem("latestResult");
 
-    // Redirect to quiz page
     window.location.href = "quiz.html";
-
 }

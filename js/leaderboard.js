@@ -1,42 +1,32 @@
 const list = document.getElementById("leaderboardList");
 
-let data = getLeaderboard();
+if (list) {
+    let data = getLeaderboard();
 
-// sort by score then time
-data.sort((a, b) => {
-    if (b.score === a.score) {
-        return a.time - b.time;
+    data.sort((a, b) => {
+        if (b.score === a.score) {
+            return a.timeTaken - b.timeTaken;
+        }
+        return b.score - a.score;
+    });
+
+    if (data.length === 0) {
+        list.innerHTML = "<p class='empty'>No attempts yet. Start your first practice round.</p>";
+    } else {
+        data.slice(0, 10).forEach((item, index) => {
+            const div = document.createElement("div");
+            div.className = "leaderboard-item";
+            div.innerHTML = `
+                <div>
+                    <h3>${index + 1}. ${item.name}</h3>
+                    <p>${item.score} / 40 correct</p>
+                </div>
+                <div class="leaderboard-meta">
+                    <span>⏱ ${formatTime(item.timeTaken)}</span>
+                    <span>🎯 ${item.accuracy}%</span>
+                </div>
+            `;
+            list.appendChild(div);
+        });
     }
-    return b.score - a.score;
-});
-
-if (data.length === 0) {
-    list.innerHTML = "<p>No attempts yet.</p>";
 }
-
-data.slice(0, 10).forEach((item, index) => {
-
-    const div = document.createElement("div");
-
-    div.style.padding = "15px";
-    div.style.margin = "10px 0";
-    div.style.background = "#064663";
-    div.style.borderRadius = "10px";
-
-    div.innerHTML = `
-        <h3>
-            ${index + 1}. ${item.name}
-        </h3>
-
-        <p>
-            Score: ${item.score} / 40
-        </p>
-
-        <p>
-            Time: ${item.time}s
-        </p>
-    `;
-
-    list.appendChild(div);
-
-});

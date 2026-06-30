@@ -83,15 +83,9 @@ Question 1 / 40
 
 </div>
 
-<!-- Palette -->
-
-<div id="questionPalette">
-
-<!-- Generated automatically -->
-
-</div>
-
-<!-- Question -->
+<div class="quiz-layout">
+    <div class="quiz-main">
+        <!-- Question -->
 
 <div class="question-card">
 
@@ -119,37 +113,48 @@ class="options">
 
 </div>
 
-<!-- Navigation -->
+        <!-- Navigation -->
 
-<div class="navigation">
+        <div class="navigation">
 
-<button
-id="previousBtn">
+        <button
+        id="previousBtn">
 
-← Previous
+        ← Previous
 
-</button>
+        </button>
 
-<button
-id="nextBtn">
+        <button
+        id="nextBtn">
 
-Next →
+        Next →
 
-</button>
+        </button>
 
-</div>
+        </div>
 
-<div class="submit-area">
+        <div class="submit-area">
 
-<button
-id="submitBtn">
+        <button
+        id="submitBtn">
 
-Submit Quiz
+        Submit Quiz
 
-</button>
+        </button>
 
-</div>
+        </div>
+    </div>
 
+    <aside class="question-sidebar">
+        <button id="togglePalette" class="toggle-btn" type="button">☰</button>
+        <div id="palettePanel" class="palette-panel">
+            <div class="palette-header">
+                <h3>Questions</h3>
+                <button id="closePalette" class="close-btn" type="button">×</button>
+            </div>
+            <div id="questionPalette"></div>
+        </div>
+    </aside>
 </div>
 
 <script src="js/utils.js"></script>

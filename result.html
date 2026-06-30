@@ -1,81 +1,47 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-
-<title>
-
-Results
-
-</title>
-
-<link rel="stylesheet"
-
-href="css/result.css">
-
-<link rel="preconnect"
-
-href="https://fonts.googleapis.com">
-
-<link rel="preconnect"
-
-href="https://fonts.gstatic.com"
-
-crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
-
-rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Results</title>
+    <link rel="stylesheet" href="css/result.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
-  
-<script src="js/result.js"></script>
-  
 <body>
+    <div class="result-card">
+        <span class="badge">Practice Complete</span>
+        <h1>🏆 Quiz Finished</h1>
+        <h2 id="resultName">Player</h2>
+        <div id="scoreDisplay" class="score">0 / 40</div>
 
-<div class="result-card">
+        <div class="stats">
+            <div class="stat-box">
+                <span>Time</span>
+                <strong id="timeDisplay">00:00</strong>
+            </div>
+            <div class="stat-box">
+                <span>Accuracy</span>
+                <strong id="accuracyDisplay">0%</strong>
+            </div>
+            <div class="stat-box">
+                <span>Focus</span>
+                <strong id="resultSummary">Ready</strong>
+            </div>
+        </div>
 
-<h1>
+        <div class="actions">
+            <button onclick="window.location='quiz.html'">🔁 Try Again</button>
+            <button onclick="window.location='leaderboard.html'">🏆 View Leaderboard</button>
+            <button id="shareBtn">📤 Share Result</button>
+            <button onclick="window.location='index.html'">🏠 Home</button>
+        </div>
 
-🏆 Quiz Finished
+        <p id="message" class="message"></p>
+    </div>
 
-</h1>
-
-<h2 id="resultName">
-
-Player
-
-</h2>
-
-<div class="score">
-
-40 / 40
-
-</div>
-
-<p>
-
-Detailed statistics coming soon...
-
-</p>
-
-<button
-
-onclick="window.location='index.html'">
-
-Home
-
-</button>
-
-<button onclick="window.location='leaderboard.html'">
-    🏆 View Leaderboard
-</button>
-
-<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-
-</div>
-
+    <script src="js/result.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </body>
-
 </html>
