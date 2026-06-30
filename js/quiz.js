@@ -32,7 +32,14 @@ async function loadQuestions() {
     // FIX: stable 40-question set per session
     const shuffled = shuffleArray(allQuestions);
 
-    quizQuestions = shuffled.slice(0, TOTAL_QUESTIONS);
+    const savedQuiz = localStorage.getItem("activeQuiz");
+
+    if (savedQuiz) {
+        quizQuestions = JSON.parse(savedQuiz);
+    } else {
+        quizQuestions = shuffled.slice(0, TOTAL_QUESTIONS);
+        localStorage.setItem("activeQuiz", JSON.stringify(quizQuestions));
+    }
 
     selectedAnswers = new Array(quizQuestions.length).fill(null);
 
