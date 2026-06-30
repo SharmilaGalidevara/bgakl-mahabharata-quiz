@@ -1,57 +1,5402 @@
 [
   {
     "id": 1,
-    "questionEnglish": "Who is the author of Mahabharata?",
-    "questionTamil": "மகாபாரதத்தை எழுதியவர் யார்?",
+    "questionEnglish": "Who wrote the Mahabharata composed by sage Veda Vyasa?",
+    "questionTamil": "வேதவியாச முனிவர் இயற்றிய மகாபாரதத்தை எழுதியவர் யார்?",
     "options": [
-      { "english": "Veda Vyasa", "tamil": "வேத வியாசர்", "correct": true },
-      { "english": "Valmiki", "tamil": "வால்மீகி", "correct": false },
-      { "english": "Narada", "tamil": "நாரதர்", "correct": false },
-      { "english": "Krishna", "tamil": "கிருஷ்ணர்", "correct": false }
+      {
+        "english": "Lord Ganesha",
+        "tamil": "கணேச பகவான்",
+        "correct": true
+      },
+      {
+        "english": "Valmiki",
+        "tamil": "வால்மீகி",
+        "correct": false
+      },
+      {
+        "english": "Narada",
+        "tamil": "நாரதர்",
+        "correct": false
+      },
+      {
+        "english": "Sage Vyasa",
+        "tamil": "வியாச முனிவர்",
+        "correct": false
+      }
     ]
   },
   {
     "id": 2,
-    "questionEnglish": "Who is the mother of Pandavas?",
-    "questionTamil": "பாண்டவர்களின் தாய் யார்?",
+    "questionEnglish": "Where did Lord Brahma appear from?",
+    "questionTamil": "பிரம்ம தேவர் எங்கிருந்து தோன்றினார்?",
     "options": [
-      { "english": "Kunti", "tamil": "குந்தி", "correct": true },
-      { "english": "Gandhari", "tamil": "காந்தாரி", "correct": false },
-      { "english": "Draupadi", "tamil": "திரௌபதி", "correct": false },
-      { "english": "Subhadra", "tamil": "சுபத்ரா", "correct": false }
+      {
+        "english": "Navel of Lord Vishnu",
+        "tamil": "விஷ்ணு பகவானின் நாபியிலிருந்து",
+        "correct": true
+      },
+      {
+        "english": "Lotus from Vishnu",
+        "tamil": "விஷ்ணுவின் தாமரையிலிருந்து",
+        "correct": false
+      },
+      {
+        "english": "Forehead of Shiva",
+        "tamil": "சிவனின் நெற்றியிலிருந்து",
+        "correct": false
+      },
+      {
+        "english": "Ocean of milk",
+        "tamil": "பால் கடலிலிருந்து",
+        "correct": false
+      }
     ]
   },
   {
     "id": 3,
-    "questionEnglish": "Who was the teacher of Pandavas and Kauravas?",
-    "questionTamil": "பாண்டவர்கள் மற்றும் கௌரவர்கள் குரு யார்?",
+    "questionEnglish": "Whose son was King Janamejaya?",
+    "questionTamil": "ஜனமேஜய மன்னர் யாருடைய மகன்?",
     "options": [
-      { "english": "Dronacharya", "tamil": "த்ரோணாசார்யர்", "correct": true },
-      { "english": "Kripacharya", "tamil": "கிருபாசார்யர்", "correct": false },
-      { "english": "Bhishma", "tamil": "பீஷ்மர்", "correct": false },
-      { "english": "Parashurama", "tamil": "பரசுராமர்", "correct": false }
+      {
+        "english": "Parikshit",
+        "tamil": "பரீக்ஷித்",
+        "correct": true
+      },
+      {
+        "english": "Abhimanyu",
+        "tamil": "அபிமன்யு",
+        "correct": false
+      },
+      {
+        "english": "Shantanu",
+        "tamil": "சாந்தனு",
+        "correct": false
+      },
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": false
+      }
     ]
   },
   {
     "id": 4,
-    "questionEnglish": "Who is the eldest Pandava?",
-    "questionTamil": "மூத்த பாண்டவர் யார்?",
+    "questionEnglish": "What was the capital of the kingdom ruled by Janamejaya?",
+    "questionTamil": "ஜனமேஜயர் ஆண்ட நாட்டின் தலைநகரம் எது?",
     "options": [
-      { "english": "Yudhishthira", "tamil": "யுதிஷ்டிரர்", "correct": true },
-      { "english": "Bhima", "tamil": "பீமன்", "correct": false },
-      { "english": "Arjuna", "tamil": "அர்ஜுனன்", "correct": false },
-      { "english": "Nakula", "tamil": "நகுலன்", "correct": false }
+      {
+        "english": "Hastinapura",
+        "tamil": "ஹஸ்தினாபுரம்",
+        "correct": true
+      },
+      {
+        "english": "Indraprastha",
+        "tamil": "இந்திரபிரஸ்தம்",
+        "correct": false
+      },
+      {
+        "english": "Dwarka",
+        "tamil": "துவாரகா",
+        "correct": false
+      },
+      {
+        "english": "Kashi",
+        "tamil": "காசி",
+        "correct": false
+      }
     ]
   },
   {
     "id": 5,
-    "questionEnglish": "Who was Arjuna’s charioteer in Kurukshetra war?",
-    "questionTamil": "குருக்ஷேத்ர போரில் அர்ஜுனனின் தேரோட்டி யார்?",
+    "questionEnglish": "Whose daughter was Kadru?",
+    "questionTamil": "கத்ரு யாரின் மகள்?",
     "options": [
-      { "english": "Krishna", "tamil": "கிருஷ்ணர்", "correct": true },
-      { "english": "Bhishma", "tamil": "பீஷ்மர்", "correct": false },
-      { "english": "Karna", "tamil": "கர்ணன்", "correct": false },
-      { "english": "Drona", "tamil": "த்ரோணர்", "correct": false }
+      {
+        "english": "Daksha",
+        "tamil": "தட்ஷனின்",
+        "correct": true
+      },
+      {
+        "english": "Vinata",
+        "tamil": "வினதா",
+        "correct": false
+      },
+      {
+        "english": "Aditi",
+        "tamil": "அதிதி",
+        "correct": false
+      },
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "questionEnglish": "Whose daughter was Vinata?",
+    "questionTamil": "வினதா யாரின் மகள்?",
+    "options": [
+      {
+        "english": "Daksha",
+        "tamil": "தட்ஷனின்",
+        "correct": true
+      },
+      {
+        "english": "Kadru",
+        "tamil": "கத்ரு",
+        "correct": false
+      },
+      {
+        "english": "Aditi",
+        "tamil": "அதிதி",
+        "correct": false
+      },
+      {
+        "english": "Satyavati",
+        "tamil": "சத்யவதி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "questionEnglish": "Whose son was King Parikshit?",
+    "questionTamil": "பரீக்ஷித் மன்னர் யாருடைய மகன்?",
+    "options": [
+      {
+        "english": "Abhimanyu",
+        "tamil": "அபிமன்யுவின்",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Janamejaya",
+        "tamil": "ஜனமேஜயர்",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "questionEnglish": "Which form did Lord Vishnu assume during the churning of the milk ocean?",
+    "questionTamil": "பாற்கடலைக் கடைந்தபோது ஸ்ரீ விஷ்ணு பகவான் எந்த ரூபத்தை ஏற்றிருந்தார்?",
+    "options": [
+      {
+        "english": "Kurma",
+        "tamil": "கூர்மம்",
+        "correct": true
+      },
+      {
+        "english": "Varaha",
+        "tamil": "வராகம்",
+        "correct": false
+      },
+      {
+        "english": "Narasimha",
+        "tamil": "நரசிம்மம்",
+        "correct": false
+      },
+      {
+        "english": "Mohini",
+        "tamil": "மோகினி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "questionEnglish": "Which mountain was used during the churning of the milk ocean?",
+    "questionTamil": "பாற்கடலைக் கடைந்த சமயத்தில் எந்த மலை பயன்படுத்தப்பட்டது?",
+    "options": [
+      {
+        "english": "Mt Mandara",
+        "tamil": "மந்தாரா மலை",
+        "correct": true
+      },
+      {
+        "english": "Mt Meru",
+        "tamil": "மேரு மலை",
+        "correct": false
+      },
+      {
+        "english": "Himalaya",
+        "tamil": "இமயமலை",
+        "correct": false
+      },
+      {
+        "english": "Govardhan",
+        "tamil": "கோவர்த்தனம்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "questionEnglish": "Who served as the churning rope for the milk ocean?",
+    "questionTamil": "பாற்கடலைக் கடையவதற்குக் கயிறாக யார் பயன்படுத்தப்பட்டார்?",
+    "options": [
+      {
+        "english": "Vasuki",
+        "tamil": "வாசுகி",
+        "correct": true
+      },
+      {
+        "english": "Ananta",
+        "tamil": "அனந்தன்",
+        "correct": false
+      },
+      {
+        "english": "Takshaka",
+        "tamil": "தட்ஷகன்",
+        "correct": false
+      },
+      {
+        "english": "Garuda",
+        "tamil": "கருடன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "questionEnglish": "Who consumed the Kaalakuta/Halahala poison from churning?",
+    "questionTamil": "பாற்கடலைக் கடைந்தபோது வந்த காலகூட/ஹலாஹல விஷத்தை அருந்தியது யார்?",
+    "options": [
+      {
+        "english": "Lord Shiva",
+        "tamil": "சிவ பெருமான்",
+        "correct": true
+      },
+      {
+        "english": "Vishnu",
+        "tamil": "விஷ்ணு",
+        "correct": false
+      },
+      {
+        "english": "Brahma",
+        "tamil": "பிரம்மா",
+        "correct": false
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "questionEnglish": "Who is known as Neelakantha?",
+    "questionTamil": "நீலகண்டன் என்று அழைக்கப்படுபவர் யார்?",
+    "options": [
+      {
+        "english": "Lord Shiva",
+        "tamil": "சிவ பெருமான்",
+        "correct": true
+      },
+      {
+        "english": "Vishnu",
+        "tamil": "விஷ்ணு",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      },
+      {
+        "english": "Brahma",
+        "tamil": "பிரம்மா",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "questionEnglish": "Who took Mohini form to distribute nectar?",
+    "questionTamil": "அமிர்தத்தைப் பகிர்வதற்காக மோகினி ரூபம் எடுத்தவர் யார்?",
+    "options": [
+      {
+        "english": "Lord Vishnu",
+        "tamil": "விஷ்ணு பகவான்",
+        "correct": true
+      },
+      {
+        "english": "Shiva",
+        "tamil": "சிவன்",
+        "correct": false
+      },
+      {
+        "english": "Brahma",
+        "tamil": "பிரம்மா",
+        "correct": false
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "questionEnglish": "Which demon was beheaded for drinking nectar?",
+    "questionTamil": "அமிர்தத்தைக் குடித்ததற்காக எந்த அசுரனின் தலை வெட்டப்பட்டது?",
+    "options": [
+      {
+        "english": "Rahu",
+        "tamil": "ராகு",
+        "correct": true
+      },
+      {
+        "english": "Ketu",
+        "tamil": "கேது",
+        "correct": false
+      },
+      {
+        "english": "Hiranyakashipu",
+        "tamil": "ஹிரண்யகசிபு",
+        "correct": false
+      },
+      {
+        "english": "Viprachitti",
+        "tamil": "விப்ரசித்தி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "questionEnglish": "Whose son is Garuda?",
+    "questionTamil": "கருடன் யாருடைய மகன்?",
+    "options": [
+      {
+        "english": "Vinata's",
+        "tamil": "வினதாவின்",
+        "correct": true
+      },
+      {
+        "english": "Kadru's",
+        "tamil": "கத்ருவின்",
+        "correct": false
+      },
+      {
+        "english": "Aditi's",
+        "tamil": "அதிதியின்",
+        "correct": false
+      },
+      {
+        "english": "Daksha's",
+        "tamil": "தட்ஷனின்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "questionEnglish": "Who blessed Garuda to be immortal without nectar?",
+    "questionTamil": "அமிர்தம் அருந்தாமலே கருடன் அழியாதவனாக இருப்பான் என்று வரம் அளித்தவர் யார்?",
+    "options": [
+      {
+        "english": "Lord Vishnu",
+        "tamil": "விஷ்ணு பகவான்",
+        "correct": true
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      },
+      {
+        "english": "Shiva",
+        "tamil": "சிவன்",
+        "correct": false
+      },
+      {
+        "english": "Brahma",
+        "tamil": "பிரம்மா",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "questionEnglish": "Whose divine vehicle is Garuda?",
+    "questionTamil": "கருடன் எந்தத் தெய்வத்தின் வாகனமாக விளங்குகிறார்?",
+    "options": [
+      {
+        "english": "Lord Vishnu",
+        "tamil": "விஷ்ணு பகவான்",
+        "correct": true
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      },
+      {
+        "english": "Shiva",
+        "tamil": "சிவன்",
+        "correct": false
+      },
+      {
+        "english": "Agni",
+        "tamil": "அக்னி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "questionEnglish": "Who directed Sheshanaga to raise Earth?",
+    "questionTamil": "அனந்தசேஷன் தன் தலைகளின் மீது பூமியைத் தாங்குமாறு உத்தரவிட்டவர் யார்?",
+    "options": [
+      {
+        "english": "Lord Brahma",
+        "tamil": "பிரம்ம தேவர்",
+        "correct": true
+      },
+      {
+        "english": "Vishnu",
+        "tamil": "விஷ்ணு",
+        "correct": false
+      },
+      {
+        "english": "Shiva",
+        "tamil": "சிவன்",
+        "correct": false
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "questionEnglish": "Who cursed King Parikshit?",
+    "questionTamil": "பரீக்ஷித் மன்னரைச் சபித்தது யார்?",
+    "options": [
+      {
+        "english": "Sage Shringi",
+        "tamil": "ஷ்ரிங்கி முனிவர்",
+        "correct": true
+      },
+      {
+        "english": "Durvasa",
+        "tamil": "துர்வாசர்",
+        "correct": false
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Narada",
+        "tamil": "நாரதர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "questionEnglish": "Who was father of sage Shringi?",
+    "questionTamil": "ஷ்ரிங்கி முனிவரின் தந்தை யார்?",
+    "options": [
+      {
+        "english": "Shamika Rsi",
+        "tamil": "ஷமிகா ரிஷி",
+        "correct": true
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Parashara",
+        "tamil": "பராசரர்",
+        "correct": false
+      },
+      {
+        "english": "Dhaumya",
+        "tamil": "தௌமியர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "questionEnglish": "Who performed Sarpa yajna to avenge Parikshit?",
+    "questionTamil": "பரீக்ஷித் மன்னர் இறந்ததற்குப் பழிவாங்கும் வகையில் பாம்பு யாகம் நடத்தியவர் யார்?",
+    "options": [
+      {
+        "english": "Janamejaya",
+        "tamil": "ஜனமேஜயர்",
+        "correct": true
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Parikshit",
+        "tamil": "பரீக்ஷித்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "questionEnglish": "Whose protection did Takshaka seek?",
+    "questionTamil": "பாம்பு யாகத்திலிருந்து தன்னைக் காப்பாற்றிக் கொள்ள தட்ஷகன் யாரை அடைந்தான்?",
+    "options": [
+      {
+        "english": "Indra Deva",
+        "tamil": "இந்திர தேவர்",
+        "correct": true
+      },
+      {
+        "english": "Vishnu",
+        "tamil": "விஷ்ணு",
+        "correct": false
+      },
+      {
+        "english": "Shiva",
+        "tamil": "சிவன்",
+        "correct": false
+      },
+      {
+        "english": "Varuna",
+        "tamil": "வருணன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "questionEnglish": "Whose son was sage Vyasa Deva?",
+    "questionTamil": "வியாச தேவர் யாருடைய மகன்?",
+    "options": [
+      {
+        "english": "Sage Parashara",
+        "tamil": "பராசர முனிவர்",
+        "correct": true
+      },
+      {
+        "english": "Shantanu",
+        "tamil": "சாந்தனு",
+        "correct": false
+      },
+      {
+        "english": "Vasishtha",
+        "tamil": "வசிஷ்டர்",
+        "correct": false
+      },
+      {
+        "english": "Bharadwaja",
+        "tamil": "பரத்வாஜர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "questionEnglish": "Name of Vyasa's mother?",
+    "questionTamil": "வியாச முனிவரின் தாயாரின் பெயர் என்ன?",
+    "options": [
+      {
+        "english": "Satyavati",
+        "tamil": "சத்யவதி",
+        "correct": true
+      },
+      {
+        "english": "Ganga",
+        "tamil": "கங்கா",
+        "correct": false
+      },
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": false
+      },
+      {
+        "english": "Ambika",
+        "tamil": "அம்பிகா",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "questionEnglish": "Which sage killed Kshatriyas 21 times?",
+    "questionTamil": "பூமியில் க்ஷத்திரியர்களை இருபத்தொரு முறை அழித்த முனிவர் யார்?",
+    "options": [
+      {
+        "english": "Parasurama",
+        "tamil": "பரசுராமர்",
+        "correct": true
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Vishwamitra",
+        "tamil": "விஸ்வாமித்ரர்",
+        "correct": false
+      },
+      {
+        "english": "Durvasa",
+        "tamil": "துர்வாசர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "questionEnglish": "Whose son was Hiranyakashipu?",
+    "questionTamil": "ஹிரண்யகசிபு யாருடைய மகன்?",
+    "options": [
+      {
+        "english": "Diti",
+        "tamil": "திதி",
+        "correct": true
+      },
+      {
+        "english": "Aditi",
+        "tamil": "அதிதி",
+        "correct": false
+      },
+      {
+        "english": "Kadru",
+        "tamil": "கத்ரு",
+        "correct": false
+      },
+      {
+        "english": "Vinata",
+        "tamil": "வினதா",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "questionEnglish": "Whose son was Prahlada?",
+    "questionTamil": "பிரஹலாதன் யாருடைய மகன்?",
+    "options": [
+      {
+        "english": "Hiranyakashipu",
+        "tamil": "ஹிரண்யகசிபு",
+        "correct": true
+      },
+      {
+        "english": "Hiranyaksha",
+        "tamil": "ஹிரண்யாட்சன்",
+        "correct": false
+      },
+      {
+        "english": "Ravana",
+        "tamil": "ராவணன்",
+        "correct": false
+      },
+      {
+        "english": "Kamsa",
+        "tamil": "கம்சன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "questionEnglish": "Banasura's father's name?",
+    "questionTamil": "பாணாசுரனின் தந்தையின் பெயர் என்ன?",
+    "options": [
+      {
+        "english": "Bali",
+        "tamil": "பாலி",
+        "correct": true
+      },
+      {
+        "english": "Virochana",
+        "tamil": "விரோசனன்",
+        "correct": false
+      },
+      {
+        "english": "Prahlada",
+        "tamil": "பிரஹலாதன்",
+        "correct": false
+      },
+      {
+        "english": "Shukracharya",
+        "tamil": "சுக்ராசாரியர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "questionEnglish": "Which demon was born as Jarasandha?",
+    "questionTamil": "எந்த அசுரன் ஜராசந்தனாகப் பிறந்தார்?",
+    "options": [
+      {
+        "english": "Viprachitti",
+        "tamil": "விப்ரசித்தி",
+        "correct": true
+      },
+      {
+        "english": "Hiranyakashipu",
+        "tamil": "ஹிரண்யகசிபு",
+        "correct": false
+      },
+      {
+        "english": "Kalanemi",
+        "tamil": "காலநேமி",
+        "correct": false
+      },
+      {
+        "english": "Shishupala",
+        "tamil": "சிசுபாலன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "questionEnglish": "Hiranyakashipu reborn as?",
+    "questionTamil": "ஹிரண்யகசிபு மறுபிறவியில் யாராகப் பிறந்தார்?",
+    "options": [
+      {
+        "english": "Shishupala",
+        "tamil": "சிசுபாலன்",
+        "correct": true
+      },
+      {
+        "english": "Kamsa",
+        "tamil": "கம்சன்",
+        "correct": false
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      },
+      {
+        "english": "Jarasandha",
+        "tamil": "ஜராசந்தன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "questionEnglish": "Demon Kalanemi reborn as?",
+    "questionTamil": "அசுரன் காலநேமி எந்த மனிதரின் உருவத்தில் மறுபிறவி எடுத்தார்?",
+    "options": [
+      {
+        "english": "Kamsa",
+        "tamil": "கம்சன்",
+        "correct": true
+      },
+      {
+        "english": "Shishupala",
+        "tamil": "சிசுபாலன்",
+        "correct": false
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      },
+      {
+        "english": "Jarasandha",
+        "tamil": "ஜராசந்தன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "questionEnglish": "Father of Dronacharya?",
+    "questionTamil": "த்ரோணாசாரியரின் தந்தை யார்?",
+    "options": [
+      {
+        "english": "Bharadwaja",
+        "tamil": "பரத்வாஜர்",
+        "correct": true
+      },
+      {
+        "english": "Parashara",
+        "tamil": "பராசரர்",
+        "correct": false
+      },
+      {
+        "english": "Dhaumya",
+        "tamil": "தௌமியர்",
+        "correct": false
+      },
+      {
+        "english": "Kripacharya",
+        "tamil": "கிருபாசாரியர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "questionEnglish": "Whose son was Ashwatthama?",
+    "questionTamil": "அஷ்வத்தாமனின் தந்தை யார்?",
+    "options": [
+      {
+        "english": "Dronacharya",
+        "tamil": "த்ரோணாசாரியர்",
+        "correct": true
+      },
+      {
+        "english": "Kripacharya",
+        "tamil": "கிருபாசாரியர்",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Parashurama",
+        "tamil": "பரசுராமர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "questionEnglish": "Parents of Bhishma?",
+    "questionTamil": "பீஷ்மரின் பெற்றோர் யார்?",
+    "options": [
+      {
+        "english": "Shantanu - Ganga",
+        "tamil": "சாந்தனு - கங்கா",
+        "correct": true
+      },
+      {
+        "english": "Shantanu - Satyavati",
+        "tamil": "சாந்தனு - சத்யவதி",
+        "correct": false
+      },
+      {
+        "english": "Pandu - Kunti",
+        "tamil": "பாண்டு - குந்தி",
+        "correct": false
+      },
+      {
+        "english": "Vichitravirya - Ambika",
+        "tamil": "விசித்ரவீர்யன் - அம்பிகா",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "questionEnglish": "Younger brother of Dhritarashtra?",
+    "questionTamil": "திருதராஷ்டிரரின் இளைய சகோதரர் யார்?",
+    "options": [
+      {
+        "english": "Pandu",
+        "tamil": "பாண்டு",
+        "correct": true
+      },
+      {
+        "english": "Vidura",
+        "tamil": "விதுரன்",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "questionEnglish": "Dhritarashtra's firstborn?",
+    "questionTamil": "திருதராஷ்டிரரின் முதல் புதல்வர் யார்?",
+    "options": [
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": true
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Dushasana",
+        "tamil": "துஷasanan",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "questionEnglish": "Son of Dharma (Yama)?",
+    "questionTamil": "யமன்வின் மகன் யார்?",
+    "options": [
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Vidura",
+        "tamil": "விதுரன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "questionEnglish": "By whose powers was Bhima born?",
+    "questionTamil": "பீமன் யாருடைய தெய்வீக சக்தியால் பிறந்தார்?",
+    "options": [
+      {
+        "english": "Vayu Deva",
+        "tamil": "வாயு தேவர்",
+        "correct": true
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      },
+      {
+        "english": "Yama",
+        "tamil": "யமன்",
+        "correct": false
+      },
+      {
+        "english": "Ashwini Kumaras",
+        "tamil": "அஸ்வினி குமாரர்கள்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "questionEnglish": "Which Pandava born by Indra's powers?",
+    "questionTamil": "இந்திரனின் தெய்வீக சக்தியால் பிறந்த பாண்டவர் யார்?",
+    "options": [
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": true
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Nakula",
+        "tamil": "நகுலன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "questionEnglish": "Born by Ashwini Kumaras powers?",
+    "questionTamil": "அஸ்வினி குமாரர்களின் தெய்வீக சக்தியால் பிறந்தவர்கள் யார்?",
+    "options": [
+      {
+        "english": "Nakula - Sahadeva",
+        "tamil": "நகுலன் - சஹதேவன்",
+        "correct": true
+      },
+      {
+        "english": "Yudhishthira - Bhima",
+        "tamil": "யுதிஷ்டிரர் - பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Arjuna - Karna",
+        "tamil": "அர்ஜுனன் - கர்ணன்",
+        "correct": false
+      },
+      {
+        "english": "Bhima - Arjuna",
+        "tamil": "பீமன் - அர்ஜுனன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "questionEnglish": "Actual name of Kunti?",
+    "questionTamil": "குந்தியின் உண்மையான பெயர் என்ன?",
+    "options": [
+      {
+        "english": "Pritha",
+        "tamil": "ப்ரீதா",
+        "correct": true
+      },
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": false
+      },
+      {
+        "english": "Madri",
+        "tamil": "மாத்ரி",
+        "correct": false
+      },
+      {
+        "english": "Subhadra",
+        "tamil": "சுபத்ரா",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "questionEnglish": "Kunti's son by Surya?",
+    "questionTamil": "சூரிய தேவனின் அருளால் குந்தியின் மகனாகப் பிறந்தவர் யார்?",
+    "options": [
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "questionEnglish": "Who demanded Karna's armour and earrings?",
+    "questionTamil": "கர்ணனிடமிருந்து அவரது தெய்வீக கவசமும் காது குண்டலகளையும் தானமாகக் கேட்டவர் யார்?",
+    "options": [
+      {
+        "english": "Lord Indra",
+        "tamil": "இந்திர தேவர்",
+        "correct": true
+      },
+      {
+        "english": "Shiva",
+        "tamil": "சிவன்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      },
+      {
+        "english": "Surya",
+        "tamil": "சூரியன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "questionEnglish": "Son of Vasudeva?",
+    "questionTamil": "வசுதேவரின் மகனாகப் பிறந்தவர் யார்?",
+    "options": [
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": true
+      },
+      {
+        "english": "Balarama",
+        "tamil": "பலராமன்",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      },
+      {
+        "english": "Abhimanyu",
+        "tamil": "அபிமன்யு",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "questionEnglish": "Sheshanaga is expansion of?",
+    "questionTamil": "அனந்தசேஷன் யாருடைய அவதாரம்?",
+    "options": [
+      {
+        "english": "Balarama",
+        "tamil": "பலராமன்",
+        "correct": true
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      },
+      {
+        "english": "Vishnu",
+        "tamil": "விஷ்ணு",
+        "correct": false
+      },
+      {
+        "english": "Garuda",
+        "tamil": "கருடன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "questionEnglish": "Shakuntala's love-marriage king?",
+    "questionTamil": "சakuntalā எந்த அரசருடன் காதல் திருமணம் செய்துகொண்டார்?",
+    "options": [
+      {
+        "english": "Dushyanta",
+        "tamil": "தuṣyantā",
+        "correct": true
+      },
+      {
+        "english": "Bharata",
+        "tamil": "பharatā",
+        "correct": false
+      },
+      {
+        "english": "Shantanu",
+        "tamil": "சாந்தனu",
+        "correct": false
+      },
+      {
+        "english": "Janaka",
+        "tamil": "ஜanaka",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "questionEnglish": "India named after?",
+    "questionTamil": "இந்தியா எந்த மன்னரின் பெயரால் அழைக்கப்படுகிறது?",
+    "options": [
+      {
+        "english": "Bharata",
+        "tamil": "பharatā",
+        "correct": true
+      },
+      {
+        "english": "Shakuntala",
+        "tamil": "சakuntalā",
+        "correct": false
+      },
+      {
+        "english": "Dushyanta",
+        "tamil": "தuṣyantā",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "questionEnglish": "Bharata's mother?",
+    "questionTamil": "பharatā மன்னரின் தாய் யார்?",
+    "options": [
+      {
+        "english": "Shakuntala",
+        "tamil": "சakuntalā",
+        "correct": true
+      },
+      {
+        "english": "Dushyanta",
+        "tamil": "தuṣyantā",
+        "correct": false
+      },
+      {
+        "english": "Ganga",
+        "tamil": "கங்கா",
+        "correct": false
+      },
+      {
+        "english": "Satyavati",
+        "tamil": "சத்யavati",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "questionEnglish": "Shantanu married?",
+    "questionTamil": "சாந்தனு மன்னர் யாரை மணந்தார்?",
+    "options": [
+      {
+        "english": "Ganga Devi",
+        "tamil": "கங்கா தேவி",
+        "correct": true
+      },
+      {
+        "english": "Satyavati",
+        "tamil": "சத்யavati",
+        "correct": false
+      },
+      {
+        "english": "Gandhari",
+        "tamil": "காந்தாரி",
+        "correct": false
+      },
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "questionEnglish": "How many sons Ganga drowned?",
+    "questionTamil": "கங்கா தேவி, சாந்தனுவின் எத்தனை மகன்களைப் பிறந்ததும் நதியில் மூழ்கடித்தார்?",
+    "options": [
+      {
+        "english": "7",
+        "tamil": "7",
+        "correct": true
+      },
+      {
+        "english": "6",
+        "tamil": "6",
+        "correct": false
+      },
+      {
+        "english": "8",
+        "tamil": "8",
+        "correct": false
+      },
+      {
+        "english": "5",
+        "tamil": "5",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "questionEnglish": "Vasu Dhyo became famous as?",
+    "questionTamil": "வசு தியோ எந்தப் பெயரால் புகழ் பெற்றார்?",
+    "options": [
+      {
+        "english": "Devavrata",
+        "tamil": "தேவவ்ரதன்",
+        "correct": true
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Shantanu",
+        "tamil": "சாந்தனு",
+        "correct": false
+      },
+      {
+        "english": "Chitrangada",
+        "tamil": "சித்ரங்கதன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "questionEnglish": "Which river Devavrata stopped?",
+    "questionTamil": "தேவவ்ரதன் எந்த நதியைத் தடுத்தார்?",
+    "options": [
+      {
+        "english": "Ganga",
+        "tamil": "கங்கா",
+        "correct": true
+      },
+      {
+        "english": "Yamuna",
+        "tamil": "யமுனை",
+        "correct": false
+      },
+      {
+        "english": "Saraswati",
+        "tamil": "சaraswati",
+        "correct": false
+      },
+      {
+        "english": "Godavari",
+        "tamil": "கodavari",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "questionEnglish": "Devavrata learned warfare from?",
+    "questionTamil": "தேவவ்ரதன் போர் கலையை யாரிடம் கற்றுக் கொண்டார்?",
+    "options": [
+      {
+        "english": "Parasurama",
+        "tamil": "பரசுராமர்",
+        "correct": true
+      },
+      {
+        "english": "Dronacharya",
+        "tamil": "த்ரோணாசாரியர்",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Kripacharya",
+        "tamil": "கிருபாசாரியர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "questionEnglish": "Devavrata's pledge for Shantanu-Satyavati?",
+    "questionTamil": "சாந்தனு-சத்யவதி திருமணத்திற்காக தேவவ்ரதன் என்ன உறுதி மேற்கொண்டார்?",
+    "options": [
+      {
+        "english": "To remain a Brahmachari all his life",
+        "tamil": "வாழ்நாள் முழுவதும் Brahmachariயாக இருப்பது",
+        "correct": true
+      },
+      {
+        "english": "To become king",
+        "tamil": "அரசனாக ஆட்சி செய்வது",
+        "correct": false
+      },
+      {
+        "english": "To marry Satyavati",
+        "tamil": "சத்யவதியை மணப்பது",
+        "correct": false
+      },
+      {
+        "english": "To leave Hastinapura",
+        "tamil": "ஹஸ்தினாபுரத்தை விட்டு செல்வது",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "questionEnglish": "Devavrata known after pledge as?",
+    "questionTamil": "உறுதி மேற்கொண்ட பிறகு தேவவ்ரதன் எந்தப் பெயரால் அழைக்கப்பட்டார்?",
+    "options": [
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": true
+      },
+      {
+        "english": "Shantanu",
+        "tamil": "சாந்தனு",
+        "correct": false
+      },
+      {
+        "english": "Devavrata",
+        "tamil": "தேவவ்ரதன்",
+        "correct": false
+      },
+      {
+        "english": "Vidura",
+        "tamil": "விதுரன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "questionEnglish": "Shantanu's boon to Devavrata?",
+    "questionTamil": "சாந்தனு தேவவ்ரதனுக்கு அளித்த வரம் என்ன?",
+    "options": [
+      {
+        "english": "To die by his own will",
+        "tamil": "தன் விருப்பத்தால் இறக்க",
+        "correct": true
+      },
+      {
+        "english": "Immortality",
+        "tamil": "அழியாமை",
+        "correct": false
+      },
+      {
+        "english": "Kingship",
+        "tamil": "அரசாட்சி",
+        "correct": false
+      },
+      {
+        "english": "Divine weapons",
+        "tamil": "தெய்வீக ஆயுதங்கள்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "questionEnglish": "Satyavati's two sons after marriage?",
+    "questionTamil": "சத்யவதிக்குப் பிறந்த இரண்டு மகன்கள் யார்?",
+    "options": [
+      {
+        "english": "Chitrangada – Vichitravirya",
+        "tamil": "சித்ரங்கதன் - விசித்ரவீர்யன்",
+        "correct": true
+      },
+      {
+        "english": "Pandu - Dhritarashtra",
+        "tamil": "பாண்டு - திருதராஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Bhishma - Vidura",
+        "tamil": "பீஷ்மர் - விதுரன்",
+        "correct": false
+      },
+      {
+        "english": "Duryodhana - Dushasana",
+        "tamil": "துரியோதனன் - துஷasanan",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "questionEnglish": "King after Shantanu's death?",
+    "questionTamil": "சாந்தனுவின் மரணத்திற்குப் பிறகு அரசனாக ஆட்சி செய்தவர் யார்?",
+    "options": [
+      {
+        "english": "Chitrangada",
+        "tamil": "சித்ரங்கதன்",
+        "correct": true
+      },
+      {
+        "english": "Vichitravirya",
+        "tamil": "விசித்ரவீர்யன்",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Pandu",
+        "tamil": "பாண்டு",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "questionEnglish": "Babruvahana's father?",
+    "questionTamil": "பப்ருவாஹனனின் தந்தை யார்?",
+    "options": [
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "questionEnglish": "Three daughters of Kashi king?",
+    "questionTamil": "காசி மன்னரின் மூன்று மகள்கள் யார்?",
+    "options": [
+      {
+        "english": "Amba-Ambika-Ambalika",
+        "tamil": "அம்பா - அம்பிகா - அம்பாலிகா",
+        "correct": true
+      },
+      {
+        "english": "Draupadi-Subhadra-Kunti",
+        "tamil": "திரௌபதி - சுபத்ரா - குந்தி",
+        "correct": false
+      },
+      {
+        "english": "Gandhari-Kunti-Madri",
+        "tamil": "காந்தாரி - குந்தி - மாத்ரி",
+        "correct": false
+      },
+      {
+        "english": "Satyavati-Ganga-Amba",
+        "tamil": "சத்யவதி - கங்கா - அம்பா",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "questionEnglish": "Who abducted Kashi princesses?",
+    "questionTamil": "காசி இளவரசிகளைக் கடத்தியவர் யார்?",
+    "options": [
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Dronacharya",
+        "tamil": "த்ரோணாசாரியர்",
+        "correct": false
+      },
+      {
+        "english": "Shantanu",
+        "tamil": "சாந்தனு",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "questionEnglish": "Amba's chosen husband in mind?",
+    "questionTamil": "அம்பா மனதில் தேர்ந்தெடுத்த கணவர் யார்?",
+    "options": [
+      {
+        "english": "Shalva",
+        "tamil": "சalva",
+        "correct": true
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Vichitravirya",
+        "tamil": "விசித்ரவீர்யன்",
+        "correct": false
+      },
+      {
+        "english": "Drupada",
+        "tamil": "துrupaada",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "questionEnglish": "Which two Kashi princesses married Vichitravirya?",
+    "questionTamil": "விசித்ரவீர்யனை மணந்த காசி இளவரசிகள் யார்?",
+    "options": [
+      {
+        "english": "Ambika-Ambalika",
+        "tamil": "அம்பிகா - அம்பாலிகா",
+        "correct": true
+      },
+      {
+        "english": "Amba-Ambika",
+        "tamil": "அம்பா - அம்பிகா",
+        "correct": false
+      },
+      {
+        "english": "Amba-Ambalika",
+        "tamil": "அம்பா - அம்பாலிகா",
+        "correct": false
+      },
+      {
+        "english": "Ambika-Draupadi",
+        "tamil": "அம்பிகா - திரௌபதி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "questionEnglish": "Son of Vyasa and Ambika?",
+    "questionTamil": "வியாசரும் அம்பிகாவும் பெற்ற மகன் யார்?",
+    "options": [
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": true
+      },
+      {
+        "english": "Pandu",
+        "tamil": "பாண்டு",
+        "correct": false
+      },
+      {
+        "english": "Vidura",
+        "tamil": "விதுரன்",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "questionEnglish": "Son of Vyasa and Ambalika?",
+    "questionTamil": "வியாசரும் அம்பாலிகாவும் பெற்ற மகன் யார்?",
+    "options": [
+      {
+        "english": "Pandu",
+        "tamil": "பாண்டு",
+        "correct": true
+      },
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Vidura",
+        "tamil": "விதுரன்",
+        "correct": false
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "questionEnglish": "Son of Vyasa and maidservant?",
+    "questionTamil": "வியாசரும் பணிவிட்ட பெண்ணும் பெற்ற மகன் யார்?",
+    "options": [
+      {
+        "english": "Vidura",
+        "tamil": "விதுரன்",
+        "correct": true
+      },
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Pandu",
+        "tamil": "பாண்டு",
+        "correct": false
+      },
+      {
+        "english": "Sanjaya",
+        "tamil": "சanjaya",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "questionEnglish": "Vidura's incarnation?",
+    "questionTamil": "விதுரன் யாருடைய அவதாரம்?",
+    "options": [
+      {
+        "english": "Dharmaraja",
+        "tamil": "யமன்",
+        "correct": true
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      },
+      {
+        "english": "Yama",
+        "tamil": "யமன்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "questionEnglish": "Born blind?",
+    "questionTamil": "பிறவியிலேயே குருடாகப் பிறந்தவர் யார்?",
+    "options": [
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": true
+      },
+      {
+        "english": "Vidura",
+        "tamil": "விதுரன்",
+        "correct": false
+      },
+      {
+        "english": "Pandu",
+        "tamil": "பாண்டு",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "questionEnglish": "Dhritarashtra married?",
+    "questionTamil": "திருதராஷ்டிரர் யாரை மணந்தார்?",
+    "options": [
+      {
+        "english": "Gandhari",
+        "tamil": "காந்தாரி",
+        "correct": true
+      },
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": false
+      },
+      {
+        "english": "Ambika",
+        "tamil": "அம்பிகா",
+        "correct": false
+      },
+      {
+        "english": "Draupadi",
+        "tamil": "திரௌபதி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "questionEnglish": "Sage who blessed Gandhari 100 sons?",
+    "questionTamil": "காந்தாரிக்கு நூறு மகன்கள் பிறக்க வரம் அளித்த முனிவர் யார்?",
+    "options": [
+      {
+        "english": "Sage Vyasa",
+        "tamil": "வியாச முனிவர்",
+        "correct": true
+      },
+      {
+        "english": "Durvasa",
+        "tamil": "துர்வாசர்",
+        "correct": false
+      },
+      {
+        "english": "Narada",
+        "tamil": "நாரதர்",
+        "correct": false
+      },
+      {
+        "english": "Parashara",
+        "tamil": "பராசரர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "questionEnglish": "Gandhari's eldest son?",
+    "questionTamil": "காந்தாரியின் முதல் மகன் யார்?",
+    "options": [
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": true
+      },
+      {
+        "english": "Dushasana",
+        "tamil": "துஷasanan",
+        "correct": false
+      },
+      {
+        "english": "Vikarna",
+        "tamil": "விகarna",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "questionEnglish": "Gandhari's daughter?",
+    "questionTamil": "காந்தாரியின் மகள் யார்?",
+    "options": [
+      {
+        "english": "Dushala",
+        "tamil": "துshala",
+        "correct": true
+      },
+      {
+        "english": "Draupadi",
+        "tamil": "திரௌபதி",
+        "correct": false
+      },
+      {
+        "english": "Subhadra",
+        "tamil": "சுபத்ரா",
+        "correct": false
+      },
+      {
+        "english": "Amba",
+        "tamil": "அம்பா",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "questionEnglish": "Who cursed Pandu?",
+    "questionTamil": "பாண்டுவைச் சபித்தது யார்?",
+    "options": [
+      {
+        "english": "Sage Kindama",
+        "tamil": "கிந்தாம முனிவர்",
+        "correct": true
+      },
+      {
+        "english": "Durvasa",
+        "tamil": "துர்வாசர்",
+        "correct": false
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Shringi",
+        "tamil": "ஷ்ரிங்கி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "questionEnglish": "Sage who gave mantra to Kunti?",
+    "questionTamil": "குந்திக்கு மந்திரம் அளித்த முனிவர் யார்?",
+    "options": [
+      {
+        "english": "Sage Durvasa",
+        "tamil": "துர்வாச முனிவர்",
+        "correct": true
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Parashara",
+        "tamil": "பராசரர்",
+        "correct": false
+      },
+      {
+        "english": "Dhaumya",
+        "tamil": "தௌமியர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "questionEnglish": "First god Kunti invoked?",
+    "questionTamil": "குந்தி முதலில் அழைத்த தெய்வம் யார்?",
+    "options": [
+      {
+        "english": "Surya Deva",
+        "tamil": "சூரிய தேவர்",
+        "correct": true
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      },
+      {
+        "english": "Yama",
+        "tamil": "யமன்",
+        "correct": false
+      },
+      {
+        "english": "Vayu",
+        "tamil": "வாயு",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "questionEnglish": "Kunti's son for Dharmaraja?",
+    "questionTamil": "யமன்வின் அருளால் குந்தியின் மகன் யார்?",
+    "options": [
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "questionEnglish": "Kunti's second Pandava son?",
+    "questionTamil": "குந்தியின் இரண்டாவது பாண்டava மகன் யார்?",
+    "options": [
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": true
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Nakula",
+        "tamil": "நகுலன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "questionEnglish": "Draupadi's kingdom?",
+    "questionTamil": "திரௌபதியின் நாடு எது?",
+    "options": [
+      {
+        "english": "Panchala",
+        "tamil": "பஞ்சாலம்",
+        "correct": true
+      },
+      {
+        "english": "Kuru",
+        "tamil": "கuru",
+        "correct": false
+      },
+      {
+        "english": "Magadha",
+        "tamil": "மagadha",
+        "correct": false
+      },
+      {
+        "english": "Kashi",
+        "tamil": "காசி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "questionEnglish": "Kunti's son by Indra?",
+    "questionTamil": "இந்திரனின் அருளால் குந்தியின் மகன் யார்?",
+    "options": [
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Sahadeva",
+        "tamil": "சஹதேவன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "questionEnglish": "Nakula-Sahadeva born by powers of?",
+    "questionTamil": "நகுலனும் சஹதேவன்வும் யாருடைய சக்தியால் பிறந்தனர்?",
+    "options": [
+      {
+        "english": "Ashwini Kumaras",
+        "tamil": "அஸ்வினி குமாரர்கள்",
+        "correct": true
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      },
+      {
+        "english": "Vayu",
+        "tamil": "வாயு",
+        "correct": false
+      },
+      {
+        "english": "Yama",
+        "tamil": "யமன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "questionEnglish": "Pandu tried to cohabit with at end?",
+    "questionTamil": "பாண்டு இறுதியில் யாருடன் இணைய முயன்றார்?",
+    "options": [
+      {
+        "english": "Madri",
+        "tamil": "மாத்ரி",
+        "correct": true
+      },
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": false
+      },
+      {
+        "english": "Gandhari",
+        "tamil": "காந்தாரி",
+        "correct": false
+      },
+      {
+        "english": "Draupadi",
+        "tamil": "திரௌபதி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "questionEnglish": "Which wife became Sati?",
+    "questionTamil": "எந்த மனைவி சati ஆனார்?",
+    "options": [
+      {
+        "english": "Madri",
+        "tamil": "மாத்ரி",
+        "correct": true
+      },
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": false
+      },
+      {
+        "english": "Gandhari",
+        "tamil": "காந்தாரி",
+        "correct": false
+      },
+      {
+        "english": "Ambika",
+        "tamil": "அம்பிகா",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "questionEnglish": "Duryodhana tried to poison which son?",
+    "questionTamil": "துரியோதனன் எந்த மகனை விஷம் கொடுத்துக் கொல்ல முயன்றான்?",
+    "options": [
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Nakula",
+        "tamil": "நகுலன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "questionEnglish": "What bit Bhima neutralizing poison?",
+    "questionTamil": "பீமனைக் கடித்து விஷத்தை நீக்கியது எது?",
+    "options": [
+      {
+        "english": "Serpents",
+        "tamil": "பாம்புகள்",
+        "correct": true
+      },
+      {
+        "english": "Scorpion",
+        "tamil": "விர/alan",
+        "correct": false
+      },
+      {
+        "english": "Spider",
+        "tamil": "சில/spider",
+        "correct": false
+      },
+      {
+        "english": "Rat",
+        "tamil": "எல/i",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "questionEnglish": "Who rushed to rescue Nagas from Bhima?",
+    "questionTamil": "பீமனிடமிருந்து நாகங்களைக் காப்பாற்ற வந்தவர் யார்?",
+    "options": [
+      {
+        "english": "Vasuki",
+        "tamil": "வாசுகி",
+        "correct": true
+      },
+      {
+        "english": "Takshaka",
+        "tamil": "தட்ஷகன்",
+        "correct": false
+      },
+      {
+        "english": "Shesha",
+        "tamil": "சesha",
+        "correct": false
+      },
+      {
+        "english": "Garuda",
+        "tamil": "கருடன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "questionEnglish": "Who taught Pandavas and Kauravas warfare?",
+    "questionTamil": "பாண்டவர்களுக்கும் கௌரavர்களுக்கும் போர் கலை கற்பித்தவர் யார்?",
+    "options": [
+      {
+        "english": "Dronacharya",
+        "tamil": "த்ரோணாசாரியர்",
+        "correct": true
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Kripacharya",
+        "tamil": "கிருபாசாரியர்",
+        "correct": false
+      },
+      {
+        "english": "Parashurama",
+        "tamil": "பரசுராமர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "questionEnglish": "Bharadwaja's son?",
+    "questionTamil": "பரத்வாஜரின் மகன் யார்?",
+    "options": [
+      {
+        "english": "Dronacharya",
+        "tamil": "த்ரோணாசாரியர்",
+        "correct": true
+      },
+      {
+        "english": "Ashwatthama",
+        "tamil": "அஷ்வத்தாமன்",
+        "correct": false
+      },
+      {
+        "english": "Kripacharya",
+        "tamil": "கிருபாசாரியர்",
+        "correct": false
+      },
+      {
+        "english": "Parashurama",
+        "tamil": "பரசுராமர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "questionEnglish": "Dronacharya's wife?",
+    "questionTamil": "த்ரோணாசாரியரின் மனைவி யார்?",
+    "options": [
+      {
+        "english": "Kripi",
+        "tamil": "கrpi",
+        "correct": true
+      },
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": false
+      },
+      {
+        "english": "Gandhari",
+        "tamil": "காந்தாரி",
+        "correct": false
+      },
+      {
+        "english": "Subhadra",
+        "tamil": "சுபத்ரா",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "questionEnglish": "Dronacharya learned warfare from?",
+    "questionTamil": "த்ரோணாசாரியர் போர் கலையை யாரிடம் கற்றுக் கொண்டார்?",
+    "options": [
+      {
+        "english": "Parasurama",
+        "tamil": "பரசுராமர்",
+        "correct": true
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Vishwamitra",
+        "tamil": "விஸ்வாமித்ரர்",
+        "correct": false
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "questionEnglish": "Dronacharya sought revenge on?",
+    "questionTamil": "த்ரோணாசாரியர் யாரிடம் பழி வாங்க விரும்பினார்?",
+    "options": [
+      {
+        "english": "Drupada",
+        "tamil": "துrupaada",
+        "correct": true
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "questionEnglish": "Dronacharya refused to teach archery to?",
+    "questionTamil": "த்ரோணாசாரியர் யாருக்கு வில்லாட்சி கற்பிக்க மறுத்தார்?",
+    "options": [
+      {
+        "english": "Ekalavya",
+        "tamil": "ஏkalavya",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      },
+      {
+        "english": "Ashwatthama",
+        "tamil": "அஷ்வத்தாமன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "questionEnglish": "Who sealed dog's mouth with arrows?",
+    "questionTamil": "நாயின் வாயை அம்புகளால் மூடியவர் யார்?",
+    "options": [
+      {
+        "english": "Ekalavya",
+        "tamil": "ஏkalavya",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "questionEnglish": "Ekalavya's gurudakshina?",
+    "questionTamil": "ஏkalavyaவின் கuru dakshina என்ன?",
+    "options": [
+      {
+        "english": "Thumb",
+        "tamil": "கட்டை விரல்",
+        "correct": true
+      },
+      {
+        "english": "Right hand",
+        "tamil": "வலது கை",
+        "correct": false
+      },
+      {
+        "english": "Bow",
+        "tamil": "வில்",
+        "correct": false
+      },
+      {
+        "english": "Kingdom",
+        "tamil": "அரசாட்சி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "questionEnglish": "Who challenged Arjuna at display?",
+    "questionTamil": "திறமை காட்சியில் அர்ஜுனனை சவalchallenge செய்தவர் யார்?",
+    "options": [
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      },
+      {
+        "english": "Ashwatthama",
+        "tamil": "அஷ்வத்தாமன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "questionEnglish": "Who made Karna king of Anga?",
+    "questionTamil": "கர்ணனை அங்க அரசனாக்கியவர் யார்?",
+    "options": [
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": true
+      },
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Shakuni",
+        "tamil": "சakuni",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "questionEnglish": "Drona's gurudakshina request?",
+    "questionTamil": "த்ரோணர் கuru dakshinaவாகக் கேட்டது என்ன?",
+    "options": [
+      {
+        "english": "King Drupada",
+        "tamil": "துrupaada அரசன்",
+        "correct": true
+      },
+      {
+        "english": "Half kingdom",
+        "tamil": "அரசாட்சியின் பாதி",
+        "correct": false
+      },
+      {
+        "english": "Golden chariot",
+        "tamil": "பொன் தேர்",
+        "correct": false
+      },
+      {
+        "english": "Divine bow",
+        "tamil": "தெய்வீக வில்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "questionEnglish": "Who captured Drupada for Drona?",
+    "questionTamil": "துrupaadaவைத் த்ரோணருக்காகப் பிடித்தவர் யார்?",
+    "options": [
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "questionEnglish": "Pandavas escaped lac palace via?",
+    "questionTamil": "பாண்டவர்கள் சுரங்க அரண்மனைஐ எவ்வாறு தப்பினர்?",
+    "options": [
+      {
+        "english": "Tunnel",
+        "tamil": "சுரங்கம்",
+        "correct": true
+      },
+      {
+        "english": "Flying chariot",
+        "tamil": "பறக்கும் தேர்",
+        "correct": false
+      },
+      {
+        "english": "River",
+        "tamil": "நதி",
+        "correct": false
+      },
+      {
+        "english": "Disguise",
+        "tamil": "வேsham",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "questionEnglish": "Demon who wanted to devour Pandavas?",
+    "questionTamil": "பாண்டவர்களைத் தவிழுங்க விரும்பிய அசுரன் யார்?",
+    "options": [
+      {
+        "english": "Demon Hidimban",
+        "tamil": "அசுரன் ஹிடimban",
+        "correct": true
+      },
+      {
+        "english": "Bakasura",
+        "tamil": "பakasura",
+        "correct": false
+      },
+      {
+        "english": "Kamsa",
+        "tamil": "கம்சன்",
+        "correct": false
+      },
+      {
+        "english": "Jarasandha",
+        "tamil": "ஜராசந்தன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "questionEnglish": "Who killed Hidimban?",
+    "questionTamil": "ஹிடimbanஐக் கொன்றவர் யார்?",
+    "options": [
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "questionEnglish": "Hidimban's sister?",
+    "questionTamil": "ஹிடிம்பனின் சகோதரி யார்?",
+    "options": [
+      {
+        "english": "Hidimbi",
+        "tamil": "ஹிடிம்பி",
+        "correct": true
+      },
+      {
+        "english": "Hidimban",
+        "tamil": "ஹிடிம்பன்",
+        "correct": false
+      },
+      {
+        "english": "Draupadi",
+        "tamil": "திரௌபதி",
+        "correct": false
+      },
+      {
+        "english": "Subhadra",
+        "tamil": "சுபத்ரா",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "questionEnglish": "Who married Hidimbi?",
+    "questionTamil": "ஹிடிம்பியை மணந்தவர் யார்?",
+    "options": [
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "questionEnglish": "Son of Bhima and Hidimbi?",
+    "questionTamil": "பீமனும் ஹிடிம்பியும் பெற்ற மகன் யார்?",
+    "options": [
+      {
+        "english": "Ghatotkacha",
+        "tamil": "கhatotkacha",
+        "correct": true
+      },
+      {
+        "english": "Abhimanyu",
+        "tamil": "அபிமன்யு",
+        "correct": false
+      },
+      {
+        "english": "Babruvahana",
+        "tamil": "பப்ருவாஹனன்",
+        "correct": false
+      },
+      {
+        "english": "Iravan",
+        "tamil": "இiravan",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "questionEnglish": "Who emerged from Drupada's yajna fire?",
+    "questionTamil": "துருபதரின் யாக நெருப்பிலிருந்து வெளிவந்தவர்கள் யார்?",
+    "options": [
+      {
+        "english": "Dhrishtadyumna - Draupadi",
+        "tamil": "தhrishtadyumna - திரௌபதி",
+        "correct": true
+      },
+      {
+        "english": "Arjuna - Subhadra",
+        "tamil": "அர்ஜுனன் - சுபத்ரா",
+        "correct": false
+      },
+      {
+        "english": "Bhima - Hidimbi",
+        "tamil": "பீமன் - ஹிடிம்பி",
+        "correct": false
+      },
+      {
+        "english": "Karna - Vrishasena",
+        "tamil": "கர்ணன் - வrishasena",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "questionEnglish": "Vishwamitra wanted Vashishtha's?",
+    "questionTamil": "விஸ்வாமித்ரர் வசிஷ்டரின் எதை விரும்பினார்?",
+    "options": [
+      {
+        "english": "Kamadhenu cow",
+        "tamil": "காமadhenu பசு",
+        "correct": true
+      },
+      {
+        "english": "Divine bow",
+        "tamil": "தெய்வீக வில்",
+        "correct": false
+      },
+      {
+        "english": "Golden chariot",
+        "tamil": "பொன் தேர்",
+        "correct": false
+      },
+      {
+        "english": "Sacred fire",
+        "tamil": "புனித அக்னி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "questionEnglish": "Pandavas' royal priest?",
+    "questionTamil": "பாண்டவர்களின் அரச குரு யார்?",
+    "options": [
+      {
+        "english": "Sage Dhaumya",
+        "tamil": "தௌமிய முனிவர்",
+        "correct": true
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Durvasa",
+        "tamil": "துர்வாசர்",
+        "correct": false
+      },
+      {
+        "english": "Narada",
+        "tamil": "நாரதர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "questionEnglish": "Who won Draupadi swayamvara?",
+    "questionTamil": "திரௌபதி சுயamvaraவில் வெற்றி பெற்றவர் யார்?",
+    "options": [
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": true
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "questionEnglish": "Pandavas' capital when given half kingdom?",
+    "questionTamil": "அரை அரசாட்சி கொடுக்கப்பட்டபோது பாண்டவர்களின் தலைநகரம் எது?",
+    "options": [
+      {
+        "english": "Indraprastha",
+        "tamil": "இந்திரபிரஸ்தம்",
+        "correct": true
+      },
+      {
+        "english": "Hastinapura",
+        "tamil": "ஹஸ்தினாபுரம்",
+        "correct": false
+      },
+      {
+        "english": "Dwarka",
+        "tamil": "துவாரகா",
+        "correct": false
+      },
+      {
+        "english": "Panchala",
+        "tamil": "பஞ்சாலம்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "questionEnglish": "Present name of Indraprastha?",
+    "questionTamil": "இந்திரபிரஸ்தத்தின் தற்போதைய பெயர் என்ன?",
+    "options": [
+      {
+        "english": "Delhi",
+        "tamil": "டெல்லி",
+        "correct": true
+      },
+      {
+        "english": "Mumbai",
+        "tamil": "மumbai",
+        "correct": false
+      },
+      {
+        "english": "Kolkata",
+        "tamil": "கolkata",
+        "correct": false
+      },
+      {
+        "english": "Chennai",
+        "tamil": "சennai",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "questionEnglish": "Forced into Yudhishthira-Draupadi room?",
+    "questionTamil": "யுதிஷ்டிரர்-திரௌபதி அறைக்குள் யார் வந்துவிட்டார்?",
+    "options": [
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Nakula",
+        "tamil": "நகுலன்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "questionEnglish": "Arjuna's exile years for intrusion?",
+    "questionTamil": "அறைக்குள் நுழைந்ததற்காக அர்ஜுனனின் வனவாசம் எத்தனை ஆண்டுகள்?",
+    "options": [
+      {
+        "english": "12",
+        "tamil": "12",
+        "correct": true
+      },
+      {
+        "english": "1",
+        "tamil": "1",
+        "correct": false
+      },
+      {
+        "english": "5",
+        "tamil": "5",
+        "correct": false
+      },
+      {
+        "english": "13",
+        "tamil": "13",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "questionEnglish": "Krishna's sister Arjuna married?",
+    "questionTamil": "கிருஷ்ணரின் சகோதரியை அர்ஜுனன் மணந்தார் - அவர் யார்?",
+    "options": [
+      {
+        "english": "Subhadra",
+        "tamil": "சுபத்ரா",
+        "correct": true
+      },
+      {
+        "english": "Draupadi",
+        "tamil": "திரௌபதி",
+        "correct": false
+      },
+      {
+        "english": "Uttara",
+        "tamil": "உத்தரா",
+        "correct": false
+      },
+      {
+        "english": "Chitrangada",
+        "tamil": "சித்ரங்கதை",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "questionEnglish": "Son of Arjuna and Subhadra?",
+    "questionTamil": "அர்ஜுனனும் சுபத்ராவும் பெற்ற மகன் யார்?",
+    "options": [
+      {
+        "english": "Abhimanyu",
+        "tamil": "அபிமன்யு",
+        "correct": true
+      },
+      {
+        "english": "Parikshit",
+        "tamil": "பரீக்ஷித்",
+        "correct": false
+      },
+      {
+        "english": "Iravan",
+        "tamil": "இiravan",
+        "correct": false
+      },
+      {
+        "english": "Babruvahana",
+        "tamil": "பப்ருவாஹனன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "questionEnglish": "Mahabharata war days?",
+    "questionTamil": "மகாபாரதப் போர் எத்தனை நாட்கள் நடந்தது?",
+    "options": [
+      {
+        "english": "18",
+        "tamil": "18",
+        "correct": true
+      },
+      {
+        "english": "12",
+        "tamil": "12",
+        "correct": false
+      },
+      {
+        "english": "21",
+        "tamil": "21",
+        "correct": false
+      },
+      {
+        "english": "16",
+        "tamil": "16",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "questionEnglish": "Khandava inhabitant protected by Indra?",
+    "questionTamil": "கhandavaவில் இந்திரனால் காக்கப்பட்டவர் யார்?",
+    "options": [
+      {
+        "english": "Takshaka serpent",
+        "tamil": "தட்ஷக பாம்பு",
+        "correct": true
+      },
+      {
+        "english": "Vasuki",
+        "tamil": "வாசுகி",
+        "correct": false
+      },
+      {
+        "english": "Shesha",
+        "tamil": "சesha",
+        "correct": false
+      },
+      {
+        "english": "Garuda",
+        "tamil": "கருடன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "questionEnglish": "Who gifted Sudarshana Chakra to Krishna?",
+    "questionTamil": "கிருஷ்ணருக்கு சudarshana சakraவை வழங்கியவர் யார்?",
+    "options": [
+      {
+        "english": "Agni Deva",
+        "tamil": "அக்னி தேவர்",
+        "correct": true
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      },
+      {
+        "english": "Shiva",
+        "tamil": "சிவன்",
+        "correct": false
+      },
+      {
+        "english": "Varuna",
+        "tamil": "வருணன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "questionEnglish": "Bow Varuna gifted Arjuna?",
+    "questionTamil": "வருணன் அர்ஜுனனுக்கு வழங்கிய வில் எது?",
+    "options": [
+      {
+        "english": "Gandiva",
+        "tamil": "கandiva",
+        "correct": true
+      },
+      {
+        "english": "Pinaka",
+        "tamil": "பinaka",
+        "correct": false
+      },
+      {
+        "english": "Sharanga",
+        "tamil": "சaranga",
+        "correct": false
+      },
+      {
+        "english": "Vijaya",
+        "tamil": "வijay",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "questionEnglish": "Who killed Jarasandha?",
+    "questionTamil": "ஜராசந்தனைக் கொன்றவர் யார்?",
+    "options": [
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "questionEnglish": "Jarasandha's son made Magadha king?",
+    "questionTamil": "ஜராசந்தனின் மகனை மagadha அரசனாக்கியவர் யார்?",
+    "options": [
+      {
+        "english": "Sahadeva",
+        "tamil": "சஹதேவன்",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Nakula",
+        "tamil": "நகுலன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "questionEnglish": "Presiding priest of Rajasuya yajna?",
+    "questionTamil": "ராஜasuya யாகத்தின் தலைமை குரு யார்?",
+    "options": [
+      {
+        "english": "Vyasa Muni",
+        "tamil": "வியாச முனிவர்",
+        "correct": true
+      },
+      {
+        "english": "Dhaumya",
+        "tamil": "தௌமியர்",
+        "correct": false
+      },
+      {
+        "english": "Durvasa",
+        "tamil": "துர்வாசர்",
+        "correct": false
+      },
+      {
+        "english": "Narada",
+        "tamil": "நாரதர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "questionEnglish": "Whom sages wished to worship first?",
+    "questionTamil": "முனிவர்கள் முதலில் வணங்க விரும்பியவர் யார்?",
+    "options": [
+      {
+        "english": "Lord Krishna",
+        "tamil": "கிருஷ்ண பகவான்",
+        "correct": true
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "questionEnglish": "Who abused Krishna when chosen first?",
+    "questionTamil": "முதலில் தேர்ந்தெடுக்கப்பட்டதால் கிருஷ்ணரை நிந்தித்தவர் யார்?",
+    "options": [
+      {
+        "english": "Shishupala",
+        "tamil": "சிசுபாலன்",
+        "correct": true
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      },
+      {
+        "english": "Shakuni",
+        "tamil": "சakuni",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "questionEnglish": "Shishupala's eyes and hands at birth?",
+    "questionTamil": "சிசுபாலன் பிறந்தபோது எத்தனை கண்கள் மற்றும் கைகள்?",
+    "options": [
+      {
+        "english": "3 eyes–4 hands",
+        "tamil": "3 கண்கள் - 4 கைகள்",
+        "correct": true
+      },
+      {
+        "english": "2 eyes–2 hands",
+        "tamil": "2 கண்கள் - 2 கைகள்",
+        "correct": false
+      },
+      {
+        "english": "4 eyes–4 hands",
+        "tamil": "4 கண்கள் - 4 கைகள்",
+        "correct": false
+      },
+      {
+        "english": "1 eye–2 hands",
+        "tamil": "1 கண் - 2 கைகள்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "questionEnglish": "Parva containing Bhagavad Gita?",
+    "questionTamil": "பagavad gita உள்ள பarva எது?",
+    "options": [
+      {
+        "english": "Bhishma Parva",
+        "tamil": "பீஷ்ம பarva",
+        "correct": true
+      },
+      {
+        "english": "Drona Parva",
+        "tamil": "த்ரோண பarva",
+        "correct": false
+      },
+      {
+        "english": "Karna Parva",
+        "tamil": "கர்ண பarva",
+        "correct": false
+      },
+      {
+        "english": "Shalya Parva",
+        "tamil": "சalya பarva",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "questionEnglish": "In whose lap Shishupala's extra parts disappeared?",
+    "questionTamil": "சிசுபாலனின் கூடுதல் உறுப்புகள் யாரின் மடியில் மறைந்தன?",
+    "options": [
+      {
+        "english": "Lord Krishna",
+        "tamil": "கிருஷ்ண பகவான்",
+        "correct": true
+      },
+      {
+        "english": "Balarama",
+        "tamil": "பலராமன்",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Satyabhama",
+        "tamil": "சatyabhama",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "questionEnglish": "Who spoke Vishnu Sahasranama to Yudhishthira?",
+    "questionTamil": "யுதிஷ்டிரருக்கு விஷ்ணு சhasranamaவை உரைத்தவர் யார்?",
+    "options": [
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": true
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      },
+      {
+        "english": "Narada",
+        "tamil": "நாரதர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "questionEnglish": "Times Krishna forgave Shishupala before killing?",
+    "questionTamil": "கொல்வதற்கு முன் கிருஷ்ணர் சிசுபாலனை எத்தனை முறை மன்னித்தார்?",
+    "options": [
+      {
+        "english": "100",
+        "tamil": "100",
+        "correct": true
+      },
+      {
+        "english": "50",
+        "tamil": "50",
+        "correct": false
+      },
+      {
+        "english": "21",
+        "tamil": "21",
+        "correct": false
+      },
+      {
+        "english": "10",
+        "tamil": "10",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "questionEnglish": "Yudhishthira's title after Rajasuya?",
+    "questionTamil": "ராஜasuyaவுக்குப் பிறகு யுதிஷ்டிரரின் பட்டம் என்ன?",
+    "options": [
+      {
+        "english": "Emperor",
+        "tamil": "சakravarthi",
+        "correct": true
+      },
+      {
+        "english": "King",
+        "tamil": "அரasan",
+        "correct": false
+      },
+      {
+        "english": "Prince",
+        "tamil": "இளவரasan",
+        "correct": false
+      },
+      {
+        "english": "Minister",
+        "tamil": "மந்தiri",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "questionEnglish": "Whom they laughed at illusion trick?",
+    "questionTamil": "மாயைத் தந்திரத்தால் யாரைப் பார்த்து சிரித்தார்கள்?",
+    "options": [
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": true
+      },
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Shakuni",
+        "tamil": "சakuni",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "questionEnglish": "Who advised dice game?",
+    "questionTamil": "சூழை விளையாட்டை ஆலோசித்தவர் யார்?",
+    "options": [
+      {
+        "english": "Shakuni",
+        "tamil": "சakuni",
+        "correct": true
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      },
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "questionEnglish": "Dhritarashtra sent to invite Pandavas?",
+    "questionTamil": "பாண்டவர்களை அழைக்க திருதராஷ்டிரர் யாரை அனுப்பினார்?",
+    "options": [
+      {
+        "english": "Vidura",
+        "tamil": "விதுரன்",
+        "correct": true
+      },
+      {
+        "english": "Sanjaya",
+        "tamil": "சanjaya",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Drona",
+        "tamil": "த்ரோணர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "questionEnglish": "Brother Yudhishthira staked after wealth?",
+    "questionTamil": "செல்வத்தை இழந்த பிறகு யுதிஷ்டிரர் யாரைப் பணயம் வைத்தார்?",
+    "options": [
+      {
+        "english": "Nakula",
+        "tamil": "நகுலன்",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Sahadeva",
+        "tamil": "சஹதேவன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "questionEnglish": "Yudhishthira staked after losing himself?",
+    "questionTamil": "தன்னையே இழந்த பிறகு யுதிஷ்டிரர் யாரைப் பணயம் வைத்தார்?",
+    "options": [
+      {
+        "english": "Draupadi",
+        "tamil": "திரௌபதி",
+        "correct": true
+      },
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": false
+      },
+      {
+        "english": "Subhadra",
+        "tamil": "சுபத்ரா",
+        "correct": false
+      },
+      {
+        "english": "Gandhari",
+        "tamil": "காந்தாரி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "questionEnglish": "Who ordered Draupadi brought to court?",
+    "questionTamil": "திரௌபதியை நீதிமன்றத்திற்கு கொண்டு வருமாறு உத்தரவிட்டவர் யார்?",
+    "options": [
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": true
+      },
+      {
+        "english": "Dushasana",
+        "tamil": "துஷasanan",
+        "correct": false
+      },
+      {
+        "english": "Shakuni",
+        "tamil": "சakuni",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "questionEnglish": "Who dragged Draupadi by hair?",
+    "questionTamil": "திரௌபதியை முடியைப் பிடித்து இழுத்தவர் யார்?",
+    "options": [
+      {
+        "english": "Dushasana",
+        "tamil": "துஷasanan",
+        "correct": true
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      },
+      {
+        "english": "Shakuni",
+        "tamil": "சakuni",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "questionEnglish": "Dhritarashtra's son who protested?",
+    "questionTamil": "திருதராஷ்டிரரின் மகன்களில் எதிர்த்துக் குரல் கொடுத்தவர் யார்?",
+    "options": [
+      {
+        "english": "Vikarna",
+        "tamil": "விகarna",
+        "correct": true
+      },
+      {
+        "english": "Dushasana",
+        "tamil": "துஷasanan",
+        "correct": false
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      },
+      {
+        "english": "Vishalaksha",
+        "tamil": "வisalaksha",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "questionEnglish": "Who tried to strip Draupadi?",
+    "questionTamil": "திரௌபதியின் ஆடையைக் கழற்ற முயன்றவர் யார்?",
+    "options": [
+      {
+        "english": "Dushasana",
+        "tamil": "துஷasanan",
+        "correct": true
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      },
+      {
+        "english": "Shakuni",
+        "tamil": "சakuni",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "questionEnglish": "Who rescued Draupadi?",
+    "questionTamil": "திரௌபதியைக் காப்பாற்றியவர் யார்?",
+    "options": [
+      {
+        "english": "Lord Krishna",
+        "tamil": "கிருஷ்ண பகவான்",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Vidura",
+        "tamil": "விதுரன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "questionEnglish": "Who pledged to shatter Duryodhana's thigh?",
+    "questionTamil": "துரியோதனனின் thighஐ உடைப்பதாக உறுதி மேற்கொண்டவர் யார்?",
+    "options": [
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      },
+      {
+        "english": "Sahadeva",
+        "tamil": "சஹதேவன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "questionEnglish": "Exile years after dice loss?",
+    "questionTamil": "சூழை தோல்விக்குப் பிறகு வனவாசம் எத்தனை ஆண்டுகள்?",
+    "options": [
+      {
+        "english": "13",
+        "tamil": "13",
+        "correct": true
+      },
+      {
+        "english": "12",
+        "tamil": "12",
+        "correct": false
+      },
+      {
+        "english": "14",
+        "tamil": "14",
+        "correct": false
+      },
+      {
+        "english": "10",
+        "tamil": "10",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "questionEnglish": "Incognito year of exile?",
+    "questionTamil": "வனவாசத்தில் அங்க அறியாமல் இருக்க வேண்டிய ஆண்டு எது?",
+    "options": [
+      {
+        "english": "13th",
+        "tamil": "13வது",
+        "correct": true
+      },
+      {
+        "english": "12th",
+        "tamil": "12வது",
+        "correct": false
+      },
+      {
+        "english": "1st",
+        "tamil": "1வது",
+        "correct": false
+      },
+      {
+        "english": "10th",
+        "tamil": "10வது",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "questionEnglish": "Whom Pandavas didn't take to forest?",
+    "questionTamil": "பாண்டவர்கள் காட்டுக்கு யாரை அழைத்துச் செல்லவில்லை?",
+    "options": [
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": true
+      },
+      {
+        "english": "Draupadi",
+        "tamil": "திரௌபதி",
+        "correct": false
+      },
+      {
+        "english": "Subhadra",
+        "tamil": "சுபத்ரா",
+        "correct": false
+      },
+      {
+        "english": "Madri",
+        "tamil": "மாத்ரி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "questionEnglish": "Where Kunti lived after exile?",
+    "questionTamil": "வனவாசத்திற்குப் பிறகு குந்தி எங்கு வசித்தார்?",
+    "options": [
+      {
+        "english": "At Vidura's house",
+        "tamil": "விதுரனின் வீட்டில்",
+        "correct": true
+      },
+      {
+        "english": "At Bhishma's house",
+        "tamil": "பீஷ்மரின் வீட்டில்",
+        "correct": false
+      },
+      {
+        "english": "At Drona's house",
+        "tamil": "த்ரோணரின் வீட்டில்",
+        "correct": false
+      },
+      {
+        "english": "In forest",
+        "tamil": "காட்டில்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "questionEnglish": "Sage who asked Surya worship?",
+    "questionTamil": "சூரிய வழிபாடு செய்யுமாறு கூறிய முனிவர் யார்?",
+    "options": [
+      {
+        "english": "Sage Dhaumya",
+        "tamil": "தௌமிய முனிவர்",
+        "correct": true
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Narada",
+        "tamil": "நாரதர்",
+        "correct": false
+      },
+      {
+        "english": "Durvasa",
+        "tamil": "துர்வாசர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "questionEnglish": "Sun god's gift to Yudhishthira?",
+    "questionTamil": "சூரிய தேவன் யுதிஷ்டிரருக்கு அளித்த பரிசு என்ன?",
+    "options": [
+      {
+        "english": "Akshayapatra",
+        "tamil": "அkshayapatra",
+        "correct": true
+      },
+      {
+        "english": "Divine bow",
+        "tamil": "தெய்வீக வில்",
+        "correct": false
+      },
+      {
+        "english": "Golden chariot",
+        "tamil": "பொன் தேர்",
+        "correct": false
+      },
+      {
+        "english": "Crown",
+        "tamil": "முcrown",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "questionEnglish": "First forest during exile?",
+    "questionTamil": "வனவாசத்தில் முதலில் சென்ற காடு எது?",
+    "options": [
+      {
+        "english": "Kamyaka Forest",
+        "tamil": "கamyaka காடு",
+        "correct": true
+      },
+      {
+        "english": "Dwaitavana",
+        "tamil": "தwaitavana",
+        "correct": false
+      },
+      {
+        "english": "Varnavata",
+        "tamil": "வarnavata",
+        "correct": false
+      },
+      {
+        "english": "Khandava",
+        "tamil": "கhandava",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "questionEnglish": "Who ordered Vidura out of Hastinapura?",
+    "questionTamil": "விதுரனை ஹஸ்தினாபுரத்திலிருந்து வெளியேறுமாறு உத்தரவிட்டவர் யார்?",
+    "options": [
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": true
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துரியோதனன்",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Shakuni",
+        "tamil": "சakuni",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "questionEnglish": "Vidura lived in forest with?",
+    "questionTamil": "விதுரன் காட்டில் யாருடன் வசித்தார்?",
+    "options": [
+      {
+        "english": "Pandavas",
+        "tamil": "பாண்டவர்கள்",
+        "correct": true
+      },
+      {
+        "english": "Kauravas",
+        "tamil": "கௌரவர்கள்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      },
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "questionEnglish": "Who brought Vidura back?",
+    "questionTamil": "விதுரனை மீண்டும் அழைத்து வந்தவர் யார்?",
+    "options": [
+      {
+        "english": "Sanjaya",
+        "tamil": "சanjaya",
+        "correct": true
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "questionEnglish": "Who took Abhimanyu and Subhadra to Dwaraka?",
+    "questionTamil": "அபிமன்யuvum சுபத்ராvum துவாரகாவுக்கு அழைத்துச் சென்றவர் யார்?",
+    "options": [
+      {
+        "english": "Lord Krishna",
+        "tamil": "கிருஷ்ண பகவான்",
+        "correct": true
+      },
+      {
+        "english": "Balarama",
+        "tamil": "பலராமன்",
+        "correct": false
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Vasudeva",
+        "tamil": "வasudeva",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "questionEnglish": "Pandava who penanced in Himalayas for Shiva?",
+    "questionTamil": "சிவனுக்காக இமயமலையில் தவம் செய்த பாண்டவர் யார்?",
+    "options": [
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Nakula",
+        "tamil": "நகுலன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "questionEnglish": "Demon as wild boar against Arjuna?",
+    "questionTamil": "அர்ஜுனனுக்கு எதிராக காட்டுப்பன்றியாக வந்த அசுரன் யார்?",
+    "options": [
+      {
+        "english": "Muka",
+        "tamil": "மuka",
+        "correct": true
+      },
+      {
+        "english": "Hidimban",
+        "tamil": "ஹிடிம்பன்",
+        "correct": false
+      },
+      {
+        "english": "Bakasura",
+        "tamil": "பakasura",
+        "correct": false
+      },
+      {
+        "english": "Kamsa",
+        "tamil": "கம்சன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "questionEnglish": "Shiva's form testing Arjuna?",
+    "questionTamil": "அர்ஜுனனைச் சோதிக்க சிவன் எந்த உருவில் வந்தார்?",
+    "options": [
+      {
+        "english": "Tribal hunter",
+        "tamil": "ஆதி வேடர்",
+        "correct": true
+      },
+      {
+        "english": "Sage",
+        "tamil": "முனிவர்",
+        "correct": false
+      },
+      {
+        "english": "King",
+        "tamil": "அரasan",
+        "correct": false
+      },
+      {
+        "english": "Brahmin",
+        "tamil": "பrahmin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "questionEnglish": "Divine weapon Shiva gave Arjuna?",
+    "questionTamil": "சிவன் அர்ஜுனனுக்கு அளித்த தெய்வீக ஆயுதம் எது?",
+    "options": [
+      {
+        "english": "Pashupatastra",
+        "tamil": "பashupatastra",
+        "correct": true
+      },
+      {
+        "english": "Brahmastra",
+        "tamil": "பrahmaastra",
+        "correct": false
+      },
+      {
+        "english": "Narayanastra",
+        "tamil": "நarayanastra",
+        "correct": false
+      },
+      {
+        "english": "Agneyastra",
+        "tamil": "அgneyastra",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "questionEnglish": "Whose chariot to heaven?",
+    "questionTamil": "அர்ஜுனனை சுவargalக்கு அழைத்துச் சென்ற தேர் யாருடையது?",
+    "options": [
+      {
+        "english": "Indra Deva",
+        "tamil": "இந்திர தேவர்",
+        "correct": true
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      },
+      {
+        "english": "Shiva",
+        "tamil": "சிவன்",
+        "correct": false
+      },
+      {
+        "english": "Yama",
+        "tamil": "யமன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "questionEnglish": "Scripture Krishna spoke to Arjuna?",
+    "questionTamil": "கிருஷ்ணர் அர்ஜுனனுக்கு உரைத்த பகavad gita எது?",
+    "options": [
+      {
+        "english": "Bhagavad Gita",
+        "tamil": "பagavad gita",
+        "correct": true
+      },
+      {
+        "english": "Ramayana",
+        "tamil": "ரamayana",
+        "correct": false
+      },
+      {
+        "english": "Vedas",
+        "tamil": "வedas",
+        "correct": false
+      },
+      {
+        "english": "Upanishads",
+        "tamil": "உpanishads",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "questionEnglish": "Gandharva who taught Arjuna dance?",
+    "questionTamil": "அர்ஜுனனுக்கு நடனம் கற்பித்த கandharva யார்?",
+    "options": [
+      {
+        "english": "Chitrasena",
+        "tamil": "சitrasena",
+        "correct": true
+      },
+      {
+        "english": "Tumburu",
+        "tamil": "தumburu",
+        "correct": false
+      },
+      {
+        "english": "Narada",
+        "tamil": "நாரதர்",
+        "correct": false
+      },
+      {
+        "english": "Urvashi",
+        "tamil": "ஊrvasi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "questionEnglish": "Nymph who loved Arjuna?",
+    "questionTamil": "அர்ஜுனனைக் காதலித்த அபsara யார்?",
+    "options": [
+      {
+        "english": "Urvashi",
+        "tamil": "ஊrvasi",
+        "correct": true
+      },
+      {
+        "english": "Draupadi",
+        "tamil": "திரௌபதி",
+        "correct": false
+      },
+      {
+        "english": "Subhadra",
+        "tamil": "சுபத்ரா",
+        "correct": false
+      },
+      {
+        "english": "Satyabhama",
+        "tamil": "சatyabhama",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "questionEnglish": "Who cursed Arjuna to become eunuch?",
+    "questionTamil": "அர்ஜுனனை eunuch ஆகும்படி சapித்தவர் யார்?",
+    "options": [
+      {
+        "english": "Urvashi",
+        "tamil": "ஊrvasi",
+        "correct": true
+      },
+      {
+        "english": "Gandhari",
+        "tamil": "காந்தாரி",
+        "correct": false
+      },
+      {
+        "english": "Draupadi",
+        "tamil": "திரௌபதி",
+        "correct": false
+      },
+      {
+        "english": "Amba",
+        "tamil": "அம்பா",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "questionEnglish": "Indra limited Urvashi curse to years?",
+    "questionTamil": "ஊrvasiவின் சapத்தை இந்திரன் எத்தனை ஆண்டுகளுக்கு குறைத்தார்?",
+    "options": [
+      {
+        "english": "1",
+        "tamil": "1",
+        "correct": true
+      },
+      {
+        "english": "12",
+        "tamil": "12",
+        "correct": false
+      },
+      {
+        "english": "5",
+        "tamil": "5",
+        "correct": false
+      },
+      {
+        "english": "13",
+        "tamil": "13",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "questionEnglish": "Who fought Parashurama undefeated?",
+    "questionTamil": "பarசுராமர்வுடன் தோற்காமல் போர் செய்தவர் யார்?",
+    "options": [
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Drona",
+        "tamil": "த்ரோணர்",
+        "correct": false
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "questionEnglish": "River Parasurama bathed in?",
+    "questionTamil": "பarசுராமர் குளித்த நதி எது?",
+    "options": [
+      {
+        "english": "Lohit",
+        "tamil": "லohit",
+        "correct": true
+      },
+      {
+        "english": "Ganga",
+        "tamil": "கங்கா",
+        "correct": false
+      },
+      {
+        "english": "Yamuna",
+        "tamil": "யமுனை",
+        "correct": false
+      },
+      {
+        "english": "Saraswati",
+        "tamil": "சaraswati",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "questionEnglish": "Sagara's wife with 60000 sons?",
+    "questionTamil": "60000 மகன்களைப் பெற்ற சagaraவின் மனைவி யார்?",
+    "options": [
+      {
+        "english": "Sumathi",
+        "tamil": "சumathi",
+        "correct": true
+      },
+      {
+        "english": "Kesini",
+        "tamil": "கesini",
+        "correct": false
+      },
+      {
+        "english": "Vinata",
+        "tamil": "வினதா",
+        "correct": false
+      },
+      {
+        "english": "Madri",
+        "tamil": "மாத்ரி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "questionEnglish": "At whose request Arjuna brought Ganga water?",
+    "questionTamil": "யாருடைய வேண்டுகோளின்படி அர்ஜுனன் கங்கை நீரைக் கொண்டு வந்தார்?",
+    "options": [
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": true
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "questionEnglish": "Who stole Sagara's yajna horse?",
+    "questionTamil": "சagaraவின் யாகக் குதிரையைத் திருடியவர் யார்?",
+    "options": [
+      {
+        "english": "Indra Deva",
+        "tamil": "இந்திர தேவர்",
+        "correct": true
+      },
+      {
+        "english": "Varuna",
+        "tamil": "வருணன்",
+        "correct": false
+      },
+      {
+        "english": "Agni",
+        "tamil": "அக்னி",
+        "correct": false
+      },
+      {
+        "english": "Vayu",
+        "tamil": "வாயு",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "questionEnglish": "Who reduced Sagara's sons to ashes?",
+    "questionTamil": "சagaraவின் மகன்களை சாமbarஆக்கியவர் யார்?",
+    "options": [
+      {
+        "english": "Sage Kapila",
+        "tamil": "கapila முனிவர்",
+        "correct": true
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Durvasa",
+        "tamil": "துர்வாசர்",
+        "correct": false
+      },
+      {
+        "english": "Narada",
+        "tamil": "நாரதர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "questionEnglish": "Sagara sent to Kapila?",
+    "questionTamil": "கapilaவிடம் சagara அனுப்பியவர் யார்?",
+    "options": [
+      {
+        "english": "Anshuman",
+        "tamil": "அnshuman",
+        "correct": true
+      },
+      {
+        "english": "Bhagiratha",
+        "tamil": "பagiratha",
+        "correct": false
+      },
+      {
+        "english": "Amshuman",
+        "tamil": "அmshuman",
+        "correct": false
+      },
+      {
+        "english": "Asamanjas",
+        "tamil": "அsamanjas",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "questionEnglish": "River to revive Sagara's sons?",
+    "questionTamil": "சagaraவின் மகன்களை உயிர்ப்பிக்க வந்த நதி எது?",
+    "options": [
+      {
+        "english": "River Ganga",
+        "tamil": "கங்கai நதி",
+        "correct": true
+      },
+      {
+        "english": "Yamuna",
+        "tamil": "யமுனai",
+        "correct": false
+      },
+      {
+        "english": "Saraswati",
+        "tamil": "சaraswati",
+        "correct": false
+      },
+      {
+        "english": "Godavari",
+        "tamil": "கodavari",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "questionEnglish": "Who reduced Ganga's flow impact?",
+    "questionTamil": "கங்கaiயின் வேகத்தைக் குறைத்தவர் யார்?",
+    "options": [
+      {
+        "english": "Lord Shiva",
+        "tamil": "சிவ பெருமான்",
+        "correct": true
+      },
+      {
+        "english": "Vishnu",
+        "tamil": "விஷ்ணு",
+        "correct": false
+      },
+      {
+        "english": "Brahma",
+        "tamil": "பிரம்மா",
+        "correct": false
+      },
+      {
+        "english": "Bhagiratha",
+        "tamil": "பagiratha",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "questionEnglish": "Jamadagni married?",
+    "questionTamil": "ஜamadagni யாரை மணந்தார்?",
+    "options": [
+      {
+        "english": "Renuka",
+        "tamil": "ரenuka",
+        "correct": true
+      },
+      {
+        "english": "Satyavati",
+        "tamil": "சத்யavati",
+        "correct": false
+      },
+      {
+        "english": "Ganga",
+        "tamil": "கங்கா",
+        "correct": false
+      },
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "questionEnglish": "Renuka gave birth to which Vishnu incarnation?",
+    "questionTamil": "ரenuka எந்த விஷ்ணu avataraவைப் பெற்றார்?",
+    "options": [
+      {
+        "english": "Parasurama",
+        "tamil": "பarசுராமர்",
+        "correct": true
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      },
+      {
+        "english": "Rama",
+        "tamil": "ரama",
+        "correct": false
+      },
+      {
+        "english": "Narasimha",
+        "tamil": "நarashimha",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "questionEnglish": "Who beheaded mother Renuka?",
+    "questionTamil": "தாய் ரenukaவின் தலையை வெட்டியவர் யார்?",
+    "options": [
+      {
+        "english": "Parasurama",
+        "tamil": "பarசுராமர்",
+        "correct": true
+      },
+      {
+        "english": "Jamadagni",
+        "tamil": "ஜamadagni",
+        "correct": false
+      },
+      {
+        "english": "Kartavirya",
+        "tamil": "கartavirya",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "questionEnglish": "Thousand-handed king Parasurama killed?",
+    "questionTamil": "ஆயiram கைகள் கொண்ட அரasanைப் பarசுராமர் கொன்றார் - அவர் யார்?",
+    "options": [
+      {
+        "english": "Kartavirya Arjuna / Sahasrabahu Arjuna",
+        "tamil": "கartavirya arjuna / சahasrabahu arjuna",
+        "correct": true
+      },
+      {
+        "english": "Jarasandha",
+        "tamil": "ஜarashandha",
+        "correct": false
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துruryodhana",
+        "correct": false
+      },
+      {
+        "english": "Kamsa",
+        "tamil": "கamsa",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "questionEnglish": "Times Parasurama rid earth of warriors?",
+    "questionTamil": "பarசுராமர் பூமியிலிருந்து வீரர்களை எத்தனை முறை நீக்கினார்?",
+    "options": [
+      {
+        "english": "21",
+        "tamil": "21",
+        "correct": true
+      },
+      {
+        "english": "18",
+        "tamil": "18",
+        "correct": false
+      },
+      {
+        "english": "12",
+        "tamil": "12",
+        "correct": false
+      },
+      {
+        "english": "100",
+        "tamil": "100",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "questionEnglish": "Who cooled Parasurama's anger?",
+    "questionTamil": "பarசுராமர்வின் கோபத்தைத் தணித்தவர் யார்?",
+    "options": [
+      {
+        "english": "Lord Dattatreya",
+        "tamil": "தattatreya பகவான்",
+        "correct": true
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Narada",
+        "tamil": "நாரதர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "questionEnglish": "Who narrated Mahabharata to Janamejaya?",
+    "questionTamil": "ஜanamejayaவுக்கு மகாபாரதத்தை உரைத்தவர் யார்?",
+    "options": [
+      {
+        "english": "Vaishampayana",
+        "tamil": "வaishampayana",
+        "correct": true
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Sauti",
+        "tamil": "சauti",
+        "correct": false
+      },
+      {
+        "english": "Narada",
+        "tamil": "நாரதர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "questionEnglish": "Child with eight curves famous as?",
+    "questionTamil": "எight வளைvukkal உடைய குழந்தை எந்தப் பெயரால் புகழ் பெற்றது?",
+    "options": [
+      {
+        "english": "Ashtavakra",
+        "tamil": "அshtavakra",
+        "correct": true
+      },
+      {
+        "english": "Abhimanyu",
+        "tamil": "அபிமன்யு",
+        "correct": false
+      },
+      {
+        "english": "Parikshit",
+        "tamil": "பரீக்ஷித்",
+        "correct": false
+      },
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "questionEnglish": "Ashtavakra returned with after debate?",
+    "questionTamil": "வாdebையில் வென்ற பிறகு அshtavakra யாருடன் திரும்பினார்?",
+    "options": [
+      {
+        "english": "Sage Kahoda",
+        "tamil": "கahoda முனிவர்",
+        "correct": true
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Uddalaka",
+        "tamil": "உddalaka",
+        "correct": false
+      },
+      {
+        "english": "Shvetaketu",
+        "tamil": "சhvetaketu",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "questionEnglish": "River Ashtavakra bathed in?",
+    "questionTamil": "அshtavakra குளித்த நதி எது?",
+    "options": [
+      {
+        "english": "Samanga",
+        "tamil": "சamanga",
+        "correct": true
+      },
+      {
+        "english": "Ganga",
+        "tamil": "கங்கா",
+        "correct": false
+      },
+      {
+        "english": "Yamuna",
+        "tamil": "யமுனai",
+        "correct": false
+      },
+      {
+        "english": "Saraswati",
+        "tamil": "சaraswati",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "questionEnglish": "Who carried Pandavas on back to pilgrimage?",
+    "questionTamil": "பாண்டவர்களைத் தiruvatthaiyatraவுக்கு முதுகில் சுமந்து சென்றவர் யார்?",
+    "options": [
+      {
+        "english": "Ghatotkacha",
+        "tamil": "கhatotkacha",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Hanuman",
+        "tamil": "அanuman",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "questionEnglish": "Bhagavad Gita spoken to?",
+    "questionTamil": "பagavad gita யாருக்கு உரைக்கப்பட்டது?",
+    "options": [
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": true
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Dhritarashtra",
+        "tamil": "திருதராஷ்டிரர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "questionEnglish": "Gita chapters?",
+    "questionTamil": "கீதையில் எத்தனை அadhyayaகள் உள்ளன?",
+    "options": [
+      {
+        "english": "18",
+        "tamil": "18",
+        "correct": true
+      },
+      {
+        "english": "12",
+        "tamil": "12",
+        "correct": false
+      },
+      {
+        "english": "21",
+        "tamil": "21",
+        "correct": false
+      },
+      {
+        "english": "16",
+        "tamil": "16",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "questionEnglish": "Hanuman to Bhima?",
+    "questionTamil": "அanuman பீமனுக்கு என்ன உறவு?",
+    "options": [
+      {
+        "english": "Brother",
+        "tamil": "சகோதரர்",
+        "correct": true
+      },
+      {
+        "english": "Father",
+        "tamil": "தந்தை",
+        "correct": false
+      },
+      {
+        "english": "Guru",
+        "tamil": "கuru",
+        "correct": false
+      },
+      {
+        "english": "Friend",
+        "tamil": "நண்பர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "questionEnglish": "Krishna's conchshell name?",
+    "questionTamil": "கிருஷ்ணரின் சanku பெயர் என்ன?",
+    "options": [
+      {
+        "english": "Panchajanya",
+        "tamil": "பanchajanya",
+        "correct": true
+      },
+      {
+        "english": "Devadatta",
+        "tamil": "தevadatta",
+        "correct": false
+      },
+      {
+        "english": "Paundra",
+        "tamil": "பaundra",
+        "correct": false
+      },
+      {
+        "english": "Anantavijaya",
+        "tamil": "அnantavijaya",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "questionEnglish": "Forest Bhima reached after Hanuman?",
+    "questionTamil": "அanumanஐச் சந்தித்த பிறகு பீமன் அடைந்த காடு எது?",
+    "options": [
+      {
+        "english": "Saugandhika",
+        "tamil": "சaugandhika",
+        "correct": true
+      },
+      {
+        "english": "Kamyaka",
+        "tamil": "கamyaka",
+        "correct": false
+      },
+      {
+        "english": "Dwaitavana",
+        "tamil": "தwaitavana",
+        "correct": false
+      },
+      {
+        "english": "Khandava",
+        "tamil": "கhandava",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "questionEnglish": "Saugandhika forest belongs to?",
+    "questionTamil": "சaugandhika காடு யாருக்குச் சொந்தமானது?",
+    "options": [
+      {
+        "english": "Kubera",
+        "tamil": "கubera",
+        "correct": true
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      },
+      {
+        "english": "Varuna",
+        "tamil": "வaruna",
+        "correct": false
+      },
+      {
+        "english": "Yama",
+        "tamil": "யam",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "questionEnglish": "Who captured Bhima in Vishakhayupa?",
+    "questionTamil": "வisakhayupaவில் பீமனைப் பிடித்தவர் யார்?",
+    "options": [
+      {
+        "english": "Serpent",
+        "tamil": "பாம்பு",
+        "correct": true
+      },
+      {
+        "english": "Demon",
+        "tamil": "அsura",
+        "correct": false
+      },
+      {
+        "english": "Gandharva",
+        "tamil": "கandharva",
+        "correct": false
+      },
+      {
+        "english": "Rakshasa",
+        "tamil": "இrakshasa",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "questionEnglish": "Who answered serpent freeing Bhima?",
+    "questionTamil": "பாம்பின் கேள்விக்கு பதிலளித்து பீமனை விடுவித்தவர் யார்?",
+    "options": [
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "questionEnglish": "Who showed Universal form to Arjuna?",
+    "questionTamil": "அர்ஜுனனுக்கு விஸ்வரூப தரிசனம் காட்டியவர் யார்?",
+    "options": [
+      {
+        "english": "Lord Krishna",
+        "tamil": "கிருஷ்ண பகவான்",
+        "correct": true
+      },
+      {
+        "english": "Shiva",
+        "tamil": "சிவன்",
+        "correct": false
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "questionEnglish": "Who freed Duryodhana from Gandharvas?",
+    "questionTamil": "கandharvaகளிடமிருந்து தuriyodhanaவை விடுவித்தவர்கள் யார்?",
+    "options": [
+      {
+        "english": "Pandavas",
+        "tamil": "பாண்டவர்கள்",
+        "correct": true
+      },
+      {
+        "english": "Kauravas",
+        "tamil": "கௌரவர்கள்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      },
+      {
+        "english": "Bhishma",
+        "tamil": "பீஷ்மர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "questionEnglish": "Sage Duryodhana sent as guest?",
+    "questionTamil": "துruryodhana விருந்தினராக அனுப்பிய முனிவர் யார்?",
+    "options": [
+      {
+        "english": "Durvasa",
+        "tamil": "துrvasa",
+        "correct": true
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      },
+      {
+        "english": "Narada",
+        "tamil": "நாரதர்",
+        "correct": false
+      },
+      {
+        "english": "Dhaumya",
+        "tamil": "தௌமியர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "questionEnglish": "Durvasa's disciples count?",
+    "questionTamil": "துrvasaவின் சisyaகள் எத்தனை பேர்?",
+    "options": [
+      {
+        "english": "10000",
+        "tamil": "10000",
+        "correct": true
+      },
+      {
+        "english": "1000",
+        "tamil": "1000",
+        "correct": false
+      },
+      {
+        "english": "100",
+        "tamil": "100",
+        "correct": false
+      },
+      {
+        "english": "5000",
+        "tamil": "5000",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "questionEnglish": "Draupadi prayed to when no food?",
+    "questionTamil": "உணவு இல்லாதபோது திரௌபதி யாரைப் பிரார்த்தித்தார்?",
+    "options": [
+      {
+        "english": "Lord Krishna",
+        "tamil": "கிருஷ்ண பகவான்",
+        "correct": true
+      },
+      {
+        "english": "Shiva",
+        "tamil": "சிவன்",
+        "correct": false
+      },
+      {
+        "english": "Durga",
+        "tamil": "துrga",
+        "correct": false
+      },
+      {
+        "english": "Vyasa",
+        "tamil": "வியாசர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "questionEnglish": "Who ate grain satiating Durvasa?",
+    "questionTamil": "ஒரு அannam உண்டு durvasaவின் பdisciplesைத் தrptippaduthiyaவர் யார்?",
+    "options": [
+      {
+        "english": "Lord Krishna",
+        "tamil": "கிருஷ்ண பகவான்",
+        "correct": true
+      },
+      {
+        "english": "Draupadi",
+        "tamil": "திரௌபதி",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "questionEnglish": "Who abducted Draupadi?",
+    "questionTamil": "திரௌபதியைக் கடத்தியவர் யார்?",
+    "options": [
+      {
+        "english": "Jayadratha",
+        "tamil": "ஜயத்ரதன்",
+        "correct": true
+      },
+      {
+        "english": "Karna",
+        "tamil": "கர்ணன்",
+        "correct": false
+      },
+      {
+        "english": "Duryodhana",
+        "tamil": "துruryodhana",
+        "correct": false
+      },
+      {
+        "english": "Shakuni",
+        "tamil": "சakuni",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "questionEnglish": "Jayadratha to Duryodhana?",
+    "questionTamil": "ஜயத்ரதன் தuriyodhanaவுக்கு என்ன உறவு?",
+    "options": [
+      {
+        "english": "Brother-in-law",
+        "tamil": "மachan",
+        "correct": true
+      },
+      {
+        "english": "Brother",
+        "tamil": "சகோதரர்",
+        "correct": false
+      },
+      {
+        "english": "Cousin",
+        "tamil": "சcousin",
+        "correct": false
+      },
+      {
+        "english": "Friend",
+        "tamil": "நண்பர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "questionEnglish": "Who tonsured Jayadratha?",
+    "questionTamil": "ஜயத்ரதன்வின் தலை முடியைப் பிரித்தவர் யார்?",
+    "options": [
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": true
+      },
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": false
+      },
+      {
+        "english": "Yudhishthira",
+        "tamil": "யுதிஷ்டிரர்",
+        "correct": false
+      },
+      {
+        "english": "Krishna",
+        "tamil": "கிருஷ்ணர்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "questionEnglish": "Pandava Jayadratha couldn't defeat?",
+    "questionTamil": "ஜயத்ரதன் தோற்கடிக்க முடியாத பாண்டவர் யார்?",
+    "options": [
+      {
+        "english": "Arjuna",
+        "tamil": "அர்ஜுனன்",
+        "correct": true
+      },
+      {
+        "english": "Bhima",
+        "tamil": "பீமன்",
+        "correct": false
+      },
+      {
+        "english": "Nakula",
+        "tamil": "நகுலன்",
+        "correct": false
+      },
+      {
+        "english": "Sahadeva",
+        "tamil": "சஹதேவன்",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "questionEnglish": "Princess who bore Karna before marriage?",
+    "questionTamil": "திருமணத்திற்கு முன் கர்ணனைப் பெற்ற இளவரசி யார்?",
+    "options": [
+      {
+        "english": "Kunti",
+        "tamil": "குந்தி",
+        "correct": true
+      },
+      {
+        "english": "Madri",
+        "tamil": "மாத்ரி",
+        "correct": false
+      },
+      {
+        "english": "Gandhari",
+        "tamil": "காந்தாரி",
+        "correct": false
+      },
+      {
+        "english": "Draupadi",
+        "tamil": "திரௌபதி",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "questionEnglish": "Father of Karna?",
+    "questionTamil": "கர்ணனின் தந்தை யார்?",
+    "options": [
+      {
+        "english": "Surya Deva",
+        "tamil": "சூரிய தேவர்",
+        "correct": true
+      },
+      {
+        "english": "Indra",
+        "tamil": "இந்திரன்",
+        "correct": false
+      },
+      {
+        "english": "Vayu",
+        "tamil": "வாயு",
+        "correct": false
+      },
+      {
+        "english": "Yama",
+        "tamil": "யமன்",
+        "correct": false
+      }
     ]
   }
 ]

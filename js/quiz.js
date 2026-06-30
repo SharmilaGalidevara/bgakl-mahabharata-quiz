@@ -25,12 +25,18 @@ window.onload = async () => {
 
 // =========================
 
+function shuffleOptions(question) {
+    return {
+        ...question,
+        options: shuffleArray(question.options)
+    };
+}
+
 async function loadQuestions() {
 
     const response = await fetch("data/questions.json");
     allQuestions = await response.json();
 
-    // FIX: stable 40-question set per session
     const shuffled = shuffleArray(allQuestions);
 
     const savedQuiz = localStorage.getItem("activeQuiz");
@@ -38,7 +44,9 @@ async function loadQuestions() {
     if (savedQuiz) {
         quizQuestions = JSON.parse(savedQuiz);
     } else {
-        quizQuestions = shuffled.slice(0, TOTAL_QUESTIONS);
+        quizQuestions = shuffled
+            .slice(0, TOTAL_QUESTIONS)
+            .map(shuffleOptions);
         localStorage.setItem("activeQuiz", JSON.stringify(quizQuestions));
     }
 

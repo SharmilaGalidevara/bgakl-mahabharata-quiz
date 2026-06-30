@@ -53,6 +53,9 @@ function startQuiz() {
     // Save player name
     localStorage.setItem("playerName", playerName);
 
+    // Clear previous quiz session so a new quiz gets fresh questions
+    localStorage.removeItem("activeQuiz");
+
     // Redirect to quiz page
     window.location.href = "quiz.html";
 
