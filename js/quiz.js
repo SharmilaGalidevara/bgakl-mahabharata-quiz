@@ -1,3 +1,4 @@
+let correctCount = 0;
 let allQuestions = [];
 let quizQuestions = [];
 let currentQuestion = 0;
@@ -151,12 +152,23 @@ function updatePalette() {
 
 function updateProgress() {
 
-    const answered = selectedAnswers.filter(x => x !== null).length;
+    const answered =
+        selectedAnswers.filter(x => x !== null).length;
 
-    const percentage = (answered / quizQuestions.length) * 100;
+    const percentage =
+        (answered / quizQuestions.length) * 100;
 
     document.getElementById("progressFill").style.width =
         percentage + "%";
+
+    document.getElementById("answeredCount").innerText =
+        answered;
+
+    const accuracy =
+        answered === 0 ? 100 : Math.round((correctCount / answered) * 100);
+
+    document.getElementById("accuracy").innerText =
+        accuracy + "%";
 }
 
 // =========================
@@ -170,12 +182,22 @@ function startTimer() {
         document.getElementById("timer").innerText =
             formatTime(timer);
 
+        // 🔴 WARNING MODE
+        if (timer <= 300) {
+            document.getElementById("timer").style.color = "red";
+        }
+
+        // 🔥 LAST 60 SECONDS BLINK
+        if (timer <= 60) {
+            document.getElementById("timer").style.animation =
+                "blink 1s infinite";
+        }
+
         if (timer <= 0) {
             submitQuiz();
         }
 
     }, 1000);
-
 }
 
 // =========================
@@ -184,21 +206,32 @@ document.getElementById("submitBtn").onclick = submitQuiz;
 
 function submitQuiz() {
 
-    localStorage.removeItem("activeQuiz");
-
     clearInterval(timerInterval);
 
     let score = 0;
+    correctCount = 0;
 
     quizQuestions.forEach((q, index) => {
 
-        const correctIndex = q.options.findIndex(o => o.correct);
+        const correctIndex =
+            q.options.findIndex(o => o.correct);
 
         if (selectedAnswers[index] === correctIndex) {
             score++;
+            correctCount++;
         }
 
     });
+
+    const resultData = {
+        name: localStorage.getItem("playerName"),
+        score: score,
+        timeTaken: QUIZ_TIME - timer,
+        accuracy: Math.round((correctCount / quizQuestions.length) * 100),
+        date: new Date().toISOString()
+    };
+
+    saveResult(resultData);
 
     localStorage.setItem("score", score);
     localStorage.setItem("timeTaken", QUIZ_TIME - timer);
