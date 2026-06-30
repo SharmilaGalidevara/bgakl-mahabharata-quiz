@@ -256,4 +256,13 @@ function submitQuiz() {
 
     window.location.href = "result.html";
 
+    const resultData = {
+    name: localStorage.getItem("playerName"),
+    score: score,
+    timeTaken: QUIZ_TIME - timer,
+    date: new Date().toISOString()
+};
+
+saveResult(resultData);
+
 }
