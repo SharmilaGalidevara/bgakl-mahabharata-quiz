@@ -138,3 +138,46 @@ h2 {
     font-weight: 600;
 }
 
+#wrongAnswersContainer{
+    margin-top:30px;
+    text-align:left;
+}
+
+.review-card{
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:20px;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+.review-card h3{
+    margin-top:0;
+    color:#1e3a8a;
+}
+
+.review-card div{
+    margin:8px 0;
+    padding:8px 12px;
+    border-radius:8px;
+}
+
+.correct{
+    background:#dcfce7;
+    color:#166534;
+    border-left:5px solid #16a34a;
+}
+
+.wrong{
+    background:#fee2e2;
+    color:#991b1b;
+    border-left:5px solid #dc2626;
+}
+
+.perfect{
+    text-align:center;
+    font-size:18px;
+    color:#16a34a;
+    font-weight:bold;
+}
+
