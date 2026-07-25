@@ -254,15 +254,28 @@ function submitQuiz() {
     let score = 0;
     correctCount = 0;
 
+    const wrongAnswers = [];
+
     quizQuestions.forEach((q, index) => {
-        const correctIndex = q.options.findIndex((option) => option.correct);
+        const correctIndex = q.options.findIndex(option => option.correct);
+
         if (selectedAnswers[index] === correctIndex) {
-            score += 1;
-            correctCount += 1;
+            score++;
+            correctCount++;
+        } else {
+            wrongAnswers.push({
+                questionNumber: index + 1,
+                questionEnglish: q.questionEnglish,
+                questionTamil: q.questionTamil,
+                options: q.options,
+                selectedIndex: selectedAnswers[index],
+                correctIndex: correctIndex
+            });
         }
     });
 
     const timeTaken = Math.min(QUIZ_TIME, QUIZ_TIME - timer);
+
     const resultData = {
         name: localStorage.getItem("playerName") || "Player",
         score,
@@ -272,9 +285,13 @@ function submitQuiz() {
     };
 
     saveResult(resultData);
+
     localStorage.setItem("latestResult", JSON.stringify(resultData));
+    localStorage.setItem("wrongAnswers", JSON.stringify(wrongAnswers));
+
     localStorage.setItem("score", score);
     localStorage.setItem("timeTaken", timeTaken);
+
     localStorage.removeItem("activeQuizProgress");
 
     window.location.href = "result.html";
