@@ -271,7 +271,7 @@
   },
   {
     "id": 11,
-    "questionEnglish": "Who consumed the Kaalakuta/Halahala poison from churning?",
+    "questionEnglish": "Who consumed the Kaalakuta/Halahala poison that appeared from the churning of the milk ocean? ",
     "questionTamil": "பாற்கடலைக் கடைந்தபோது வந்த காலகூட/ஹலாஹல விஷத்தை அருந்தியது யார்?",
     "options": [
       {
@@ -298,7 +298,7 @@
   },
   {
     "id": 12,
-    "questionEnglish": "Who is known as Neelakantha?",
+    "questionEnglish": "Who is known as 'Neelakantha'?",
     "questionTamil": "நீலகண்டன் என்று அழைக்கப்படுபவர் யார்?",
     "options": [
       {
@@ -325,7 +325,7 @@
   },
   {
     "id": 13,
-    "questionEnglish": "Who took Mohini form to distribute nectar?",
+    "questionEnglish": "Who took the form of Mohini to distribute the nectar after the churning of the milk ocean?",
     "questionTamil": "அமிர்தத்தைப் பகிர்வதற்காக மோகினி ரூபம் எடுத்தவர் யார்?",
     "options": [
       {
@@ -352,7 +352,7 @@
   },
   {
     "id": 14,
-    "questionEnglish": "Which demon was beheaded for drinking nectar?",
+    "questionEnglish": "Which demon was beheaded by Lord Vishnu for drinking the nectar? ",
     "questionTamil": "அமிர்தத்தைக் குடித்ததற்காக எந்த அசுரனின் தலை வெட்டப்பட்டது?",
     "options": [
       {
@@ -406,7 +406,7 @@
   },
   {
     "id": 16,
-    "questionEnglish": "Who blessed Garuda to be immortal without nectar?",
+    "questionEnglish": "Who blessed Garuda that he  would become immortal without drinking the nectar?",
     "questionTamil": "அமிர்தம் அருந்தாமலே கருடன் அழியாதவனாக இருப்பான் என்று வரம் அளித்தவர் யார்?",
     "options": [
       {
@@ -460,7 +460,7 @@
   },
   {
     "id": 18,
-    "questionEnglish": "Who directed Sheshanaga to raise Earth?",
+    "questionEnglish": "Who directed Sheshanaga (Anantasesha) to raise the Earth on its hoods? ",
     "questionTamil": "அனந்தசேஷன் தன் தலைகளின் மீது பூமியைத் தாங்குமாறு உத்தரவிட்டவர் யார்?",
     "options": [
       {
@@ -514,7 +514,7 @@
   },
   {
     "id": 20,
-    "questionEnglish": "Who was father of sage Shringi?",
+    "questionEnglish": "Who was the father of sage Shringi?",
     "questionTamil": "ஷ்ரிங்கி முனிவரின் தந்தை யார்?",
     "options": [
       {
@@ -541,7 +541,7 @@
   },
   {
     "id": 21,
-    "questionEnglish": "Who performed Sarpa yajna to avenge Parikshit?",
+    "questionEnglish": "Who performed the Sarpa yajna in order to avenge the death of King Parikshit?",
     "questionTamil": "பரீக்ஷித் மன்னர் இறந்ததற்குப் பழிவாங்கும் வகையில் பாம்பு யாகம் நடத்தியவர் யார்?",
     "options": [
       {
@@ -568,7 +568,7 @@
   },
   {
     "id": 22,
-    "questionEnglish": "Whose protection did Takshaka seek?",
+    "questionEnglish": "Whose protection did Takshaka seek to protect himself from the Sarpa yajna? ",
     "questionTamil": "பாம்பு யாகத்திலிருந்து தன்னைக் காப்பாற்றிக் கொள்ள தட்ஷகன் யாரை அடைந்தான்?",
     "options": [
       {
@@ -622,7 +622,7 @@
   },
   {
     "id": 24,
-    "questionEnglish": "Name of Vyasa's mother?",
+    "questionEnglish": "What was the name of sage Vyasa Deva’s mother? ",
     "questionTamil": "வியாச முனிவரின் தாயாரின் பெயர் என்ன?",
     "options": [
       {
@@ -649,7 +649,7 @@
   },
   {
     "id": 25,
-    "questionEnglish": "Which sage killed Kshatriyas 21 times?",
+    "questionEnglish": "Which of these sages killed all the Kshatriyas (warriors) on Earth twenty-one times?",
     "questionTamil": "பூமியில் க்ஷத்திரியர்களை இருபத்தொரு முறை அழித்த முனிவர் யார்?",
     "options": [
       {
@@ -730,7 +730,7 @@
   },
   {
     "id": 28,
-    "questionEnglish": "Banasura's father's name?",
+    "questionEnglish": "What was the name of Banasura’s father? ",
     "questionTamil": "பாணாசுரனின் தந்தையின் பெயர் என்ன?",
     "options": [
       {
@@ -757,7 +757,7 @@
   },
   {
     "id": 29,
-    "questionEnglish": "Which demon was born as Jarasandha?",
+    "questionEnglish": "Which of these demons was born as Jarasandha? ",
     "questionTamil": "எந்த அசுரன் ஜராசந்தனாகப் பிறந்தார்?",
     "options": [
       {
@@ -784,7 +784,7 @@
   },
   {
     "id": 30,
-    "questionEnglish": "Hiranyakashipu reborn as?",
+    "questionEnglish": "Hiranyakashipu was reborn as ________?",
     "questionTamil": "ஹிரண்யகசிபு மறுபிறவியில் யாராகப் பிறந்தார்?",
     "options": [
       {
@@ -811,7 +811,7 @@
   },
   {
     "id": 31,
-    "questionEnglish": "Demon Kalanemi reborn as?",
+    "questionEnglish": "Who was the demon Kalanemi reborn as?",
     "questionTamil": "அசுரன் காலநேமி எந்த மனிதரின் உருவத்தில் மறுபிறவி எடுத்தார்?",
     "options": [
       {
@@ -838,7 +838,7 @@
   },
   {
     "id": 32,
-    "questionEnglish": "Father of Dronacharya?",
+    "questionEnglish": "Who was the father of Dronacharya?",
     "questionTamil": "த்ரோணாசாரியரின் தந்தை யார்?",
     "options": [
       {
@@ -892,7 +892,7 @@
   },
   {
     "id": 34,
-    "questionEnglish": "Parents of Bhishma?",
+    "questionEnglish": "Who were the parents of Bhishma?",
     "questionTamil": "பீஷ்மரின் பெற்றோர் யார்?",
     "options": [
       {
@@ -919,7 +919,7 @@
   },
   {
     "id": 35,
-    "questionEnglish": "Younger brother of Dhritarashtra?",
+    "questionEnglish": "Who was the younger brother of King Dhritarashtra?",
     "questionTamil": "திருதராஷ்டிரரின் இளைய சகோதரர் யார்?",
     "options": [
       {
@@ -946,7 +946,7 @@
   },
   {
     "id": 36,
-    "questionEnglish": "Dhritarashtra's firstborn?",
+    "questionEnglish": "Who was the younger brother of King Dhritarashtra?",
     "questionTamil": "திருதராஷ்டிரரின் முதல் புதல்வர் யார்?",
     "options": [
       {
@@ -973,7 +973,7 @@
   },
   {
     "id": 37,
-    "questionEnglish": "Son of Dharma (Yama)?",
+    "questionEnglish": "Who was the son of Dharma (Lord Yama)?",
     "questionTamil": "யமன்வின் மகன் யார்?",
     "options": [
       {
@@ -1000,7 +1000,7 @@
   },
   {
     "id": 38,
-    "questionEnglish": "By whose powers was Bhima born?",
+    "questionEnglish": "By whose divine powers was Bhima born? ",
     "questionTamil": "பீமன் யாருடைய தெய்வீக சக்தியால் பிறந்தார்?",
     "options": [
       {
@@ -1027,7 +1027,7 @@
   },
   {
     "id": 39,
-    "questionEnglish": "Which Pandava born by Indra's powers?",
+    "questionEnglish": "Which of these Pandavas was born by the divine powers of Indra? ",
     "questionTamil": "இந்திரனின் தெய்வீக சக்தியால் பிறந்த பாண்டவர் யார்?",
     "options": [
       {
@@ -1054,7 +1054,7 @@
   },
   {
     "id": 40,
-    "questionEnglish": "Born by Ashwini Kumaras powers?",
+    "questionEnglish": "Which of the following were born by the divine powers of Ashwini Kumaras? ",
     "questionTamil": "அஸ்வினி குமாரர்களின் தெய்வீக சக்தியால் பிறந்தவர்கள் யார்?",
     "options": [
       {
@@ -1081,7 +1081,7 @@
   },
   {
     "id": 41,
-    "questionEnglish": "Actual name of Kunti?",
+    "questionEnglish": "What was the actual name of Kunti Devi? ",
     "questionTamil": "குந்தியின் உண்மையான பெயர் என்ன?",
     "options": [
       {
@@ -1108,7 +1108,7 @@
   },
   {
     "id": 42,
-    "questionEnglish": "Kunti's son by Surya?",
+    "questionEnglish": "Who was born as the son of Kunti Devi by the blessings of the Surya Deva?",
     "questionTamil": "சூரிய தேவனின் அருளால் குந்தியின் மகனாகப் பிறந்தவர் யார்?",
     "options": [
       {
@@ -1135,7 +1135,7 @@
   },
   {
     "id": 43,
-    "questionEnglish": "Who demanded Karna's armour and earrings?",
+    "questionEnglish": "Who demanded Karna’s divine armour and earrings from him? ",
     "questionTamil": "கர்ணனிடமிருந்து அவரது தெய்வீக கவசமும் காது குண்டலகளையும் தானமாகக் கேட்டவர் யார்?",
     "options": [
       {
@@ -1162,7 +1162,7 @@
   },
   {
     "id": 44,
-    "questionEnglish": "Son of Vasudeva?",
+    "questionEnglish": "Who was born as the son of Vasudeva? ",
     "questionTamil": "வசுதேவரின் மகனாகப் பிறந்தவர் யார்?",
     "options": [
       {
@@ -1189,7 +1189,7 @@
   },
   {
     "id": 45,
-    "questionEnglish": "Sheshanaga is expansion of?",
+    "questionEnglish": "Whose expansion is Sheshanaga (Anantasesha)? ",
     "questionTamil": "அனந்தசேஷன் யாருடைய அவதாரம்?",
     "options": [
       {
@@ -1216,7 +1216,7 @@
   },
   {
     "id": 46,
-    "questionEnglish": "Shakuntala's love-marriage king?",
+    "questionEnglish": "With which king did Shakuntala enter into a love-marriage?",
     "questionTamil": "சakuntalā எந்த அரசருடன் காதல் திருமணம் செய்துகொண்டார்?",
     "options": [
       {
@@ -1243,7 +1243,7 @@
   },
   {
     "id": 47,
-    "questionEnglish": "India named after?",
+    "questionEnglish": "After whom is India named?",
     "questionTamil": "இந்தியா எந்த மன்னரின் பெயரால் அழைக்கப்படுகிறது?",
     "options": [
       {
@@ -1270,7 +1270,7 @@
   },
   {
     "id": 48,
-    "questionEnglish": "Bharata's mother?",
+    "questionEnglish": "Whose son was Bharata? ",
     "questionTamil": "பharatā மன்னரின் தாய் யார்?",
     "options": [
       {
@@ -1297,7 +1297,7 @@
   },
   {
     "id": 49,
-    "questionEnglish": "Shantanu married?",
+    "questionEnglish": "Whom did King Shantanu marry?",
     "questionTamil": "சாந்தனு மன்னர் யாரை மணந்தார்?",
     "options": [
       {
@@ -1324,7 +1324,7 @@
   },
   {
     "id": 50,
-    "questionEnglish": "How many sons Ganga drowned?",
+    "questionEnglish": "How many sons of Shantanu did Ganga Devi drown in the river after giving birth to them?",
     "questionTamil": "கங்கா தேவி, சாந்தனுவின் எத்தனை மகன்களைப் பிறந்ததும் நதியில் மூழ்கடித்தார்?",
     "options": [
       {
@@ -1351,7 +1351,7 @@
   },
   {
     "id": 51,
-    "questionEnglish": "Vasu Dhyo became famous as?",
+    "questionEnglish": "A Vasu named ‘Dhyo’ was born as the son of Ganga Devi. By which name did he become famous? ",
     "questionTamil": "வசு தியோ எந்தப் பெயரால் புகழ் பெற்றார்?",
     "options": [
       {
@@ -1378,7 +1378,7 @@
   },
   {
     "id": 52,
-    "questionEnglish": "Which river Devavrata stopped?",
+    "questionEnglish": "Which river current did Devavrata stop with his arrows?",
     "questionTamil": "தேவவ்ரதன் எந்த நதியைத் தடுத்தார்?",
     "options": [
       {
@@ -1405,7 +1405,7 @@
   },
   {
     "id": 53,
-    "questionEnglish": "Devavrata learned warfare from?",
+    "questionEnglish": "From whom did Devavrata learn the art of warfare?",
     "questionTamil": "தேவவ்ரதன் போர் கலையை யாரிடம் கற்றுக் கொண்டார்?",
     "options": [
       {
@@ -1432,7 +1432,7 @@
   },
   {
     "id": 54,
-    "questionEnglish": "Devavrata's pledge for Shantanu-Satyavati?",
+    "questionEnglish": "What pledge did Devavrata undertake for the marriage of Shantanu and Satyavati?",
     "questionTamil": "சாந்தனு-சத்யவதி திருமணத்திற்காக தேவவ்ரதன் என்ன உறுதி மேற்கொண்டார்?",
     "options": [
       {
@@ -1459,7 +1459,7 @@
   },
   {
     "id": 55,
-    "questionEnglish": "Devavrata known after pledge as?",
+    "questionEnglish": "By which name did Devavrata come to be known after his pledge?",
     "questionTamil": "உறுதி மேற்கொண்ட பிறகு தேவவ்ரதன் எந்தப் பெயரால் அழைக்கப்பட்டார்?",
     "options": [
       {
@@ -1486,7 +1486,7 @@
   },
   {
     "id": 56,
-    "questionEnglish": "Shantanu's boon to Devavrata?",
+    "questionEnglish": "What boon did Shantanu grant Devavrata when he was pleased with his pledge?",
     "questionTamil": "சாந்தனு தேவவ்ரதனுக்கு அளித்த வரம் என்ன?",
     "options": [
       {
@@ -1513,7 +1513,7 @@
   },
   {
     "id": 57,
-    "questionEnglish": "Satyavati's two sons after marriage?",
+    "questionEnglish": "After marriage, which two sons were born to Satyavati?",
     "questionTamil": "சத்யவதிக்குப் பிறந்த இரண்டு மகன்கள் யார்?",
     "options": [
       {
@@ -1540,7 +1540,7 @@
   },
   {
     "id": 58,
-    "questionEnglish": "King after Shantanu's death?",
+    "questionEnglish": "Who was crowned king of Hastinapura after the death of Shantanu?",
     "questionTamil": "சாந்தனுவின் மரணத்திற்குப் பிறகு அரசனாக ஆட்சி செய்தவர் யார்?",
     "options": [
       {
@@ -1567,7 +1567,7 @@
   },
   {
     "id": 59,
-    "questionEnglish": "Babruvahana's father?",
+    "questionEnglish": "Whose son was Babruvahana?",
     "questionTamil": "பப்ருவாஹனனின் தந்தை யார்?",
     "options": [
       {
@@ -1594,7 +1594,7 @@
   },
   {
     "id": 60,
-    "questionEnglish": "Three daughters of Kashi king?",
+    "questionEnglish": "Who were the three daughters of the king of Kashi?",
     "questionTamil": "காசி மன்னரின் மூன்று மகள்கள் யார்?",
     "options": [
       {
@@ -1621,7 +1621,7 @@
   },
   {
     "id": 61,
-    "questionEnglish": "Who abducted Kashi princesses?",
+    "questionEnglish": "Who abducted the three daughters of the king of Kashi?",
     "questionTamil": "காசி இளவரசிகளைக் கடத்தியவர் யார்?",
     "options": [
       {
@@ -1648,7 +1648,7 @@
   },
   {
     "id": 62,
-    "questionEnglish": "Amba's chosen husband in mind?",
+    "questionEnglish": "Whom had Amba, the eldest daughter of the king of Kashi, accept as her husband in her mind?",
     "questionTamil": "அம்பா மனதில் தேர்ந்தெடுத்த கணவர் யார்?",
     "options": [
       {
@@ -1675,7 +1675,7 @@
   },
   {
     "id": 63,
-    "questionEnglish": "Which two Kashi princesses married Vichitravirya?",
+    "questionEnglish": "Which two daughters of the king of Kashi married Vichitravirya?",
     "questionTamil": "விசித்ரவீர்யனை மணந்த காசி இளவரசிகள் யார்?",
     "options": [
       {
@@ -1702,7 +1702,7 @@
   },
   {
     "id": 64,
-    "questionEnglish": "Son of Vyasa and Ambika?",
+    "questionEnglish": "Who was the son of sage Vyasa and Ambika?",
     "questionTamil": "வியாசரும் அம்பிகாவும் பெற்ற மகன் யார்?",
     "options": [
       {
@@ -1729,7 +1729,7 @@
   },
   {
     "id": 65,
-    "questionEnglish": "Son of Vyasa and Ambalika?",
+    "questionEnglish": "Who was the son of sage Vyasa and Ambalika?",
     "questionTamil": "வியாசரும் அம்பாலிகாவும் பெற்ற மகன் யார்?",
     "options": [
       {
@@ -1756,7 +1756,7 @@
   },
   {
     "id": 66,
-    "questionEnglish": "Son of Vyasa and maidservant?",
+    "questionEnglish": "Who was the son of sage Vyasa and a maidservant?",
     "questionTamil": "வியாசரும் பணிவிட்ட பெண்ணும் பெற்ற மகன் யார்?",
     "options": [
       {
@@ -1783,7 +1783,7 @@
   },
   {
     "id": 67,
-    "questionEnglish": "Vidura's incarnation?",
+    "questionEnglish": "Whose incarnation was Vidura?",
     "questionTamil": "விதுரன் யாருடைய அவதாரம்?",
     "options": [
       {
@@ -1810,7 +1810,7 @@
   },
   {
     "id": 68,
-    "questionEnglish": "Born blind?",
+    "questionEnglish": "Who was born blind ?",
     "questionTamil": "பிறவியிலேயே குருடாகப் பிறந்தவர் யார்?",
     "options": [
       {
@@ -1837,7 +1837,7 @@
   },
   {
     "id": 69,
-    "questionEnglish": "Dhritarashtra married?",
+    "questionEnglish": "Whom did Dhritarashtra marry ?",
     "questionTamil": "திருதராஷ்டிரர் யாரை மணந்தார்?",
     "options": [
       {
@@ -1864,7 +1864,7 @@
   },
   {
     "id": 70,
-    "questionEnglish": "Sage who blessed Gandhari 100 sons?",
+    "questionEnglish": "Which sage blessed Gandhari with a hundred sons??",
     "questionTamil": "காந்தாரிக்கு நூறு மகன்கள் பிறக்க வரம் அளித்த முனிவர் யார்?",
     "options": [
       {
@@ -1891,7 +1891,7 @@
   },
   {
     "id": 71,
-    "questionEnglish": "Gandhari's eldest son?",
+    "questionEnglish": "What was the name of the eldest son of Gandhari?",
     "questionTamil": "காந்தாரியின் முதல் மகன் யார்?",
     "options": [
       {
@@ -1918,7 +1918,7 @@
   },
   {
     "id": 72,
-    "questionEnglish": "Gandhari's daughter?",
+    "questionEnglish": "What was the name of the daughter of Gandhari?",
     "questionTamil": "காந்தாரியின் மகள் யார்?",
     "options": [
       {
@@ -1945,7 +1945,7 @@
   },
   {
     "id": 73,
-    "questionEnglish": "Who cursed Pandu?",
+    "questionEnglish": "Who cursed Pandu that he would die the moment he cohabited with his wife?",
     "questionTamil": "பாண்டுவைச் சபித்தது யார்?",
     "options": [
       {
@@ -1972,7 +1972,7 @@
   },
   {
     "id": 74,
-    "questionEnglish": "Sage who gave mantra to Kunti?",
+    "questionEnglish": "Which sage gifted a mantra to Kunti for invoking deities?",
     "questionTamil": "குந்திக்கு மந்திரம் அளித்த முனிவர் யார்?",
     "options": [
       {
@@ -1999,7 +1999,7 @@
   },
   {
     "id": 75,
-    "questionEnglish": "First god Kunti invoked?",
+    "questionEnglish": "Which god did Kunti invoke first of all in order to be blessed with a son?",
     "questionTamil": "குந்தி முதலில் அழைத்த தெய்வம் யார்?",
     "options": [
       {
@@ -2026,7 +2026,7 @@
   },
   {
     "id": 76,
-    "questionEnglish": "Kunti's son for Dharmaraja?",
+    "questionEnglish": "Which son of Kunti was born for Dharmaraja?",
     "questionTamil": "யமன்வின் அருளால் குந்தியின் மகன் யார்?",
     "options": [
       {
@@ -2053,7 +2053,7 @@
   },
   {
     "id": 77,
-    "questionEnglish": "Kunti's second Pandava son?",
+    "questionEnglish": "Which of the Pandavas is the second son of Kunti?",
     "questionTamil": "குந்தியின் இரண்டாவது பாண்டava மகன் யார்?",
     "options": [
       {
@@ -2080,7 +2080,7 @@
   },
   {
     "id": 78,
-    "questionEnglish": "Draupadi's kingdom?",
+    "questionEnglish": "Draupadi was the princess of which kingdom?",
     "questionTamil": "திரௌபதியின் நாடு எது?",
     "options": [
       {
@@ -2107,7 +2107,7 @@
   },
   {
     "id": 79,
-    "questionEnglish": "Kunti's son by Indra?",
+    "questionEnglish": "Which son of Kunti was born by the divine powers of Indra?",
     "questionTamil": "இந்திரனின் அருளால் குந்தியின் மகன் யார்?",
     "options": [
       {
@@ -2134,7 +2134,7 @@
   },
   {
     "id": 80,
-    "questionEnglish": "Nakula-Sahadeva born by powers of?",
+    "questionEnglish": "By whose divine powers were Nakula and Sahadeva born as the sons of Madri, the secondwife of Pandu?",
     "questionTamil": "நகுலனும் சஹதேவன்வும் யாருடைய சக்தியால் பிறந்தனர்?",
     "options": [
       {
@@ -2161,7 +2161,7 @@
   },
   {
     "id": 81,
-    "questionEnglish": "Pandu tried to cohabit with at end?",
+    "questionEnglish": "Whom did Pandu try to cohabit with when he met his end?",
     "questionTamil": "பாண்டு இறுதியில் யாருடன் இணைய முயன்றார்?",
     "options": [
       {
@@ -2188,7 +2188,7 @@
   },
   {
     "id": 82,
-    "questionEnglish": "Which wife became Sati?",
+    "questionEnglish": "Which wife of Pandu became a Sati (the practice of burning oneself with the dead body of one’s husband)?",
     "questionTamil": "எந்த மனைவி சati ஆனார்?",
     "options": [
       {
@@ -2215,7 +2215,7 @@
   },
   {
     "id": 83,
-    "questionEnglish": "Duryodhana tried to poison which son?",
+    "questionEnglish": "Which son of Pandu did Duryodhana try to poison?",
     "questionTamil": "துரியோதனன் எந்த மகனை விஷம் கொடுத்துக் கொல்ல முயன்றான்?",
     "options": [
       {
@@ -2242,7 +2242,7 @@
   },
   {
     "id": 84,
-    "questionEnglish": "What bit Bhima neutralizing poison?",
+    "questionEnglish": "Which of the following bit Bhima and thus neutralised the effect of the poison in his body?",
     "questionTamil": "பீமனைக் கடித்து விஷத்தை நீக்கியது எது?",
     "options": [
       {
@@ -2269,7 +2269,7 @@
   },
   {
     "id": 85,
-    "questionEnglish": "Who rushed to rescue Nagas from Bhima?",
+    "questionEnglish": "Who rushed to rescue the Nagas when Bhima started to kill them?",
     "questionTamil": "பீமனிடமிருந்து நாகங்களைக் காப்பாற்ற வந்தவர் யார்?",
     "options": [
       {
@@ -2296,7 +2296,7 @@
   },
   {
     "id": 86,
-    "questionEnglish": "Who taught Pandavas and Kauravas warfare?",
+    "questionEnglish": "Who taught the Pandavas and the Kauravas the art of warfare?",
     "questionTamil": "பாண்டவர்களுக்கும் கௌரavர்களுக்கும் போர் கலை கற்பித்தவர் யார்?",
     "options": [
       {
@@ -2323,7 +2323,7 @@
   },
   {
     "id": 87,
-    "questionEnglish": "Bharadwaja's son?",
+    "questionEnglish": "Who was born as the son of sage Bharadwaja?",
     "questionTamil": "பரத்வாஜரின் மகன் யார்?",
     "options": [
       {
@@ -2350,7 +2350,7 @@
   },
   {
     "id": 88,
-    "questionEnglish": "Dronacharya's wife?",
+    "questionEnglish": "What was the name of Dronacharya’s wife?",
     "questionTamil": "த்ரோணாசாரியரின் மனைவி யார்?",
     "options": [
       {
@@ -2377,7 +2377,7 @@
   },
   {
     "id": 89,
-    "questionEnglish": "Dronacharya learned warfare from?",
+    "questionEnglish": "From whom did Dronacharya learn the art of warfare?",
     "questionTamil": "த்ரோணாசாரியர் போர் கலையை யாரிடம் கற்றுக் கொண்டார்?",
     "options": [
       {
@@ -2404,7 +2404,7 @@
   },
   {
     "id": 90,
-    "questionEnglish": "Dronacharya sought revenge on?",
+    "questionEnglish": "Whom did Dronacharya resolve to take revenge on?",
     "questionTamil": "த்ரோணாசாரியர் யாரிடம் பழி வாங்க விரும்பினார்?",
     "options": [
       {
@@ -2431,7 +2431,7 @@
   },
   {
     "id": 91,
-    "questionEnglish": "Dronacharya refused to teach archery to?",
+    "questionEnglish": "Whom did Dronacharya refuse to teach archery?",
     "questionTamil": "த்ரோணாசாரியர் யாருக்கு வில்லாட்சி கற்பிக்க மறுத்தார்?",
     "options": [
       {
@@ -2458,7 +2458,7 @@
   },
   {
     "id": 92,
-    "questionEnglish": "Who sealed dog's mouth with arrows?",
+    "questionEnglish": "Who shot seven arrows from his bow and sealed the mouth of a dog?",
     "questionTamil": "நாயின் வாயை அம்புகளால் மூடியவர் யார்?",
     "options": [
       {
@@ -2485,7 +2485,7 @@
   },
   {
     "id": 93,
-    "questionEnglish": "Ekalavya's gurudakshina?",
+    "questionEnglish": "What did Ekalavya offer as gurudakshina to Dronacharya?",
     "questionTamil": "ஏkalavyaவின் கuru dakshina என்ன?",
     "options": [
       {
@@ -2512,7 +2512,7 @@
   },
   {
     "id": 94,
-    "questionEnglish": "Who challenged Arjuna at display?",
+    "questionEnglish": "Who challenged Arjuna while he was displaying his archery skills?",
     "questionTamil": "திறமை காட்சியில் அர்ஜுனனை சவalchallenge செய்தவர் யார்?",
     "options": [
       {
@@ -2539,7 +2539,7 @@
   },
   {
     "id": 95,
-    "questionEnglish": "Who made Karna king of Anga?",
+    "questionEnglish": "Who befriended Karna and made him the king of Angadesha?",
     "questionTamil": "கர்ணனை அங்க அரசனாக்கியவர் யார்?",
     "options": [
       {
@@ -2566,7 +2566,7 @@
   },
   {
     "id": 96,
-    "questionEnglish": "Drona's gurudakshina request?",
+    "questionEnglish": "What did Dronacharya seek from the Pandavas and the Kauravas as gurudakshina?",
     "questionTamil": "த்ரோணர் கuru dakshinaவாகக் கேட்டது என்ன?",
     "options": [
       {
@@ -2593,7 +2593,7 @@
   },
   {
     "id": 97,
-    "questionEnglish": "Who captured Drupada for Drona?",
+    "questionEnglish": "Who captured King Drupada and presented him before Dronacharya?",
     "questionTamil": "துrupaadaவைத் த்ரோணருக்காகப் பிடித்தவர் யார்?",
     "options": [
       {
@@ -2620,7 +2620,7 @@
   },
   {
     "id": 98,
-    "questionEnglish": "Pandavas escaped lac palace via?",
+    "questionEnglish": "By what means did the Pandavas escape unhurt from the palace of lac?",
     "questionTamil": "பாண்டவர்கள் சுரங்க அரண்மனைஐ எவ்வாறு தப்பினர்?",
     "options": [
       {
@@ -2647,7 +2647,7 @@
   },
   {
     "id": 99,
-    "questionEnglish": "Demon who wanted to devour Pandavas?",
+    "questionEnglish": "In the forest, which demon wanted to kill and devour the Pandavas?",
     "questionTamil": "பாண்டவர்களைத் தவிழுங்க விரும்பிய அசுரன் யார்?",
     "options": [
       {
@@ -2674,7 +2674,7 @@
   },
   {
     "id": 100,
-    "questionEnglish": "Who killed Hidimban?",
+    "questionEnglish": "Who killed the demon Hidimban?",
     "questionTamil": "ஹிடimbanஐக் கொன்றவர் யார்?",
     "options": [
       {
@@ -2701,7 +2701,7 @@
   },
   {
     "id": 101,
-    "questionEnglish": "Hidimban's sister?",
+    "questionEnglish": "What was the name of the sister of the demon Hidimban?",
     "questionTamil": "ஹிடிம்பனின் சகோதரி யார்?",
     "options": [
       {
@@ -2728,7 +2728,7 @@
   },
   {
     "id": 102,
-    "questionEnglish": "Who married Hidimbi?",
+    "questionEnglish": "Which of the Pandavas married the sister of the demon Hidimban?",
     "questionTamil": "ஹிடிம்பியை மணந்தவர் யார்?",
     "options": [
       {
@@ -2755,7 +2755,7 @@
   },
   {
     "id": 103,
-    "questionEnglish": "Son of Bhima and Hidimbi?",
+    "questionEnglish": "What was the name of the brave son of Bhima and the demoness Hidimbi?",
     "questionTamil": "பீமனும் ஹிடிம்பியும் பெற்ற மகன் யார்?",
     "options": [
       {
@@ -2782,7 +2782,7 @@
   },
   {
     "id": 104,
-    "questionEnglish": "Who emerged from Drupada's yajna fire?",
+    "questionEnglish": "Who emerged out of the holy fire when Drupada was performing the yajna?",
     "questionTamil": "துருபதரின் யாக நெருப்பிலிருந்து வெளிவந்தவர்கள் யார்?",
     "options": [
       {
@@ -2809,7 +2809,7 @@
   },
   {
     "id": 105,
-    "questionEnglish": "Vishwamitra wanted Vashishtha's?",
+    "questionEnglish": "What possession of Vashishtha did Vishwamitra yearn to obtain?",
     "questionTamil": "விஸ்வாமித்ரர் வசிஷ்டரின் எதை விரும்பினார்?",
     "options": [
       {
@@ -2836,7 +2836,7 @@
   },
   {
     "id": 106,
-    "questionEnglish": "Pandavas' royal priest?",
+    "questionEnglish": "What was the name of the royal priest of the Pandavas?",
     "questionTamil": "பாண்டவர்களின் அரச குரு யார்?",
     "options": [
       {
@@ -2863,7 +2863,7 @@
   },
   {
     "id": 107,
-    "questionEnglish": "Who won Draupadi swayamvara?",
+    "questionEnglish": "Which of the Pandavas emerged victorious in the swayamvara of Draupadi?",
     "questionTamil": "திரௌபதி சுயamvaraவில் வெற்றி பெற்றவர் யார்?",
     "options": [
       {
@@ -2890,7 +2890,7 @@
   },
   {
     "id": 108,
-    "questionEnglish": "Pandavas' capital when given half kingdom?",
+    "questionEnglish": "Which place did the Pandavas choose as their capital when Dhritarashtra gave them half the kingdom?",
     "questionTamil": "அரை அரசாட்சி கொடுக்கப்பட்டபோது பாண்டவர்களின் தலைநகரம் எது?",
     "options": [
       {
@@ -2917,7 +2917,7 @@
   },
   {
     "id": 109,
-    "questionEnglish": "Present name of Indraprastha?",
+    "questionEnglish": "What is the present name of Indraprastha?",
     "questionTamil": "இந்திரபிரஸ்தத்தின் தற்போதைய பெயர் என்ன?",
     "options": [
       {
@@ -2944,7 +2944,7 @@
   },
   {
     "id": 110,
-    "questionEnglish": "Forced into Yudhishthira-Draupadi room?",
+    "questionEnglish": "Who was forced to rush into the room wherein Yudhishthira and Draupadi were talking to ach other in private?",
     "questionTamil": "யுதிஷ்டிரர்-திரௌபதி அறைக்குள் யார் வந்துவிட்டார்?",
     "options": [
       {
@@ -2971,7 +2971,7 @@
   },
   {
     "id": 111,
-    "questionEnglish": "Arjuna's exile years for intrusion?",
+    "questionEnglish": "How many years did Arjuna spend in exile for disturbing Yudhishthira and Draupadi when they were talking to each other in private?",
     "questionTamil": "அறைக்குள் நுழைந்ததற்காக அர்ஜுனனின் வனவாசம் எத்தனை ஆண்டுகள்?",
     "options": [
       {
@@ -2998,7 +2998,7 @@
   },
   {
     "id": 112,
-    "questionEnglish": "Krishna's sister Arjuna married?",
+    "questionEnglish": "Which sister of Lord Krishna did Arjuna marry?",
     "questionTamil": "கிருஷ்ணரின் சகோதரியை அர்ஜுனன் மணந்தார் - அவர் யார்?",
     "options": [
       {
@@ -3025,7 +3025,7 @@
   },
   {
     "id": 113,
-    "questionEnglish": "Son of Arjuna and Subhadra?",
+    "questionEnglish": "What was the name of the brave son born to Arjuna and Subhadra?",
     "questionTamil": "அர்ஜுனனும் சுபத்ராவும் பெற்ற மகன் யார்?",
     "options": [
       {
@@ -3052,7 +3052,7 @@
   },
   {
     "id": 114,
-    "questionEnglish": "Mahabharata war days?",
+    "questionEnglish": "How many days was the Mahabharata war fought?",
     "questionTamil": "மகாபாரதப் போர் எத்தனை நாட்கள் நடந்தது?",
     "options": [
       {
@@ -3079,7 +3079,7 @@
   },
   {
     "id": 115,
-    "questionEnglish": "Khandava inhabitant protected by Indra?",
+    "questionEnglish": "Which of these inhabitants of Khandava Forest was once protected by Indra?",
     "questionTamil": "கhandavaவில் இந்திரனால் காக்கப்பட்டவர் யார்?",
     "options": [
       {
@@ -3106,7 +3106,7 @@
   },
   {
     "id": 116,
-    "questionEnglish": "Who gifted Sudarshana Chakra to Krishna?",
+    "questionEnglish": "Who gifted the Sudarshana Chakra to Lord Krishna?",
     "questionTamil": "கிருஷ்ணருக்கு சudarshana சakraவை வழங்கியவர் யார்?",
     "options": [
       {
@@ -3133,7 +3133,7 @@
   },
   {
     "id": 117,
-    "questionEnglish": "Bow Varuna gifted Arjuna?",
+    "questionEnglish": "Which bow did Varuna Deva gift Arjuna?",
     "questionTamil": "வருணன் அர்ஜுனனுக்கு வழங்கிய வில் எது?",
     "options": [
       {
@@ -3160,7 +3160,7 @@
   },
   {
     "id": 118,
-    "questionEnglish": "Who killed Jarasandha?",
+    "questionEnglish": "Which warrior killed Jarasandha?",
     "questionTamil": "ஜராசந்தனைக் கொன்றவர் யார்?",
     "options": [
       {
@@ -3187,7 +3187,7 @@
   },
   {
     "id": 119,
-    "questionEnglish": "Jarasandha's son made Magadha king?",
+    "questionEnglish": "Which son of Jarasandha did Lord Krishna make the king of Magadha?",
     "questionTamil": "ஜராசந்தனின் மகனை மagadha அரசனாக்கியவர் யார்?",
     "options": [
       {
@@ -3214,7 +3214,7 @@
   },
   {
     "id": 120,
-    "questionEnglish": "Presiding priest of Rajasuya yajna?",
+    "questionEnglish": "Which sage was the presiding priest of Yudhishthira’s Rajasuya yajna?",
     "questionTamil": "ராஜasuya யாகத்தின் தலைமை குரு யார்?",
     "options": [
       {
@@ -3241,7 +3241,7 @@
   },
   {
     "id": 121,
-    "questionEnglish": "Whom sages wished to worship first?",
+    "questionEnglish": "Whom did all sages and kings present in the yajna wish to worship first?",
     "questionTamil": "முனிவர்கள் முதலில் வணங்க விரும்பியவர் யார்?",
     "options": [
       {
@@ -3268,7 +3268,7 @@
   },
   {
     "id": 122,
-    "questionEnglish": "Who abused Krishna when chosen first?",
+    "questionEnglish": "Who started abusing Lord Krishna when he was chosen to be worshipped first?",
     "questionTamil": "முதலில் தேர்ந்தெடுக்கப்பட்டதால் கிருஷ்ணரை நிந்தித்தவர் யார்?",
     "options": [
       {
@@ -3295,7 +3295,7 @@
   },
   {
     "id": 123,
-    "questionEnglish": "Shishupala's eyes and hands at birth?",
+    "questionEnglish": "How many eyes and hands did Shishupala have at the time of his birth?",
     "questionTamil": "சிசுபாலன் பிறந்தபோது எத்தனை கண்கள் மற்றும் கைகள்?",
     "options": [
       {
@@ -3322,7 +3322,7 @@
   },
   {
     "id": 124,
-    "questionEnglish": "Parva containing Bhagavad Gita?",
+    "questionEnglish": "Which parva contains the Bhagavad Gita?",
     "questionTamil": "பagavad gita உள்ள பarva எது?",
     "options": [
       {
@@ -3349,7 +3349,7 @@
   },
   {
     "id": 125,
-    "questionEnglish": "In whose lap Shishupala's extra parts disappeared?",
+    "questionEnglish": "In whose lap did child Shishupala’s extra eye and two hands disappear?",
     "questionTamil": "சிசுபாலனின் கூடுதல் உறுப்புகள் யாரின் மடியில் மறைந்தன?",
     "options": [
       {
@@ -3376,7 +3376,7 @@
   },
   {
     "id": 126,
-    "questionEnglish": "Who spoke Vishnu Sahasranama to Yudhishthira?",
+    "questionEnglish": "Who spoke the Vishnu Sahasranama to Yudhishthira Maharaja?",
     "questionTamil": "யுதிஷ்டிரருக்கு விஷ்ணு சhasranamaவை உரைத்தவர் யார்?",
     "options": [
       {
@@ -3403,7 +3403,7 @@
   },
   {
     "id": 127,
-    "questionEnglish": "Times Krishna forgave Shishupala before killing?",
+    "questionEnglish": "How many times had Lord Krishna forgiven Shishupala before he ultimately killed him?",
     "questionTamil": "கொல்வதற்கு முன் கிருஷ்ணர் சிசுபாலனை எத்தனை முறை மன்னித்தார்?",
     "options": [
       {
@@ -3430,7 +3430,7 @@
   },
   {
     "id": 128,
-    "questionEnglish": "Yudhishthira's title after Rajasuya?",
+    "questionEnglish": "After the Rajasuya yajna, what title did Yudhishthira gain?",
     "questionTamil": "ராஜasuyaவுக்குப் பிறகு யுதிஷ்டிரரின் பட்டம் என்ன?",
     "options": [
       {
@@ -3457,7 +3457,7 @@
   },
   {
     "id": 129,
-    "questionEnglish": "Whom they laughed at illusion trick?",
+    "questionEnglish": "At whom did Bhima, Arjuna and Draupadi, among others, laugh when he was tricked by an illusion?",
     "questionTamil": "மாயைத் தந்திரத்தால் யாரைப் பார்த்து சிரித்தார்கள்?",
     "options": [
       {
@@ -3484,7 +3484,7 @@
   },
   {
     "id": 130,
-    "questionEnglish": "Who advised dice game?",
+    "questionEnglish": "Who advised Duryodhana to engage Yudhishthira in a game of dice?",
     "questionTamil": "சூழை விளையாட்டை ஆலோசித்தவர் யார்?",
     "options": [
       {
@@ -3511,7 +3511,7 @@
   },
   {
     "id": 131,
-    "questionEnglish": "Dhritarashtra sent to invite Pandavas?",
+    "questionEnglish": "Whom did Dhritarashtra send to invite the Pandavas to a game of dice?",
     "questionTamil": "பாண்டவர்களை அழைக்க திருதராஷ்டிரர் யாரை அனுப்பினார்?",
     "options": [
       {
@@ -3538,7 +3538,7 @@
   },
   {
     "id": 132,
-    "questionEnglish": "Brother Yudhishthira staked after wealth?",
+    "questionEnglish": "Which of his brothers did Yudhishthira put at stake when he lost all his wealth and possessions?",
     "questionTamil": "செல்வத்தை இழந்த பிறகு யுதிஷ்டிரர் யாரைப் பணயம் வைத்தார்?",
     "options": [
       {
@@ -3565,7 +3565,7 @@
   },
   {
     "id": 133,
-    "questionEnglish": "Yudhishthira staked after losing himself?",
+    "questionEnglish": "Whom did Yudhishthira put at stake when he had lost even himself in the game of dice?",
     "questionTamil": "தன்னையே இழந்த பிறகு யுதிஷ்டிரர் யாரைப் பணயம் வைத்தார்?",
     "options": [
       {
@@ -3592,7 +3592,7 @@
   },
   {
     "id": 134,
-    "questionEnglish": "Who ordered Draupadi brought to court?",
+    "questionEnglish": "Having won Draupadi in the game of dice, who ordered that she should be brought to the royal court?",
     "questionTamil": "திரௌபதியை நீதிமன்றத்திற்கு கொண்டு வருமாறு உத்தரவிட்டவர் யார்?",
     "options": [
       {
@@ -3619,7 +3619,7 @@
   },
   {
     "id": 135,
-    "questionEnglish": "Who dragged Draupadi by hair?",
+    "questionEnglish": "Who dragged Draupadi to the royal court by her hair?",
     "questionTamil": "திரௌபதியை முடியைப் பிடித்து இழுத்தவர் யார்?",
     "options": [
       {
@@ -3646,7 +3646,7 @@
   },
   {
     "id": 136,
-    "questionEnglish": "Dhritarashtra's son who protested?",
+    "questionEnglish": "Which son of Dhritarashtra protested against shaming Draupadi?",
     "questionTamil": "திருதராஷ்டிரரின் மகன்களில் எதிர்த்துக் குரல் கொடுத்தவர் யார்?",
     "options": [
       {
@@ -3673,7 +3673,7 @@
   },
   {
     "id": 137,
-    "questionEnglish": "Who tried to strip Draupadi?",
+    "questionEnglish": "What was the name of the evil man who tried to strip Draupadi of her clothes?",
     "questionTamil": "திரௌபதியின் ஆடையைக் கழற்ற முயன்றவர் யார்?",
     "options": [
       {
@@ -3700,7 +3700,7 @@
   },
   {
     "id": 138,
-    "questionEnglish": "Who rescued Draupadi?",
+    "questionEnglish": "Who came to Draupadi’s rescue when she called out for help?",
     "questionTamil": "திரௌபதியைக் காப்பாற்றியவர் யார்?",
     "options": [
       {
@@ -3727,7 +3727,7 @@
   },
   {
     "id": 139,
-    "questionEnglish": "Who pledged to shatter Duryodhana's thigh?",
+    "questionEnglish": "Who took a pledge to shatter the thigh of Duryodhana?",
     "questionTamil": "துரியோதனனின் thighஐ உடைப்பதாக உறுதி மேற்கொண்டவர் யார்?",
     "options": [
       {
@@ -3754,7 +3754,7 @@
   },
   {
     "id": 140,
-    "questionEnglish": "Exile years after dice loss?",
+    "questionEnglish": "For how many years were the Pandavas sent into exile when they lost the game of dice?",
     "questionTamil": "சூழை தோல்விக்குப் பிறகு வனவாசம் எத்தனை ஆண்டுகள்?",
     "options": [
       {
@@ -3781,7 +3781,7 @@
   },
   {
     "id": 141,
-    "questionEnglish": "Incognito year of exile?",
+    "questionEnglish": "Which year of their exile did the Pandavas spend in disguise (incognito)?",
     "questionTamil": "வனவாசத்தில் அங்க அறியாமல் இருக்க வேண்டிய ஆண்டு எது?",
     "options": [
       {
@@ -3808,7 +3808,7 @@
   },
   {
     "id": 142,
-    "questionEnglish": "Whom Pandavas didn't take to forest?",
+    "questionEnglish": "Whom did the Pandavas not take with them when they left for the forest?",
     "questionTamil": "பாண்டவர்கள் காட்டுக்கு யாரை அழைத்துச் செல்லவில்லை?",
     "options": [
       {
@@ -3835,7 +3835,7 @@
   },
   {
     "id": 143,
-    "questionEnglish": "Where Kunti lived after exile?",
+    "questionEnglish": "Where did Kunti live after the Pandavas had left for exile?",
     "questionTamil": "வனவாசத்திற்குப் பிறகு குந்தி எங்கு வசித்தார்?",
     "options": [
       {
@@ -3862,7 +3862,7 @@
   },
   {
     "id": 144,
-    "questionEnglish": "Sage who asked Surya worship?",
+    "questionEnglish": "Which of these sages asked Yudhishthira to perform the worship of the Surya Deva?",
     "questionTamil": "சூரிய வழிபாடு செய்யுமாறு கூறிய முனிவர் யார்?",
     "options": [
       {
@@ -3889,7 +3889,7 @@
   },
   {
     "id": 145,
-    "questionEnglish": "Sun god's gift to Yudhishthira?",
+    "questionEnglish": "Being pleased with the devotion of Yudhishthira, what did the Sun god gift him?",
     "questionTamil": "சூரிய தேவன் யுதிஷ்டிரருக்கு அளித்த பரிசு என்ன?",
     "options": [
       {
@@ -3916,7 +3916,7 @@
   },
   {
     "id": 146,
-    "questionEnglish": "First forest during exile?",
+    "questionEnglish": "In which forest did the Pandavas start living during their exile?",
     "questionTamil": "வனவாசத்தில் முதலில் சென்ற காடு எது?",
     "options": [
       {
@@ -3943,7 +3943,7 @@
   },
   {
     "id": 147,
-    "questionEnglish": "Who ordered Vidura out of Hastinapura?",
+    "questionEnglish": "Who angrily ordered Vidura to leave Hastinapura?",
     "questionTamil": "விதுரனை ஹஸ்தினாபுரத்திலிருந்து வெளியேறுமாறு உத்தரவிட்டவர் யார்?",
     "options": [
       {
@@ -3970,7 +3970,7 @@
   },
   {
     "id": 148,
-    "questionEnglish": "Vidura lived in forest with?",
+    "questionEnglish": "With whom did Vidura start living in the forest?",
     "questionTamil": "விதுரன் காட்டில் யாருடன் வசித்தார்?",
     "options": [
       {
@@ -3997,7 +3997,7 @@
   },
   {
     "id": 149,
-    "questionEnglish": "Who brought Vidura back?",
+    "questionEnglish": "Having been ordered out by Dhritarashtra, who respectfully brought Vidura back to Hastinapura?",
     "questionTamil": "விதுரனை மீண்டும் அழைத்து வந்தவர் யார்?",
     "options": [
       {
@@ -4024,7 +4024,7 @@
   },
   {
     "id": 150,
-    "questionEnglish": "Who took Abhimanyu and Subhadra to Dwaraka?",
+    "questionEnglish": "Who took Abhimanyu and Subhadra along with Him to Dwaraka?",
     "questionTamil": "அபிமன்யuvum சுபத்ராvum துவாரகாவுக்கு அழைத்துச் சென்றவர் யார்?",
     "options": [
       {
@@ -4051,7 +4051,7 @@
   },
   {
     "id": 151,
-    "questionEnglish": "Pandava who penanced in Himalayas for Shiva?",
+    "questionEnglish": "Which Pandava, following Sage Vyasa's advice, undertook intense penance in the Himalayas to obtain Lord Shiva's blessings?",
     "questionTamil": "சிவனுக்காக இமயமலையில் தவம் செய்த பாண்டவர் யார்?",
     "options": [
       {
@@ -4078,7 +4078,7 @@
   },
   {
     "id": 152,
-    "questionEnglish": "Demon as wild boar against Arjuna?",
+    "questionEnglish": "Which demon appeared in the form of a wild boar to kill Arjuna when he was worshipping?",
     "questionTamil": "அர்ஜுனனுக்கு எதிராக காட்டுப்பன்றியாக வந்த அசுரன் யார்?",
     "options": [
       {
@@ -4105,7 +4105,7 @@
   },
   {
     "id": 153,
-    "questionEnglish": "Shiva's form testing Arjuna?",
+    "questionEnglish": "In which form did Lord Shiva appear before Arjuna to test his devotion and valour?",
     "questionTamil": "அர்ஜுனனைச் சோதிக்க சிவன் எந்த உருவில் வந்தார்?",
     "options": [
       {
@@ -4132,7 +4132,7 @@
   },
   {
     "id": 154,
-    "questionEnglish": "Divine weapon Shiva gave Arjuna?",
+    "questionEnglish": "Which divine weapon did Lord Shiva give to Arjuna?",
     "questionTamil": "சிவன் அர்ஜுனனுக்கு அளித்த தெய்வீக ஆயுதம் எது?",
     "options": [
       {
@@ -4159,7 +4159,7 @@
   },
   {
     "id": 155,
-    "questionEnglish": "Whose chariot to heaven?",
+    "questionEnglish": "Whose divine chariot did Arjuna mount to go to heaven?",
     "questionTamil": "அர்ஜுனனை சுவargalக்கு அழைத்துச் சென்ற தேர் யாருடையது?",
     "options": [
       {
@@ -4186,7 +4186,7 @@
   },
   {
     "id": 156,
-    "questionEnglish": "Scripture Krishna spoke to Arjuna?",
+    "questionEnglish": "Which scripture was directly spoken by Lord Krishna to Arjuna?",
     "questionTamil": "கிருஷ்ணர் அர்ஜுனனுக்கு உரைத்த பகavad gita எது?",
     "options": [
       {
@@ -4213,7 +4213,7 @@
   },
   {
     "id": 157,
-    "questionEnglish": "Gandharva who taught Arjuna dance?",
+    "questionEnglish": "Acting on the advice of Indra, Arjuna learnt how to dance and sing from a gandharva. What was the name of the gandharva?",
     "questionTamil": "அர்ஜுனனுக்கு நடனம் கற்பித்த கandharva யார்?",
     "options": [
       {
@@ -4240,7 +4240,7 @@
   },
   {
     "id": 158,
-    "questionEnglish": "Nymph who loved Arjuna?",
+    "questionEnglish": "Which nymph fell in love with Arjuna?",
     "questionTamil": "அர்ஜுனனைக் காதலித்த அபsara யார்?",
     "options": [
       {
@@ -4267,7 +4267,7 @@
   },
   {
     "id": 159,
-    "questionEnglish": "Who cursed Arjuna to become eunuch?",
+    "questionEnglish": "Who became angry with Arjuna and cursed him to become a eunuch?",
     "questionTamil": "அர்ஜுனனை eunuch ஆகும்படி சapித்தவர் யார்?",
     "options": [
       {
@@ -4294,7 +4294,7 @@
   },
   {
     "id": 160,
-    "questionEnglish": "Indra limited Urvashi curse to years?",
+    "questionEnglish": "For how many years did Indra limit the time duration of the curse placed on Arjuna by Urvashi?",
     "questionTamil": "ஊrvasiவின் சapத்தை இந்திரன் எத்தனை ஆண்டுகளுக்கு குறைத்தார்?",
     "options": [
       {
@@ -4321,7 +4321,7 @@
   },
   {
     "id": 161,
-    "questionEnglish": "Who fought Parashurama undefeated?",
+    "questionEnglish": "Who fought Parashurama for twenty-three days and remained undefeated, shattering his pride of being invincible?",
     "questionTamil": "பarசுராமர்வுடன் தோற்காமல் போர் செய்தவர் யார்?",
     "options": [
       {
@@ -4348,7 +4348,7 @@
   },
   {
     "id": 162,
-    "questionEnglish": "River Parasurama bathed in?",
+    "questionEnglish": "In which river did Parasurama take a dip to wash away his sin of killing his own mother?",
     "questionTamil": "பarசுராமர் குளித்த நதி எது?",
     "options": [
       {
@@ -4375,7 +4375,7 @@
   },
   {
     "id": 163,
-    "questionEnglish": "Sagara's wife with 60000 sons?",
+    "questionEnglish": "Which wife of King Sagara gave birth to 60,000 sons?",
     "questionTamil": "60000 மகன்களைப் பெற்ற சagaraவின் மனைவி யார்?",
     "options": [
       {
@@ -4402,7 +4402,7 @@
   },
   {
     "id": 164,
-    "questionEnglish": "At whose request Arjuna brought Ganga water?",
+    "questionEnglish": "While on the bed of arrows, at whose request did Arjuna bring Ganga water?",
     "questionTamil": "யாருடைய வேண்டுகோளின்படி அர்ஜுனன் கங்கை நீரைக் கொண்டு வந்தார்?",
     "options": [
       {
@@ -4429,7 +4429,7 @@
   },
   {
     "id": 165,
-    "questionEnglish": "Who stole Sagara's yajna horse?",
+    "questionEnglish": "Who stole the horse of the yajna performed by King Sagara?",
     "questionTamil": "சagaraவின் யாகக் குதிரையைத் திருடியவர் யார்?",
     "options": [
       {
@@ -4456,7 +4456,7 @@
   },
   {
     "id": 166,
-    "questionEnglish": "Who reduced Sagara's sons to ashes?",
+    "questionEnglish": "Who reduced the sixty thousand sons of Sagara to ashes in anger?",
     "questionTamil": "சagaraவின் மகன்களை சாமbarஆக்கியவர் யார்?",
     "options": [
       {
@@ -4483,7 +4483,7 @@
   },
   {
     "id": 167,
-    "questionEnglish": "Sagara sent to Kapila?",
+    "questionEnglish": "Having heard the news of the death of his sons, whom did Sagara send to sage Kapila?",
     "questionTamil": "கapilaவிடம் சagara அனுப்பியவர் யார்?",
     "options": [
       {
@@ -4510,7 +4510,7 @@
   },
   {
     "id": 168,
-    "questionEnglish": "River to revive Sagara's sons?",
+    "questionEnglish": "Which river, according to sage Kapila, was to be brought down to Earth from heaven in order to revive the dead sons of Sagara?",
     "questionTamil": "சagaraவின் மகன்களை உயிர்ப்பிக்க வந்த நதி எது?",
     "options": [
       {
@@ -4537,7 +4537,7 @@
   },
   {
     "id": 169,
-    "questionEnglish": "Who reduced Ganga's flow impact?",
+    "questionEnglish": "At the request of Sage Bhagiratha, who reduced the impact of the flow of river Ganga?",
     "questionTamil": "கங்கaiயின் வேகத்தைக் குறைத்தவர் யார்?",
     "options": [
       {
@@ -4564,7 +4564,7 @@
   },
   {
     "id": 170,
-    "questionEnglish": "Jamadagni married?",
+    "questionEnglish": "Whom did sage Jamadagni marry?",
     "questionTamil": "ஜamadagni யாரை மணந்தார்?",
     "options": [
       {
@@ -4591,7 +4591,7 @@
   },
   {
     "id": 171,
-    "questionEnglish": "Renuka gave birth to which Vishnu incarnation?",
+    "questionEnglish": "Which incarnation of Lord Vishnu did Renuka give birth to?",
     "questionTamil": "ரenuka எந்த விஷ்ணu avataraவைப் பெற்றார்?",
     "options": [
       {
@@ -4618,7 +4618,7 @@
   },
   {
     "id": 172,
-    "questionEnglish": "Who beheaded mother Renuka?",
+    "questionEnglish": "Who beheaded his mother, Renuka, on the instruction of his father, Sage Jamadagni?",
     "questionTamil": "தாய் ரenukaவின் தலையை வெட்டியவர் யார்?",
     "options": [
       {
@@ -4645,7 +4645,7 @@
   },
   {
     "id": 173,
-    "questionEnglish": "Thousand-handed king Parasurama killed?",
+    "questionEnglish": "What was the name of the proud king with a thousand hands whom Parasurama killed?",
     "questionTamil": "ஆயiram கைகள் கொண்ட அரasanைப் பarசுராமர் கொன்றார் - அவர் யார்?",
     "options": [
       {
@@ -4672,7 +4672,7 @@
   },
   {
     "id": 174,
-    "questionEnglish": "Times Parasurama rid earth of warriors?",
+    "questionEnglish": "Angered by the murder of his father, how many times did Parasurama rid the earth of warriors?",
     "questionTamil": "பarசுராமர் பூமியிலிருந்து வீரர்களை எத்தனை முறை நீக்கினார்?",
     "options": [
       {
@@ -4699,7 +4699,7 @@
   },
   {
     "id": 175,
-    "questionEnglish": "Who cooled Parasurama's anger?",
+    "questionEnglish": "Who cooled down the anger of Parasurama and stopped him from killing more warriors?",
     "questionTamil": "பarசுராமர்வின் கோபத்தைத் தணித்தவர் யார்?",
     "options": [
       {
@@ -4726,7 +4726,7 @@
   },
   {
     "id": 176,
-    "questionEnglish": "Who narrated Mahabharata to Janamejaya?",
+    "questionEnglish": "Who narrated the Mahabharata to King Janamejaya?",
     "questionTamil": "ஜanamejayaவுக்கு மகாபாரதத்தை உரைத்தவர் யார்?",
     "options": [
       {
@@ -4753,7 +4753,7 @@
   },
   {
     "id": 177,
-    "questionEnglish": "Child with eight curves famous as?",
+    "questionEnglish": "By what name did the child, whose body had eight curves, become famous?",
     "questionTamil": "எight வளைvukkal உடைய குழந்தை எந்தப் பெயரால் புகழ் பெற்றது?",
     "options": [
       {
@@ -4780,7 +4780,7 @@
   },
   {
     "id": 178,
-    "questionEnglish": "Ashtavakra returned with after debate?",
+    "questionEnglish": "With whom did Ashtavakra return to his hermitage after defeating the priest of King Janaka in a debate on the scriptures?",
     "questionTamil": "வாdebையில் வென்ற பிறகு அshtavakra யாருடன் திரும்பினார்?",
     "options": [
       {
@@ -4807,7 +4807,7 @@
   },
   {
     "id": 179,
-    "questionEnglish": "River Ashtavakra bathed in?",
+    "questionEnglish": "In which river did Ashtavakra take a dip and get his deformed body back to normal?",
     "questionTamil": "அshtavakra குளித்த நதி எது?",
     "options": [
       {
@@ -4834,7 +4834,7 @@
   },
   {
     "id": 180,
-    "questionEnglish": "Who carried Pandavas on back to pilgrimage?",
+    "questionEnglish": "Who took the Pandavas to various places of pilgrimage in the Himalayas by making them sit on his back?",
     "questionTamil": "பாண்டவர்களைத் தiruvatthaiyatraவுக்கு முதுகில் சுமந்து சென்றவர் யார்?",
     "options": [
       {
@@ -4861,7 +4861,7 @@
   },
   {
     "id": 181,
-    "questionEnglish": "Bhagavad Gita spoken to?",
+    "questionEnglish": "To whom was the Bhagavad Gita spoken?",
     "questionTamil": "பagavad gita யாருக்கு உரைக்கப்பட்டது?",
     "options": [
       {
@@ -4888,7 +4888,7 @@
   },
   {
     "id": 182,
-    "questionEnglish": "Gita chapters?",
+    "questionEnglish": "How many chapters does the Bhagavad Gita have?",
     "questionTamil": "கீதையில் எத்தனை அadhyayaகள் உள்ளன?",
     "options": [
       {
@@ -4915,7 +4915,7 @@
   },
   {
     "id": 183,
-    "questionEnglish": "Hanuman to Bhima?",
+    "questionEnglish": "What was Hanuman to Bhima?",
     "questionTamil": "அanuman பீமனுக்கு என்ன உறவு?",
     "options": [
       {
@@ -4942,7 +4942,7 @@
   },
   {
     "id": 184,
-    "questionEnglish": "Krishna's conchshell name?",
+    "questionEnglish": "What was the name of Sri Krishna's conchshell?",
     "questionTamil": "கிருஷ்ணரின் சanku பெயர் என்ன?",
     "options": [
       {
@@ -4969,7 +4969,7 @@
   },
   {
     "id": 185,
-    "questionEnglish": "Forest Bhima reached after Hanuman?",
+    "questionEnglish": "Having bade farewell to Hanuman, which forest did Bhima reach while searching for the lotus flower?",
     "questionTamil": "அanumanஐச் சந்தித்த பிறகு பீமன் அடைந்த காடு எது?",
     "options": [
       {
@@ -4996,7 +4996,7 @@
   },
   {
     "id": 186,
-    "questionEnglish": "Saugandhika forest belongs to?",
+    "questionEnglish": "To whom does Saugandhika forest and the pond in it belong to?",
     "questionTamil": "சaugandhika காடு யாருக்குச் சொந்தமானது?",
     "options": [
       {
@@ -5023,7 +5023,7 @@
   },
   {
     "id": 187,
-    "questionEnglish": "Who captured Bhima in Vishakhayupa?",
+    "questionEnglish": "Who captured Bhima when he was enjoying a stroll in Vishakhayupa forest?",
     "questionTamil": "வisakhayupaவில் பீமனைப் பிடித்தவர் யார்?",
     "options": [
       {
@@ -5050,7 +5050,7 @@
   },
   {
     "id": 188,
-    "questionEnglish": "Who answered serpent freeing Bhima?",
+    "questionEnglish": "Who answered the questions of the serpent and got Bhima freed from its grasp?",
     "questionTamil": "பாம்பின் கேள்விக்கு பதிலளித்து பீமனை விடுவித்தவர் யார்?",
     "options": [
       {
@@ -5077,7 +5077,7 @@
   },
   {
     "id": 189,
-    "questionEnglish": "Who showed Universal form to Arjuna?",
+    "questionEnglish": "Who revealed the Universal form to Arjuna on the battlefield?",
     "questionTamil": "அர்ஜுனனுக்கு விஸ்வரூப தரிசனம் காட்டியவர் யார்?",
     "options": [
       {
@@ -5104,7 +5104,7 @@
   },
   {
     "id": 190,
-    "questionEnglish": "Who freed Duryodhana from Gandharvas?",
+    "questionEnglish": "Who got Duryodhana freed from the Gandharvas at the request of the Kaurava soldiers?",
     "questionTamil": "கandharvaகளிடமிருந்து தuriyodhanaவை விடுவித்தவர்கள் யார்?",
     "options": [
       {
@@ -5131,7 +5131,7 @@
   },
   {
     "id": 191,
-    "questionEnglish": "Sage Duryodhana sent as guest?",
+    "questionEnglish": "Which sage did Duryodhana send to the Pandavas to be their guest?",
     "questionTamil": "துruryodhana விருந்தினராக அனுப்பிய முனிவர் யார்?",
     "options": [
       {
@@ -5158,7 +5158,7 @@
   },
   {
     "id": 192,
-    "questionEnglish": "Durvasa's disciples count?",
+    "questionEnglish": "With how many disciples did Sage Durvasa arrive at the cottage of the Pandavas?",
     "questionTamil": "துrvasaவின் சisyaகள் எத்தனை பேர்?",
     "options": [
       {
@@ -5185,7 +5185,7 @@
   },
   {
     "id": 193,
-    "questionEnglish": "Draupadi prayed to when no food?",
+    "questionEnglish": "Whom did Draupadi pray to when she had no food to offer Sage Durvasa?",
     "questionTamil": "உணவு இல்லாதபோது திரௌபதி யாரைப் பிரார்த்தித்தார்?",
     "options": [
       {
@@ -5212,7 +5212,7 @@
   },
   {
     "id": 194,
-    "questionEnglish": "Who ate grain satiating Durvasa?",
+    "questionEnglish": "Who ate a single grain of food that satiated Sage Durvasa and his disciples?",
     "questionTamil": "ஒரு அannam உண்டு durvasaவின் பdisciplesைத் தrptippaduthiyaவர் யார்?",
     "options": [
       {
@@ -5239,7 +5239,7 @@
   },
   {
     "id": 195,
-    "questionEnglish": "Who abducted Draupadi?",
+    "questionEnglish": "Who got enchanted with the beauty of Draupadi and abducted her in the absence of the Pandavas?",
     "questionTamil": "திரௌபதியைக் கடத்தியவர் யார்?",
     "options": [
       {
@@ -5266,7 +5266,7 @@
   },
   {
     "id": 196,
-    "questionEnglish": "Jayadratha to Duryodhana?",
+    "questionEnglish": "What was Jayadratha to Duryodhana?",
     "questionTamil": "ஜயத்ரதன் தuriyodhanaவுக்கு என்ன உறவு?",
     "options": [
       {
@@ -5293,7 +5293,7 @@
   },
   {
     "id": 197,
-    "questionEnglish": "Who tonsured Jayadratha?",
+    "questionEnglish": "As a punishment, who tonsured the head of Jayadratha leaving five tufts of hair on it?",
     "questionTamil": "ஜயத்ரதன்வின் தலை முடியைப் பிரித்தவர் யார்?",
     "options": [
       {
@@ -5320,7 +5320,7 @@
   },
   {
     "id": 198,
-    "questionEnglish": "Pandava Jayadratha couldn't defeat?",
+    "questionEnglish": "Jayadratha was incapable of defeating a Pandava according to a boon granted to him by Lord Shiva. Name the Pandava.",
     "questionTamil": "ஜயத்ரதன் தோற்கடிக்க முடியாத பாண்டவர் யார்?",
     "options": [
       {
@@ -5347,7 +5347,7 @@
   },
   {
     "id": 199,
-    "questionEnglish": "Princess who bore Karna before marriage?",
+    "questionEnglish": "Which princess had given birth to Karna before she was even married?",
     "questionTamil": "திருமணத்திற்கு முன் கர்ணனைப் பெற்ற இளவரசி யார்?",
     "options": [
       {
@@ -5374,7 +5374,7 @@
   },
   {
     "id": 200,
-    "questionEnglish": "Father of Karna?",
+    "questionEnglish": "Who was the father of Karna?",
     "questionTamil": "கர்ணனின் தந்தை யார்?",
     "options": [
       {
