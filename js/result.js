@@ -63,3 +63,59 @@ function formatTime(totalSeconds) {
     const seconds = String(safeSeconds % 60).padStart(2, "0");
     return `${minutes}:${seconds}`;
 }
+
+const wrongAnswers =
+    JSON.parse(localStorage.getItem("wrongAnswers")) || [];
+
+const container = document.getElementById("wrongAnswersContainer");
+
+if (wrongAnswers.length === 0) {
+    container.innerHTML =
+        "<p class='perfect'>🎉 Amazing! You answered every question correctly.</p>";
+} else {
+
+    wrongAnswers.forEach(item => {
+
+        const card = document.createElement("div");
+        card.className = "review-card";
+
+        let optionsHTML = "";
+
+        item.options.forEach((option, i) => {
+
+            let icon = "";
+            let className = "";
+
+            if (i === item.correctIndex) {
+                icon = "✅";
+                className = "correct";
+            }
+
+            if (i === item.selectedIndex && i !== item.correctIndex) {
+                icon = "❌";
+                className = "wrong";
+            }
+
+            optionsHTML += `
+                <div class="${className}">
+                    ${icon} ${String.fromCharCode(65+i)}.
+                    ${option.english}<br>
+                    <small>${option.tamil}</small>
+                </div>
+            `;
+        });
+
+        card.innerHTML = `
+            <h3>Question ${item.questionNumber}</h3>
+
+            <p><strong>${item.questionEnglish}</strong></p>
+            <p>${item.questionTamil}</p>
+
+            ${optionsHTML}
+        `;
+
+        container.appendChild(card);
+
+    });
+
+}
